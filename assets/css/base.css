@@ -445,8 +445,8 @@ a.link-btn i, .link-btn a i{
 body .pbmit-bg-color-global{
 	background-color: var(--pbmit-global-color);
 }
-body .pbmit-bg-color-secondary{
-	background-color: var(--pbmit-secondary-color);
+body .pbmit-bg-color-secondary {
+    background-color: #040495;
 }
 body .pbmit-bg-color-blackish{
 	background-color: var(--pbmit-blackish-color);

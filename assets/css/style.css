@@ -240,7 +240,7 @@ ul.pbmit-timelist-list .pbmit-timetable-hours{
 	position: relative;
 }
 .about-one-content .fid-style-3-bg:before{
-	background-image: url(../images/demo-1/bg/fact-digit-bg.png);
+	background-image: url(../images/resource/fact-digit-bg.webp);
 	background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -263,10 +263,10 @@ ul.pbmit-timelist-list .pbmit-timetable-hours{
 	padding: 0;
 } 
 .service-section-one{
-	padding: 200px 50px 120px;
+	padding: 150px 50px 75px;
 }
 .service-one-inner{
-	padding: 140px 0 120px;
+padding: 75px 0 75px;
 	position: relative;
 	border-radius: 30px;
 }
@@ -275,6 +275,9 @@ ul.pbmit-timelist-list .pbmit-timetable-hours{
 	left: 40%;
 	top: -85px;
 	max-width: 100%;
+}
+.service-one-inner .swiper-buttons{
+	margin-top: 60px;
 }
 .service-section-one .swiper-slider.pbmit-element-viewtype-carousel-2{
 	padding-bottom: 65px;
@@ -664,13 +667,13 @@ ul.pbmit-timelist-list .pbmit-timetable-hours{
 	position: relative;
 	margin-left: 15px;
 }
-.why-choose-two-center-box .about-img{
-	position: absolute;
-	width: auto;
-	max-width: 100%;
-	right: 10%;
-	top: -8%;
-	z-index: 1;
+.why-choose-two-center-box .about-img {
+    position: absolute;
+    width: auto;
+    max-width: 100%;
+    right: 5%;
+    top: -7%;
+    z-index: 3;
 }
 .pbmit-main-round-wrap{
 	display: flex;
@@ -750,7 +753,7 @@ ul.pbmit-timelist-list .pbmit-timetable-hours{
 }
 .about-us-two-section{
 	margin: 120px 50px;
-	padding: 140px 0 100px;
+	padding: 100px 0 100px;
 	position: relative;
 	border-radius: 20px;
 	background-image: url(../images/demo-2/bg/about-patten-02.png);
@@ -765,6 +768,9 @@ ul.pbmit-timelist-list .pbmit-timetable-hours{
 	left: 5%;
 	top: -65px;
 	max-width: 100%;
+}
+.about-us-two-section .tween-effect-style-wrap img{
+	width: 25%;
 }
 .about-us-two-section .about-img img{
 	border-radius: 15px;
@@ -815,8 +821,9 @@ ul.pbmit-timelist-list .pbmit-timetable-hours{
 .about-us-two-section .right-area .ihbox-style-1-wrap{
 	padding: 30px 35px;
 	border-radius: 15px;
-	border: 1px solid #FFFFFF28;
+    border: 1px solid #dbc77391;
 }
+
 .info-box-area{
 	display: flex;
 	height: -webkit-fill-available;
@@ -2742,5 +2749,237 @@ label.error {
     .pbmit-banner-slider-wrapper .pbmit-banner-btn-next,
     .pbmit-banner-slider-wrapper .pbmit-banner-btn-prev {
         display: none !important;
+    }
+}
+/* ===================================================
+   Enhanced ihbox-section-three (Hover Reveal Cards)
+   =================================================== */
+.ihbox-section-three {
+    position: relative;
+    z-index: 10;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background: transparent;
+    transition: all 0.4s ease;
+}
+.ihbox-section-three .row {
+    align-items: flex-start;
+}
+.ihbox-section-three .pbmit-miconheading-style-11 {
+    margin-bottom: 30px;
+}
+.ihbox-section-three .pbmit-ihbox-style-11 {
+    position: relative;
+    width: 100%;
+    height: 106px;
+    margin-top: 0 !important;
+}
+.ihbox-section-three .pbmit-ihbox-style-11 .pbmit-ihbox-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    background: #ffffff;
+    border: 1px solid rgba(4, 4, 210, 0.08);
+    border-radius: 18px;
+    padding: 24px 28px;
+    box-shadow: 0 10px 30px -5px rgba(4, 4, 210, 0.08), 0 3px 10px rgba(0, 0, 0, 0.03);
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+/* Subtle top gradient accent on each card */
+.ihbox-section-three .pbmit-ihbox-style-11 .pbmit-ihbox-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #0404d2 0%, #3b82f6 100%);
+    transition: height 0.3s ease;
+}
+.ihbox-section-three .pbmit-miconheading-style-11:nth-child(2) .pbmit-ihbox-style-11 .pbmit-ihbox-box::before {
+    background: linear-gradient(90deg, #d6ac01 0%, #f59e0b 100%);
+}
+.ihbox-section-three .pbmit-miconheading-style-11:nth-child(3) .pbmit-ihbox-style-11 .pbmit-ihbox-box::before {
+    background: linear-gradient(90deg, #0404d2 0%, #d6ac01 100%);
+}
+/* Card hover lift & glow */
+.ihbox-section-three .pbmit-ihbox-style-11:hover .pbmit-ihbox-box {
+    z-index: 50;
+    transform: translateY(-6px);
+    border-color: rgba(4, 4, 210, 0.22);
+    box-shadow: 0 24px 50px -8px rgba(4, 4, 210, 0.2), 0 8px 20px -4px rgba(0, 0, 0, 0.06);
+}
+.ihbox-section-three .pbmit-ihbox-style-11:hover .pbmit-ihbox-box::before {
+    height: 6px;
+}
+/* Header area: Title & Icon badge aligned horizontally */
+.ihbox-section-three .pbmit-ihbox-wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 0;
+    transition: margin-bottom 0.35s ease;
+}
+.ihbox-section-three .pbmit-element-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.35;
+    color: #0f172a;
+    margin-bottom: 0;
+    transition: color 0.3s ease;
+}
+.ihbox-section-three .pbmit-ihbox-style-11:hover .pbmit-element-title {
+    color: #0404d2;
+}
+/* Modern Icon Badges */
+.ihbox-section-three .pbmit-ihbox-icon-wrapper {
+    width: 58px;
+    height: 58px;
+    min-width: 58px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(4, 4, 210, 0.08) 0%, rgba(59, 130, 246, 0.14) 100%);
+    box-shadow: inset 0 0 0 1px rgba(4, 4, 210, 0.1);
+    transition: all 0.4s ease;
+}
+.ihbox-section-three .pbmit-miconheading-style-11:nth-child(2) .pbmit-ihbox-icon-wrapper {
+    background: linear-gradient(135deg, rgba(214, 172, 1, 0.12) 0%, rgba(245, 158, 11, 0.18) 100%);
+    box-shadow: inset 0 0 0 1px rgba(214, 172, 1, 0.2);
+}
+.ihbox-section-three .pbmit-miconheading-style-11:nth-child(3) .pbmit-ihbox-icon-wrapper {
+    background: linear-gradient(135deg, rgba(4, 4, 210, 0.08) 0%, rgba(214, 172, 1, 0.15) 100%);
+    box-shadow: inset 0 0 0 1px rgba(4, 4, 210, 0.12);
+}
+.ihbox-section-three .pbmit-ihbox-icon-wrapper svg {
+    width: 28px;
+    height: 28px;
+    fill: #0404d2;
+    transition: transform 0.4s ease;
+}
+.ihbox-section-three .pbmit-miconheading-style-11:nth-child(2) .pbmit-ihbox-icon-wrapper svg {
+    fill: #b38800;
+}
+.ihbox-section-three .pbmit-miconheading-style-11:nth-child(3) .pbmit-ihbox-icon-wrapper svg {
+    fill: #0404d2;
+}
+.ihbox-section-three .pbmit-ihbox-style-11:hover .pbmit-ihbox-icon-wrapper {
+    transform: scale(1.08) rotate(-4deg);
+    box-shadow: 0 10px 20px rgba(4, 4, 210, 0.18);
+}
+.ihbox-section-three .pbmit-miconheading-style-11:nth-child(2) .pbmit-ihbox-style-11:hover .pbmit-ihbox-icon-wrapper {
+    box-shadow: 0 10px 20px rgba(214, 172, 1, 0.26);
+}
+
+/* Hover reveal mechanics: Initially collapsed (like shared image), on hover expands full card */
+.ihbox-section-three .pbmit-ihbox-contents {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    transform: translateY(12px);
+    padding-top: 0;
+    margin-bottom: 0 !important;
+    transition: max-height 0.45s cubic-bezier(0.165, 0.84, 0.44, 1),
+                opacity 0.35s ease,
+                transform 0.4s ease,
+                padding 0.35s ease;
+}
+.ihbox-section-three .pbmit-ihbox-style-11:hover .pbmit-ihbox-contents {
+    max-height: 280px;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+    padding-top: 18px;
+}
+
+
+.ihbox-section-three .pbmit-heading-desc {
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: #475569;
+    margin-bottom: 20px;
+    padding-top: 0;
+    display: block;
+}
+
+/* Modern Action Button */
+.ihbox-section-three .pbmit-ihbox-btn a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 11px 18px;
+    background: #f8fafc;
+    border: 1px solid rgba(4, 4, 210, 0.1);
+    border-radius: 12px;
+    color: #0404d2 !important;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    transition: all 0.35s ease;
+}
+.ihbox-section-three .pbmit-ihbox-btn a .pbmit-button-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #0404d2;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: all 0.35s ease;
+}
+.ihbox-section-three .pbmit-ihbox-btn a .pbmit-button-icon i {
+    font-size: 12px;
+    transition: transform 0.35s ease;
+}
+/* Button hover effects */
+.ihbox-section-three .pbmit-ihbox-style-11:hover .pbmit-ihbox-btn a {
+    background: #0404d2;
+    color: #ffffff !important;
+    border-color: #0404d2;
+    box-shadow: 0 6px 18px rgba(4, 4, 210, 0.3);
+}
+.ihbox-section-three .pbmit-ihbox-style-11:hover .pbmit-ihbox-btn a .pbmit-button-icon {
+    background: #ffffff;
+    color: #0404d2;
+    transform: translateX(4px);
+}
+.ihbox-section-three .pbmit-miconheading-style-11:nth-child(2) .pbmit-ihbox-style-11:hover .pbmit-ihbox-btn a {
+    background: #d6ac01;
+    color: #000000 !important;
+    border-color: #d6ac01;
+    box-shadow: 0 6px 18px rgba(214, 172, 1, 0.35);
+}
+.ihbox-section-three .pbmit-miconheading-style-11:nth-child(2) .pbmit-ihbox-style-11:hover .pbmit-ihbox-btn a .pbmit-button-icon {
+    color: #000000;
+}
+@media (max-width: 991px) {
+    .ihbox-section-three {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .ihbox-section-three .pbmit-ihbox-style-11 {
+        height: auto;
+    }
+    .ihbox-section-three .pbmit-ihbox-style-11 .pbmit-ihbox-box {
+        position: relative;
+        bottom: auto;
+        padding: 22px 20px;
+    }
+    .ihbox-section-three .pbmit-ihbox-contents {
+        max-height: none;
+        opacity: 1;
+        pointer-events: auto;
+        transform: none;
+        padding-top: 16px;
     }
 }

@@ -4,7 +4,8 @@ include('include/data.php');
 ?>
 
 <div class="pbmit-slider-area pbmit-slider-one pbmit-banner-slider-wrapper">
-    <div class="swiper pbmit-banner-slider" data-autoplay="true" data-loop="true" data-dots="true" data-arrows="true" data-columns="1" data-margin="0">
+    <div class="swiper pbmit-banner-slider" data-autoplay="true" data-loop="true" data-dots="true" data-arrows="true"
+        data-columns="1" data-margin="0">
         <!-- Slider Navigation Arrows -->
         <div class="swiper-button-prev pbmit-banner-btn-prev d-none"></div>
         <div class="swiper-button-next pbmit-banner-btn-next d-none"></div>
@@ -27,32 +28,38 @@ include('include/data.php');
     </div>
 </div>
 
+<!-- Enhanced IHBox Section Three -->
 <section class="ihbox-section-three pbmit-column-three">
     <div class="container">
         <div class="row">
             <article class="pbmit-miconheading-style-11 col-md-6 col-lg-4">
-                <div class="pbmit-ihbox-style-11" style="margin-top: 159.562px;">
+                <div class="pbmit-ihbox-style-11">
                     <div class="pbmit-ihbox-box">
                         <div class="pbmit-ihbox-box-inner">
                             <div class="pbmit-ihbox-wraper">
                                 <h2 class="pbmit-element-title">
-                                    Advanced Vision <br>Treatments
+                                    Experienced Eye <br>Specialists
                                 </h2>
                                 <div class="pbmit-ihbox-icon">
                                     <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                        <svg aria-hidden="true" class="e-font-icon-svg e-far-clock" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"></path>
+                                        <svg aria-hidden="true" class="e-font-icon-svg e-far-clock"
+                                            viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z">
+                                            </path>
                                         </svg>
                                     </div>
                                 </div>
                             </div>
-                            <div class="pbmit-ihbox-contents" style="margin-bottom: -159.562px;">
-                                <div class="pbmit-heading-desc">Search our locations to find the one nearest you get the answers and assurance you deserve with accuracy you can trust.</div>
+                            <div class="pbmit-ihbox-contents">
+                                <div class="pbmit-heading-desc">Our experienced team is committed to providing
+                                    attentive, personalized care with a focus on every patient’s vision and comfort.
+                                </div>
                                 <div class="pbmit-ihbox-btn">
                                     <a href="doctor-detail.html">
                                         <span class="pbmit-btn-wrapper">
-                                            <span class="pbmit-button-render" data-text="Consultant Doctor">
-                                                <span>Consultant Doctor</span>
+                                            <span class="pbmit-button-render" data-text="Meet Our Specialists">
+                                                <span>Meet Our Specialists</span>
                                             </span>
                                         </span>
                                         <span class="pbmit-button-icon">
@@ -66,28 +73,32 @@ include('include/data.php');
                 </div>
             </article>
             <article class="pbmit-miconheading-style-11 col-md-6 col-lg-4">
-                <div class="pbmit-ihbox-style-11" style="margin-top: 159.562px;">
+                <div class="pbmit-ihbox-style-11">
                     <div class="pbmit-ihbox-box">
                         <div class="pbmit-ihbox-box-inner">
                             <div class="pbmit-ihbox-wraper">
                                 <h2 class="pbmit-element-title">
-                                    Consult Our <br>Doctors
+                                    Trusted Patient <br>Care
                                 </h2>
                                 <div class="pbmit-ihbox-icon">
                                     <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marked-alt" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"></path>
+                                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marked-alt"
+                                            viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z">
+                                            </path>
                                         </svg>
                                     </div>
                                 </div>
                             </div>
-                            <div class="pbmit-ihbox-contents" style="margin-bottom: -159.562px;">
-                                <div class="pbmit-heading-desc">Schedule a personalized consultation with our eye specialist for guidance and care. We’re here to support your vision health.</div>
+                            <div class="pbmit-ihbox-contents">
+                                <div class="pbmit-heading-desc">We believe in compassionate care, clear guidance and a
+                                    comfortable experience for every patient and family.</div>
                                 <div class="pbmit-ihbox-btn">
                                     <a href="contact-us.html">
                                         <span class="pbmit-btn-wrapper">
-                                            <span class="pbmit-button-render" data-text="Contact Us">
-                                                <span>Contact Us</span>
+                                            <span class="pbmit-button-render" data-text="Why Choose Us">
+                                                <span>Why Choose Us</span>
                                             </span>
                                         </span>
                                         <span class="pbmit-button-icon">
@@ -101,7 +112,7 @@ include('include/data.php');
                 </div>
             </article>
             <article class="pbmit-miconheading-style-11 col-md-6 col-lg-4">
-                <div class="pbmit-ihbox-style-11" style="margin-top: 159.562px;">
+                <div class="pbmit-ihbox-style-11">
                     <div class="pbmit-ihbox-box">
                         <div class="pbmit-ihbox-box-inner">
                             <div class="pbmit-ihbox-wraper">
@@ -110,21 +121,35 @@ include('include/data.php');
                                 </h2>
                                 <div class="pbmit-ihbox-icon">
                                     <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                        <svg enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+                                        <svg enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512"
+                                            width="512" xmlns="http://www.w3.org/2000/svg">
                                             <g>
-                                                <path d="m456 60h-10v185c0 24.813-20.187 45-45 45h-290c-24.813 0-45-20.187-45-45v-185h-10c-19.299 0-35 15.701-35 35v225h470v-225c0-19.299-15.701-35-35-35z"></path>
-                                                <path d="m21 365c0 19.299 15.701 35 35 35h400c19.299 0 35-15.701 35-35v-15h-470z"></path>
-                                                <path d="m416 15c0-8.284-6.716-15-15-15h-290c-8.284 0-15 6.716-15 15v30h320z"></path>
-                                                <path d="m305.587 167.5c-10.466-10.152-29.251-25-49.587-25-20.338 0-39.122 14.849-49.588 25.001 10.458 10.145 29.247 24.999 49.588 24.999 20.336 0 39.121-14.848 49.587-25zm-64.587 0c0-8.284 6.716-15 15-15s15 6.716 15 15-6.716 15-15 15-15-6.716-15-15z"></path>
-                                                <path d="m111 260h290c8.284 0 15-6.716 15-15v-170h-320v170c0 8.284 6.716 15 15 15zm63.192-101.751c1.464-1.868 36.366-45.749 81.808-45.749s80.344 43.881 81.808 45.749c4.257 5.433 4.257 13.069 0 18.502-1.464 1.868-36.367 45.749-81.808 45.749s-80.344-43.881-81.808-45.749c-4.256-5.433-4.256-13.069 0-18.502z"></path>
-                                                <path d="m331 462v-32h-150v32c-16.569 0-30 13.431-30 30v5c0 8.284 6.716 15 15 15h180c8.284 0 15-6.716 15-15v-5c0-16.569-13.431-30-30-30z"></path>
+                                                <path
+                                                    d="m456 60h-10v185c0 24.813-20.187 45-45 45h-290c-24.813 0-45-20.187-45-45v-185h-10c-19.299 0-35 15.701-35 35v225h470v-225c0-19.299-15.701-35-35-35z">
+                                                </path>
+                                                <path
+                                                    d="m21 365c0 19.299 15.701 35 35 35h400c19.299 0 35-15.701 35-35v-15h-470z">
+                                                </path>
+                                                <path
+                                                    d="m416 15c0-8.284-6.716-15-15-15h-290c-8.284 0-15 6.716-15 15v30h320z">
+                                                </path>
+                                                <path
+                                                    d="m305.587 167.5c-10.466-10.152-29.251-25-49.587-25-20.338 0-39.122 14.849-49.588 25.001 10.458 10.145 29.247 24.999 49.588 24.999 20.336 0 39.121-14.848 49.587-25zm-64.587 0c0-8.284 6.716-15 15-15s15 6.716 15 15-6.716 15-15 15-15-6.716-15-15z">
+                                                </path>
+                                                <path
+                                                    d="m111 260h290c8.284 0 15-6.716 15-15v-170h-320v170c0 8.284 6.716 15 15 15zm63.192-101.751c1.464-1.868 36.366-45.749 81.808-45.749s80.344 43.881 81.808 45.749c4.257 5.433 4.257 13.069 0 18.502-1.464 1.868-36.367 45.749-81.808 45.749s-80.344-43.881-81.808-45.749c-4.256-5.433-4.256-13.069 0-18.502z">
+                                                </path>
+                                                <path
+                                                    d="m331 462v-32h-150v32c-16.569 0-30 13.431-30 30v5c0 8.284 6.716 15 15 15h180c8.284 0 15-6.716 15-15v-5c0-16.569-13.431-30-30-30z">
+                                                </path>
                                             </g>
                                         </svg>
                                     </div>
                                 </div>
                             </div>
-                            <div class="pbmit-ihbox-contents" style="margin-bottom: -159.562px;">
-                                <div class="pbmit-heading-desc">Book your appointment quickly and easily today. Our specialists are ready to help. Take the first step toward better vision.</div>
+                            <div class="pbmit-ihbox-contents">
+                                <div class="pbmit-heading-desc">Book your appointment quickly and easily today. Our
+                                    specialists are ready to help. Take the first step toward better vision.</div>
                                 <div class="pbmit-ihbox-btn">
                                     <a href="appointment.html">
                                         <span class="pbmit-btn-wrapper">
@@ -154,132 +179,113 @@ include('include/data.php');
                 <div class="about-one-leftbox">
                     <div class="about-border" data-aos="fade-up" data-aos-duration="800"></div>
                     <div class="about-img" data-aos="fade-up" data-aos-duration="800">
-                        <img src="https://ophtical-demo.pbminfotech.com/html-demo/images/demo-1/about-clinic.png" alt="">
+                        <img src="assets/images/resource/about-clinic.webp" alt="About Image">
                     </div>
                     <div class="about-img-bg">
-                        <img src="https://ophtical-demo.pbminfotech.com/html-demo/images/demo-1/about-clinic-bg-1.png" class="rounded-20 img-fluid" alt="">
-                    </div>
-                    <div class="tween-effect-wrap">
-                        <div class="pbmit-ele-tween-effect pbmit-tween-image-text pbmit-tween-effect-style-2">
-                            <div class="pbmit-tween-effect" data-x-start="0" data-x-end="0" data-y-start="0" data-y-end="0" data-scale-x-start="0.4" data-scale-x-end=" 1" data-skew-x-start=" 0deg" data-skew-x-end="0deg" data-skew-y-start=" 0deg" data-skew-y-end=" 0deg" data-rotate-x-start="0" data-rotate-x-end="0">
-                                <div class="pbmit-tween-effect-text"></div>
-                                <div class="pbmit-tween-content-wrap">
-                                    <div class="pbmit-tween-image-wrap">
-                                        <span class="pbmit-tween-image-text">1K</span>
-                                    </div>
-                                    <h3 class="pbmit-element-title">Customer Satisfaction is Our Success</h3>
-                                </div>
-                            </div>
-                        </div>
+                        <img src="assets/images/resource/about-img.jpg" class="rounded-20 img-fluid" alt="About Image">
                     </div>
                 </div>
             </div>
             <div class="col-md-6 full-width-1200">
                 <div class="about-one-content">
+
                     <div class="pbmit-heading-subheading animation-style3">
-                        <h4 class="pbmit-subtitle">about clinic</h4>
-                        <h2 class="pbmit-title">Clear vision begins here at our eye hospital</h2>
+                        <h4 class="pbmit-subtitle">about hospital</h4>
+
+                        <h2 class="pbmit-title">
+                            Clear Vision Begins with Expert Care
+                        </h2>
                         <div class="pbmit-heading-desc">
-                            Our team of skilled ophthalmologists and staff use the latest technology for accurate diagnosis and advanced treatment. Whether it's a routine check-up or complex surgery, we are here to help.
+                            At Lions Eye Hospital, Ghaziabad, we are committed to providing
+                            trusted and patient-focused eye care in a comfortable environment.
+                            Our experienced team combines clinical expertise, modern
+                            technology and personalized attention to help every patient
+                            achieve better vision and lasting eye health.
                         </div>
                     </div>
+
                     <div class="row g-0">
+
+                        <!-- Experience -->
                         <div class="col-md-4">
                             <div class="fid-style-3-bg pbmit-bg-color-global">
                                 <div class="pbminfotech-ele-fid-style-3">
                                     <div class="pbmit-fld-contents">
+
                                         <h4 class="pbmit-fid-counter">
-                                            <span class="pbmit-fid-before"></span>
-                                            <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="25" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">25</span>
-                                            <span class="pbmit-fid"><span>+</span></span>
+                                            <span class="pbmit-number-rotate">25</span>
+                                            <span class="pbmit-fid">+</span>
                                         </h4>
-                                        <div class="pbmit-heading-desc">Years of Experience in Medical Field.</div>
+
+                                        <div class="pbmit-heading-desc">
+                                            Years of Experience
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Features -->
                         <div class="col-md-8 ps-md-4 pt-md-0 pt-4">
-                            <div class="pbmit-ihbox-style-5 mb-5">
+
+                            <!-- Feature 1 -->
+                            <div class="pbmit-ihbox-style-5 mb-4">
                                 <div class="pbmit-ihbox-box">
+
                                     <div class="pbmit-ihbox-icon">
                                         <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                            <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                                                <g>
-                                                    <path d="m415.762 183.611-70-60c-3.507-3.007-8.203-4.23-12.731-3.314-4.528.914-8.381 3.863-10.447 7.995-15.948 31.895-48.006 51.708-83.666 51.708h-92.918c-30.327 0-55 24.673-55 55v112c0 46.302 19.179 88.203 50 118.198v-101.5c-9.059-6.332-15-16.832-15-28.698v-50c0-19.299 15.701-35 35-35h50c19.299 0 35 15.701 35 35v50c0 11.866-5.941 22.365-15 28.698v146.411c8.155 1.245 16.503 1.891 25 1.891 90.981 0 165-74.019 165-165v-152c0-4.379-1.914-8.539-5.238-11.389zm-89.762 166.389c-24.813 0-45-20.187-45-45s20.187-45 45-45 45 20.187 45 45-20.187 45-45 45z"></path>
-                                                    <circle cx="326" cy="305" r="15"></circle>
-                                                    <path d="m211 280h-50c-2.757 0-5 2.243-5 5v50c0 2.757 2.243 5 5 5h50c2.757 0 5-2.243 5-5v-50c0-2.757-2.243-5-5-5z"></path>
-                                                    <path d="m171 370h30v142h-30z"></path>
-                                                    <path d="m21 275v30c0 22.091 17.909 40 40 40v-110c-22.091 0-40 17.909-40 40z"></path>
-                                                    <path d="m316 0h-129.01c-32.656 0-61.478 20.698-72.477 50.624-52.515 5.738-93.513 50.358-93.513 104.376v62.604c11.348-7.932 25.135-12.604 40-12.604h5.484c12.154-32.106 43.205-55 79.516-55h92.918c24.223 0 46-13.459 56.833-35.124 6.241-12.482 17.665-21.225 31.344-23.986 2.918-.59 5.919-.891 8.908-.891 10.734 0 21.135 3.849 29.286 10.837l69.998 59.998c9.985 8.559 15.713 21.013 15.713 34.166v10c14.865 0 28.652 4.672 40 12.604v-42.604c0-96.495-78.504-175-175-175z"></path>
-                                                    <path d="m451 235v110c22.091 0 40-17.909 40-40v-30c0-22.091-17.909-40-40-40z"></path>
-                                                </g>
-                                            </svg>
+                                            <i class="fas fa-user-md"></i>
                                         </div>
                                     </div>
+
                                     <div class="pbmit-ihbox-contents">
-                                        <h2 class="pbmit-element-title">Qualified Specialist</h2>
-                                        <div class="pbmit-heading-desc">A Qualified eye specialist is someone highly skilled in evaluating.</div>
+                                        <h2 class="pbmit-element-title">
+                                            Expert Specialists
+                                        </h2>
+
+                                        <div class="pbmit-heading-desc">
+                                            Experienced doctors focused on your eye health.
+                                        </div>
                                     </div>
+
                                 </div>
                             </div>
+
+                            <!-- Feature 2 -->
                             <div class="pbmit-ihbox-style-5">
                                 <div class="pbmit-ihbox-box">
+
                                     <div class="pbmit-ihbox-icon">
                                         <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                            <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                                                <g>
-                                                    <g>
-                                                        <path d="m497 42h-30v410c0 8.284-6.716 15-15 15h-270c-8.284 0-15-6.716-15-15v-410h-30c-8.284 0-15 6.716-15 15v440c0 8.284 6.716 15 15 15h360c8.284 0 15-6.716 15-15v-440c0-8.284-6.716-15-15-15z"></path>
-                                                        <path d="m264.5 77h105c8.284 0 15-6.716 15-15v-22c0-22.056-17.944-40-40-40h-55c-22.056 0-40 17.944-40 40v22c0 8.284 6.716 15 15 15z"></path>
-                                                        <path d="m267.412 197.001c10.458 10.145 29.247 24.999 49.588 24.999 20.336 0 39.121-14.848 49.587-25-10.466-10.152-29.251-25-49.587-25-20.338 0-39.122 14.849-49.588 25.001zm64.588-.001c0 8.284-6.716 15-15 15s-15-6.716-15-15 6.716-15 15-15 15 6.716 15 15z"></path>
-                                                        <path d="m437 42h-22.5v20c0 24.813-20.187 45-45 45h-105c-24.813 0-45-20.187-45-45v-20h-22.5v395h240zm-60 350h-120c-8.284 0-15-6.716-15-15s6.716-15 15-15h120c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-70h-120c-8.284 0-15-6.716-15-15s6.716-15 15-15h120c8.284 0 15 6.716 15 15s-6.716 15-15 15zm21.808-115.749c-1.464 1.868-36.367 45.749-81.808 45.749s-80.344-43.881-81.808-45.749c-4.256-5.433-4.256-13.069 0-18.502 1.464-1.868 36.367-45.749 81.808-45.749s80.344 43.881 81.808 45.749c4.256 5.433 4.256 13.069 0 18.502z"></path>
-                                                        <path d="m0 152h75v260h-75z"></path>
-                                                        <path d="m50 62h-25c-13.807 0-25 11.193-25 25v35h75v-35c0-13.807-11.193-25-25-25z"></path>
-                                                        <path d="m23.22 501.59c1.994 6.203 7.764 10.41 14.28 10.41s12.286-4.207 14.28-10.41l19.154-59.59h-66.868z"></path>
-                                                    </g>
-                                                </g>
-                                            </svg>
+                                            <i class="fas fa-eye"></i>
                                         </div>
                                     </div>
+
                                     <div class="pbmit-ihbox-contents">
-                                        <h2 class="pbmit-element-title">Free Consultation</h2>
-                                        <div class="pbmit-heading-desc">Get expert guidance from qualified eye specialists at no cost</div>
+                                        <h2 class="pbmit-element-title">
+                                            Advanced Eye Care
+                                        </h2>
+
+                                        <div class="pbmit-heading-desc">
+                                            Modern technology with compassionate patient care.
+                                        </div>
                                     </div>
+
                                 </div>
                             </div>
+
                         </div>
                     </div>
-                    <div class="pbmit-ihbox-style-6 pt-5">
-                        <div class="pbmit-ihbox-box">
-                            <div class="pbmit-ihbox-svg">
-                                <div class="pbmit-ihbox-svg-wrapper">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="pbmit-0001" x="0px" y="0px" width="401.998px" height="401.998px" viewbox="0 0 401.998 401.998" style="enable-background:new 0 0 401.998 401.998;" xml:space="preserve">
-                                        <g>
-                                            <path d="M401.129,311.475c-1.137-3.426-8.371-8.473-21.697-15.129c-3.61-2.098-8.754-4.949-15.41-8.566 c-6.662-3.617-12.709-6.95-18.13-9.996c-5.432-3.045-10.521-5.995-15.276-8.846c-0.76-0.571-3.139-2.234-7.136-5 c-4.001-2.758-7.375-4.805-10.14-6.14c-2.759-1.327-5.473-1.995-8.138-1.995c-3.806,0-8.56,2.714-14.268,8.135 c-5.708,5.428-10.944,11.324-15.7,17.706c-4.757,6.379-9.802,12.275-15.126,17.7c-5.332,5.427-9.713,8.138-13.135,8.138 c-1.718,0-3.86-0.479-6.427-1.424c-2.566-0.951-4.518-1.766-5.858-2.423c-1.328-0.671-3.607-1.999-6.845-4.004 c-3.244-1.999-5.048-3.094-5.428-3.285c-26.075-14.469-48.438-31.029-67.093-49.676c-18.649-18.658-35.211-41.019-49.676-67.097 c-0.19-0.381-1.287-2.19-3.284-5.424c-2-3.237-3.333-5.518-3.999-6.854c-0.666-1.331-1.475-3.283-2.425-5.852 s-1.427-4.709-1.427-6.424c0-3.424,2.713-7.804,8.138-13.134c5.424-5.327,11.326-10.373,17.7-15.128 c6.379-4.755,12.275-9.991,17.701-15.699c5.424-5.711,8.136-10.467,8.136-14.273c0-2.663-0.666-5.378-1.997-8.137 c-1.332-2.765-3.378-6.139-6.139-10.138c-2.762-3.997-4.427-6.374-4.999-7.139c-2.852-4.755-5.799-9.846-8.848-15.271 c-3.049-5.424-6.377-11.47-9.995-18.131c-3.615-6.658-6.468-11.799-8.564-15.415C98.986,9.233,93.943,1.997,90.516,0.859 C89.183,0.288,87.183,0,84.521,0c-5.142,0-11.85,0.95-20.129,2.856c-8.282,1.903-14.799,3.899-19.558,5.996 c-9.517,3.995-19.604,15.605-30.264,34.826C4.863,61.566,0.01,79.271,0.01,96.78c0,5.135,0.333,10.131,0.999,14.989 c0.666,4.853,1.856,10.326,3.571,16.418c1.712,6.09,3.093,10.614,4.137,13.56c1.045,2.948,2.996,8.229,5.852,15.845 c2.852,7.614,4.567,12.275,5.138,13.988c6.661,18.654,14.56,35.307,23.695,49.964c15.03,24.362,35.541,49.539,61.521,75.521 c25.981,25.98,51.153,46.49,75.517,61.526c14.655,9.134,31.314,17.032,49.965,23.698c1.714,0.568,6.375,2.279,13.986,5.141 c7.614,2.854,12.897,4.805,15.845,5.852c2.949,1.048,7.474,2.43,13.559,4.145c6.098,1.715,11.566,2.905,16.419,3.576 c4.856,0.657,9.853,0.996,14.989,0.996c17.508,0,35.214-4.856,53.105-14.562c19.219-10.656,30.826-20.745,34.823-30.269 c2.102-4.754,4.093-11.273,5.996-19.555c1.909-8.278,2.857-14.985,2.857-20.126C401.99,314.814,401.703,312.819,401.129,311.475z"></path>
-                                        </g>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="pbmit-ihbox-contents">
-                                <div class="pbmit-heading-desc">Need help? talk to an experts</div>
-                                <h2 class="pbmit-element-title">
-                                    <a href="tel:(+1)1223345642">
-                                        <span class="pbmit-btn-wrapper">
-                                            <span class="pbmit-button-render" data-text="(+1)122-334-5642">
-                                                <span>(+1)122-334-5642</span>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <div class="tween-effect-style-1-wrap">
                 <div class="pbmit-ele-tween-effect pbmit-tween-image pbmit-tween-effect-style-1">
-                    <div class="pbmit-tween-effect" data-x-start="0" data-x-end="0" data-y-start="0" data-y-end="0" data-scale-x-start="0.6" data-scale-x-end=" 1" data-skew-x-start=" 0deg" data-skew-x-end="0deg" data-skew-y-start=" 0deg" data-skew-y-end=" 0deg" data-rotate-x-start="0" data-rotate-x-end="0">
-                        <img src="images/demo-1/about-img-02.png" class="img-fluid" alt="">
+                    <div class="pbmit-tween-effect" data-x-start="0" data-x-end="0" data-y-start="0" data-y-end="0"
+                        data-scale-x-start="0.6" data-scale-x-end=" 1" data-skew-x-start=" 0deg" data-skew-x-end="0deg"
+                        data-skew-y-start=" 0deg" data-skew-y-end=" 0deg" data-rotate-x-start="0" data-rotate-x-end="0">
+                        <img src="assets/images/resource/about-img-02.png" class="img-fluid" alt="About Image">
                     </div>
                 </div>
             </div>
@@ -294,7 +300,10 @@ include('include/data.php');
         <div class="container">
             <div class="tween-effect-style-wrap">
                 <div class="pbmit-ele-tween-effect pbmit-tween-image pbmit-tween-effect-style-1">
-                    <div class="pbmit-tween-effect" data-x-start="0" data-x-end="0" data-y-start="50" data-y-end="0" data-scale-x-start="0.7" data-scale-x-end=" 1" data-skew-x-start=" 0deg" data-skew-x-end="0deg" data-skew-y-start=" 0deg" data-skew-y-end=" 0deg" data-rotate-x-start="0" data-rotate-x-end="0" style="transform: translate(0%, 5.98832%) scale(0.96407) skew(0deg, 0deg) rotate(0deg);">
+                    <div class="pbmit-tween-effect" data-x-start="0" data-x-end="0" data-y-start="50" data-y-end="0"
+                        data-scale-x-start="0.7" data-scale-x-end=" 1" data-skew-x-start=" 0deg" data-skew-x-end="0deg"
+                        data-skew-y-start=" 0deg" data-skew-y-end=" 0deg" data-rotate-x-start="0" data-rotate-x-end="0"
+                        style="transform: translate(0%, 5.98832%) scale(0.96407) skew(0deg, 0deg) rotate(0deg);">
                         <img src="images/demo-1/service-glasses.png" class="img-fluid" alt="">
                     </div>
                 </div>
@@ -307,7 +316,8 @@ include('include/data.php');
                     </div>
                 </div>
                 <div class="col-md-12 col-xl-5">
-                    <p>We provide comprehensive eye care services including vision tests, cataract screening, LASIK evaluation, glaucoma.</p>
+                    <p>We provide comprehensive eye care services including vision tests, cataract screening, LASIK
+                        evaluation, glaucoma.</p>
                 </div>
                 <div class="col-md-12 col-xl-2 text-xl-end">
                     <a class="pbmit-btn transparent" href="service-details.html">
@@ -319,451 +329,89 @@ include('include/data.php');
                             </span>
                             <span class="pbmit-button-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="512" viewbox="0 0 24 24" width="512">
-                                    <path d="m21.706 12.708-7 7a1 1 0 0 1 -1.414-1.414l5.294-5.294h-15.586a1 1 0 0 1 0-2h15.586l-5.293-5.293a1 1 0 0 1 1.414-1.414l7 7a1 1 0 0 1 0 1.416z" fill="rgb(0,0,0)"></path>
+                                    <path
+                                        d="m21.706 12.708-7 7a1 1 0 0 1 -1.414-1.414l5.294-5.294h-15.586a1 1 0 0 1 0-2h15.586l-5.293-5.293a1 1 0 0 1 1.414-1.414l7 7a1 1 0 0 1 0 1.416z"
+                                        fill="rgb(0,0,0)"></path>
                                 </svg>
                             </span>
                         </span>
                     </a>
                 </div>
             </div>
-            <div class="swiper-slider pbmit-column-four" data-autoplay="false" data-loop="true" data-allow-touch="true" data-dots="false" data-arrows="true" data-columns="4" data-margin="20" data-effect="slide">
+            <div class="swiper-slider pbmit-column-four" data-autoplay="false" data-loop="true" data-allow-touch="true"
+                data-dots="false" data-arrows="true" data-columns="4" data-margin="20" data-effect="slide">
                 <div class="swiper-wrapper">
-                    <!-- Slide1 -->
-                    <article class="pbmit-service-style-1 swiper-slide">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-box-content-wrap">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/service/service-img-01.jpg" class="img-fluid" alt="">
+
+                    <?php foreach ($services as $index => $service): ?>
+                        <article class="pbmit-service-style-1 swiper-slide">
+                            <div class="pbminfotech-post-item">
+                                <div class="pbmit-box-content-wrap">
+                                    <!-- Service Image -->
+                                    <div class="pbmit-featured-img-wrapper">
+                                        <div class="pbmit-featured-wrapper">
+                                            <img src="<?= htmlspecialchars($service['image']); ?>" class="img-fluid"
+                                                alt="<?= htmlspecialchars($service['title']); ?>">
+                                        </div>
                                     </div>
+
+                                    <!-- Main Link -->
+                                    <a class="pbmit-link" href="<?= htmlspecialchars($service['link']); ?>"
+                                        title="Go to <?= htmlspecialchars($service['title']); ?>"></a>
+
+                                    <!-- Heading -->
+                                    <div class="pbmit-heading-box">
+                                        <h3 class="pbmit-service-title">
+                                            <a href="<?= htmlspecialchars($service['link']); ?>">
+                                                <?= htmlspecialchars($service['title']); ?>
+                                            </a>
+                                        </h3>
+                                    </div>
+
+                                    <!-- Content -->
+                                    <div class="pbmit-content-box">
+
+                                        <!-- Number -->
+                                        <div class="pbmit-service-number">
+                                            <?= str_pad($index + 1, 2, '0', STR_PAD_LEFT); ?>
+                                        </div>
+
+                                        <!-- EXACT SVG -->
+                                        <div class="pbmit-service-icon">
+                                            <?= $serviceIcons[$index]; ?>
+                                        </div>
+
+                                        <!-- Service Title -->
+                                        <h3 class="pbmit-service-title">
+                                            <a href="<?= htmlspecialchars($service['link']); ?>">
+                                                <?= htmlspecialchars($service['title']); ?>
+                                            </a>
+                                        </h3>
+
+                                        <!-- Categories -->
+                                        <div class="pbmit-serv-cat">
+                                            <a href="services.html" rel="tag">
+                                                <?= htmlspecialchars($service['category_1']); ?>
+                                            </a>,
+                                            <a href="services.html" rel="tag">
+                                                <?= htmlspecialchars($service['category_2']); ?>
+                                            </a>
+                                        </div>
+
+                                        <!-- Description -->
+                                        <div class="pbmit-service-description">
+                                            <?= htmlspecialchars($service['description']); ?>
+                                        </div>
+
+                                    </div>
+
                                 </div>
-                                <a class="pbmit-link" href="service-details.html" title="Go to Cataract Surgery"></a>
-                                <div class="pbmit-heading-box">
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Cataract Surgery</a>
-                                    </h3>
-                                </div>
-                                <div class="pbmit-content-box">
-                                    <div class="pbmit-service-number">01</div>
-                                    <div class="pbmit-service-icon">
-                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <g>
-                                                    <circle cx="256" cy="256.073" r="15"></circle>
-                                                    <path d="m347.826 186.923c14.54 19.259 23.174 43.214 23.174 69.15 0 25.956-8.648 49.928-23.208 69.196 58.294-19.518 104.372-52.213 125.828-69.202-11.781-9.346-30.958-23.422-55.373-37.363-18.901-10.794-42.984-22.615-70.421-31.781z"></path>
-                                                    <path d="m38.379 256.08c11.78 9.345 30.956 23.42 55.374 37.363 18.901 10.793 42.985 22.614 70.421 31.78-14.54-19.259-23.174-43.214-23.174-69.15 0-25.956 8.648-49.928 23.208-69.196-58.293 19.518-104.371 52.213-125.829 69.203z"></path>
-                                                    <path d="m256 171.073c-46.869 0-85 38.131-85 85s38.131 85 85 85 85-38.131 85-85-38.131-85-85-85zm0 130c-24.813 0-45-20.187-45-45s20.187-45 45-45 45 20.187 45 45-20.187 45-45 45z"></path>
-                                                </g>
-                                                <g>
-                                                    <path d="m507.196 267.075c-1.152 1.068-28.741 26.455-73.324 52.012-41.372 23.716-105.815 51.986-177.872 51.986-39.772 0-102.916-9.02-177.872-51.986-44.583-25.557-72.172-50.944-73.324-52.012-3.063-2.839-4.804-6.826-4.804-11.002 0 11.265 3.93 22.165 11.107 30.848 13.02 15.752 32.861 37.865 57.994 60.134 27.214 24.112 55.014 43.375 82.628 57.252 35.242 17.713 70.324 26.693 104.271 26.693s69.029-8.98 104.272-26.693c27.614-13.877 55.413-33.14 82.628-57.252 25.133-22.269 44.974-44.382 57.994-60.134 7.176-8.683 11.106-19.583 11.106-30.848 0 4.176-1.741 8.163-4.804 11.002z"></path>
-                                                    <path d="m500.893 225.079c-13.02-15.752-32.861-37.865-57.994-60.134-27.214-24.112-55.014-43.375-82.628-57.252-35.242-17.713-70.324-26.693-104.271-26.693s-69.029 8.98-104.272 26.693c-27.614 13.877-55.413 33.14-82.628 57.252-25.133 22.269-44.974 44.382-57.994 60.134-7.176 8.683-11.106 19.583-11.106 30.848v.146c0-4.176 1.741-8.163 4.804-11.002 1.152-1.068 28.741-26.455 73.324-52.012 41.372-23.715 105.815-51.986 177.872-51.986 39.772 0 102.916 9.02 177.872 51.986 44.583 25.557 72.172 50.943 73.324 52.012 3.063 2.839 4.804 6.826 4.804 11.002v-.146c0-11.265-3.93-22.165-11.107-30.848z"></path>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Cataract Surgery</a>
-                                    </h3>
-                                    <div class="pbmit-serv-cat">
-                                        <a href="services.html" rel="tag">Lens Coating</a>,
-                                        <a href="services.html" rel="tag">Vision Testing</a>
-                                    </div>
-                                    <div class="pbmit-service-description">
-                                        Common treatments include eye drops, medications, surgeries, and protective lifestyle changes.
-                                    </div>
-                                </div>
+
                             </div>
-                        </div>
-                    </article>
-                    <!-- Slide2 -->
-                    <article class="pbmit-service-style-1 swiper-slide">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-box-content-wrap">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/service/service-img-02.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="service-details.html" title="Go to Ocular Oncology"></a>
-                                <div class="pbmit-heading-box">
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Ocular Oncology</a>
-                                    </h3>
-                                </div>
-                                <div class="pbmit-content-box">
-                                    <div class="pbmit-service-number">02</div>
-                                    <div class="pbmit-service-icon">
-                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <g>
-                                                    <path d="m497 0h-120c-8.284 0-15 6.716-15 15s6.716 15 15 15h105v105c0 8.284 6.716 15 15 15s15-6.716 15-15v-120c0-8.284-6.716-15-15-15z"></path>
-                                                    <path d="m15 150c8.284 0 15-6.716 15-15v-105h105c8.284 0 15-6.716 15-15s-6.716-15-15-15h-120c-8.284 0-15 6.716-15 15v120c0 8.284 6.716 15 15 15z"></path>
-                                                    <path d="m497 362c-8.284 0-15 6.716-15 15v105h-105c-8.284 0-15 6.716-15 15s6.716 15 15 15h120c8.284 0 15-6.716 15-15v-120c0-8.284-6.716-15-15-15z"></path>
-                                                    <path d="m135 482h-105v-105c0-8.284-6.716-15-15-15s-15 6.716-15 15v120c0 8.284 6.716 15 15 15h120c8.284 0 15-6.716 15-15s-6.716-15-15-15z"></path>
-                                                </g>
-                                                <g>
-                                                    <path d="m507.196 267.002c-1.152 1.068-28.741 26.455-73.324 52.012-41.372 23.715-105.815 51.986-177.872 51.986-39.772 0-102.916-9.02-177.872-51.986-44.583-25.557-72.172-50.944-73.324-52.012-3.063-2.839-4.804-6.826-4.804-11.002 0 11.265 3.93 22.165 11.107 30.848 13.02 15.752 32.861 37.865 57.994 60.134 27.214 24.112 55.014 43.375 82.628 57.252 35.243 17.713 70.325 26.693 104.272 26.693s69.029-8.98 104.272-26.693c27.614-13.877 55.413-33.14 82.628-57.252 25.133-22.269 44.974-44.382 57.994-60.134 7.175-8.683 11.105-19.583 11.105-30.848 0 4.176-1.741 8.163-4.804 11.002z"></path>
-                                                    <path d="m500.893 225.006c-13.02-15.752-32.861-37.865-57.994-60.134-27.214-24.112-55.014-43.375-82.628-57.252-35.242-17.713-70.324-26.693-104.271-26.693s-69.029 8.98-104.272 26.693c-27.614 13.877-55.413 33.14-82.628 57.252-25.133 22.269-44.974 44.382-57.994 60.134-7.176 8.682-11.106 19.583-11.106 30.848v.146c0-4.176 1.741-8.163 4.804-11.002 1.152-1.068 28.741-26.455 73.324-52.012 41.372-23.715 105.815-51.986 177.872-51.986 39.772 0 102.916 9.02 177.872 51.986 44.583 25.557 72.172 50.943 73.324 52.012 3.063 2.839 4.804 6.826 4.804 11.002v-.146c0-11.265-3.93-22.166-11.107-30.848z"></path>
-                                                </g>
-                                                <g>
-                                                    <path d="m171 256c0 46.869 38.131 85 85 85s85-38.131 85-85-38.131-85-85-85-85 38.131-85 85zm85-45c24.813 0 45 20.187 45 45s-20.187 45-45 45-45-20.187-45-45 20.187-45 45-45z"></path>
-                                                    <circle cx="256" cy="256" r="15"></circle>
-                                                    <path d="m418.283 218.631c-18.912-10.798-43.01-22.622-70.464-31.79 14.544 19.26 23.181 43.219 23.181 69.159s-8.637 49.899-23.181 69.159c27.454-9.168 51.552-20.993 70.464-31.79 24.426-13.944 43.609-28.023 55.393-37.369-11.783-9.346-30.967-23.425-55.393-37.369z"></path>
-                                                    <path d="m141 256c0-25.94 8.637-49.899 23.181-69.159-27.454 9.168-51.552 20.993-70.464 31.79-24.426 13.944-43.61 28.023-55.393 37.369 11.781 9.345 30.965 23.423 55.393 37.369 18.912 10.798 43.01 22.622 70.464 31.79-14.544-19.26-23.181-43.219-23.181-69.159z"></path>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Ocular Oncology</a>
-                                    </h3>
-                                    <div class="pbmit-serv-cat">
-                                        <a href="services.html" rel="tag">Eye Exams</a>,
-                                        <a href="services.html" rel="tag">Glaucoma</a>
-                                    </div>
-                                    <div class="pbmit-service-description">
-                                        Common treatments include eye drops, medications, surgeries, and protective lifestyle changes.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <!-- Slide3 -->
-                    <article class="pbmit-service-style-1 swiper-slide">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-box-content-wrap">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/service/service-img-03.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="service-details.html" title="Go to Myopia Control"></a>
-                                <div class="pbmit-heading-box">
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Myopia Control</a>
-                                    </h3>
-                                </div>
-                                <div class="pbmit-content-box">
-                                    <div class="pbmit-service-number">03</div>
-                                    <div class="pbmit-service-icon">
-                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <circle cx="256" cy="186" r="15"></circle>
-                                                <path d="m473.62 185.993c-11.781-9.346-30.958-23.422-55.373-37.363-18.901-10.793-42.985-22.614-70.421-31.78 14.54 19.259 23.174 43.214 23.174 69.15 0 25.956-8.648 49.928-23.208 69.196 58.293-19.518 104.371-52.213 125.828-69.203z"></path>
-                                                <path d="m38.379 186.007c11.78 9.345 30.956 23.42 55.374 37.363 18.901 10.793 42.985 22.614 70.421 31.78-14.54-19.259-23.174-43.214-23.174-69.15 0-25.956 8.648-49.928 23.208-69.196-58.293 19.518-104.371 52.213-125.829 69.203z"></path>
-                                                <path d="m341 186c0-46.869-38.131-85-85-85s-85 38.131-85 85 38.131 85 85 85 85-38.131 85-85zm-130 0c0-24.813 20.187-45 45-45s45 20.187 45 45-20.187 45-45 45-45-20.187-45-45z"></path>
-                                                <path d="m166 287.178v183.822c0 16.569 13.431 30 30 30s30-13.431 30-30v-80c0-16.569 13.431-30 30-30s30 13.431 30 30v40c0 16.569 13.431 30 30 30s30-13.431 30-30v-143.822c-27.607 8.256-58.052 13.822-90 13.822s-62.393-5.566-90-13.822z"></path>
-                                                <g>
-                                                    <g>
-                                                        <path d="m507.196 197.075c-1.152 1.068-28.741 26.455-73.324 52.012-16.097 9.228-35.7 19.139-57.872 27.812v48.932c22.411-12.885 44.847-29.237 66.899-48.776 25.133-22.269 44.974-44.382 57.994-60.134 7.177-8.683 11.107-19.583 11.107-30.848 0 4.176-1.741 8.163-4.804 11.002z"></path>
-                                                        <path d="m78.128 249.087c-44.583-25.557-72.172-50.944-73.324-52.012-3.063-2.839-4.804-6.826-4.804-11.002 0 11.265 3.93 22.165 11.107 30.848 13.02 15.752 32.861 37.865 57.994 60.134 22.052 19.539 44.489 35.891 66.899 48.776v-48.901c-18.282-7.141-37.642-16.247-57.872-27.843z"></path>
-                                                    </g>
-                                                    <path d="m500.893 155.079c-13.02-15.752-32.861-37.865-57.994-60.134-27.214-24.112-55.014-43.375-82.628-57.252-35.242-17.713-70.324-26.693-104.271-26.693s-69.029 8.98-104.272 26.693c-27.614 13.877-55.413 33.14-82.628 57.252-25.133 22.269-44.974 44.382-57.994 60.134-7.176 8.683-11.106 19.583-11.106 30.848v.146c0-4.176 1.741-8.163 4.804-11.002 1.152-1.068 28.741-26.455 73.324-52.012 41.372-23.715 105.815-51.986 177.872-51.986 39.772 0 102.916 9.02 177.872 51.986 44.583 25.557 72.172 50.943 73.324 52.012 3.063 2.839 4.804 6.826 4.804 11.002v-.146c0-11.265-3.93-22.165-11.107-30.848z"></path>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Myopia Control</a>
-                                    </h3>
-                                    <div class="pbmit-serv-cat">
-                                        <a href="services.html" rel="tag">Glaucoma</a>,
-                                        <a href="services.html" rel="tag">Lasek Option</a>
-                                    </div>
-                                    <div class="pbmit-service-description">
-                                        Common treatments include eye drops, medications, surgeries, and protective lifestyle changes.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <!-- Slide4 -->
-                    <article class="pbmit-service-style-1 swiper-slide">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-box-content-wrap">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/service/service-img-04.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="service-details.html" title="Go to Blink Point"></a>
-                                <div class="pbmit-heading-box">
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Blink Point</a>
-                                    </h3>
-                                </div>
-                                <div class="pbmit-content-box">
-                                    <div class="pbmit-service-number">04</div>
-                                    <div class="pbmit-service-icon">
-                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <circle cx="256" cy="186" r="15"></circle>
-                                                <path d="m473.62 185.993c-11.781-9.346-30.958-23.422-55.373-37.363-18.901-10.793-42.985-22.614-70.421-31.78 14.54 19.259 23.174 43.214 23.174 69.15 0 25.956-8.648 49.928-23.208 69.196 58.293-19.518 104.371-52.213 125.828-69.203z"></path>
-                                                <path d="m38.379 186.007c11.78 9.345 30.956 23.42 55.374 37.363 18.901 10.793 42.985 22.614 70.421 31.78-14.54-19.259-23.174-43.214-23.174-69.15 0-25.956 8.648-49.928 23.208-69.196-58.293 19.518-104.371 52.213-125.829 69.203z"></path>
-                                                <path d="m341 186c0-46.869-38.131-85-85-85s-85 38.131-85 85 38.131 85 85 85 85-38.131 85-85zm-130 0c0-24.813 20.187-45 45-45s45 20.187 45 45-20.187 45-45 45-45-20.187-45-45z"></path>
-                                                <path d="m166 287.178v183.822c0 16.569 13.431 30 30 30s30-13.431 30-30v-80c0-16.569 13.431-30 30-30s30 13.431 30 30v40c0 16.569 13.431 30 30 30s30-13.431 30-30v-143.822c-27.607 8.256-58.052 13.822-90 13.822s-62.393-5.566-90-13.822z"></path>
-                                                <g>
-                                                    <g>
-                                                        <path d="m507.196 197.075c-1.152 1.068-28.741 26.455-73.324 52.012-16.097 9.228-35.7 19.139-57.872 27.812v48.932c22.411-12.885 44.847-29.237 66.899-48.776 25.133-22.269 44.974-44.382 57.994-60.134 7.177-8.683 11.107-19.583 11.107-30.848 0 4.176-1.741 8.163-4.804 11.002z"></path>
-                                                        <path d="m78.128 249.087c-44.583-25.557-72.172-50.944-73.324-52.012-3.063-2.839-4.804-6.826-4.804-11.002 0 11.265 3.93 22.165 11.107 30.848 13.02 15.752 32.861 37.865 57.994 60.134 22.052 19.539 44.489 35.891 66.899 48.776v-48.901c-18.282-7.141-37.642-16.247-57.872-27.843z"></path>
-                                                    </g>
-                                                    <path d="m500.893 155.079c-13.02-15.752-32.861-37.865-57.994-60.134-27.214-24.112-55.014-43.375-82.628-57.252-35.242-17.713-70.324-26.693-104.271-26.693s-69.029 8.98-104.272 26.693c-27.614 13.877-55.413 33.14-82.628 57.252-25.133 22.269-44.974 44.382-57.994 60.134-7.176 8.683-11.106 19.583-11.106 30.848v.146c0-4.176 1.741-8.163 4.804-11.002 1.152-1.068 28.741-26.455 73.324-52.012 41.372-23.715 105.815-51.986 177.872-51.986 39.772 0 102.916 9.02 177.872 51.986 44.583 25.557 72.172 50.943 73.324 52.012 3.063 2.839 4.804 6.826 4.804 11.002v-.146c0-11.265-3.93-22.165-11.107-30.848z"></path>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Blink Point</a>
-                                    </h3>
-                                    <div class="pbmit-serv-cat">
-                                        <a href="services.html" rel="tag">Pediatric Care</a>,
-                                        <a href="services.html" rel="tag">Vision therapy</a>
-                                    </div>
-                                    <div class="pbmit-service-description">
-                                        Common treatments include eye drops, medications, surgeries, and protective lifestyle changes.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <!-- Slide5 -->
-                    <article class="pbmit-service-style-1 swiper-slide">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-box-content-wrap">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/service/service-img-05.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="service-details.html" title="Go to Oculoplasty"></a>
-                                <div class="pbmit-heading-box">
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Oculoplasty</a>
-                                    </h3>
-                                </div>
-                                <div class="pbmit-content-box">
-                                    <div class="pbmit-service-number">05</div>
-                                    <div class="pbmit-service-icon">
-                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <path d="m88.5 60v315c0 8.284 6.716 15 15 15h137.5v34.58c-17.459 6.192-30 22.865-30 42.42 0 24.813 20.187 45 45 45s45-20.187 45-45c0-19.555-12.541-36.228-30-42.42v-34.58h137.5c8.284 0 15-6.716 15-15v-315zm123.181 285c0 8.284-6.716 15-15 15s-15-6.716-15-15v-26.372h-25.361v26.372c0 8.284-6.716 15-15 15s-15-6.716-15-15v-80c0-8.284 6.716-15 15-15s15 6.716 15 15v23.628h25.361v-23.628c0-8.284 6.716-15 15-15s15 6.716 15 15zm44.319 137c-8.271 0-15-6.729-15-15s6.729-15 15-15 15 6.729 15 15-6.729 15-15 15zm-23.175-252c-8.284 0-15-6.716-15-15v-110c0-8.284 6.716-15 15-15h46.35c8.284 0 15 6.716 15 15s-6.716 15-15 15h-31.35v25h27.932c8.284 0 15 6.716 15 15s-6.716 15-15 15h-27.932v25h31.35c8.284 0 15 6.716 15 15s-6.716 15-15 15zm152.969 89.991c0 15.24-8.285 27.806-23.33 35.382-6.096 3.07-12.797 4.627-19.915 4.627-.022 0-.045 0-.068 0-8.315-.011-15.987-2.224-22.8-6.577-12.923-8.256-19.476-19.485-19.476-33.375v-55.048c0-8.284 6.716-15 15-15s15 6.716 15 15v55.049c0 2.549.414 4.764 5.627 8.093 1.951 1.247 4.14 1.854 6.69 1.858 2.407.035 4.542-.461 6.447-1.421 6.824-3.437 6.824-6.662 6.824-8.588v-54.991c0-8.284 6.716-15 15-15s15 6.716 15 15v54.991z"></path>
-                                                <path d="m458.5 0h-405c-8.284 0-15 6.716-15 15s6.716 15 15 15h35 335 35c8.284 0 15-6.716 15-15s-6.716-15-15-15z"></path>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Oculoplasty</a>
-                                    </h3>
-                                    <div class="pbmit-serv-cat">
-                                        <a href="services.html" rel="tag">Eye Exams</a>,
-                                        <a href="services.html" rel="tag">Vision Testing</a>
-                                    </div>
-                                    <div class="pbmit-service-description">
-                                        Common treatments include eye drops, medications, surgeries, and protective lifestyle changes.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <!-- Slide6 -->
-                    <article class="pbmit-service-style-1 swiper-slide">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-box-content-wrap">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/service/service-img-06.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="service-details.html" title="Go to Cornea"></a>
-                                <div class="pbmit-heading-box">
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Cornea</a>
-                                    </h3>
-                                </div>
-                                <div class="pbmit-content-box">
-                                    <div class="pbmit-service-number">06</div>
-                                    <div class="pbmit-service-icon">
-                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <path d="m256 60c8.284 0 15-6.716 15-15v-30c0-8.284-6.716-15-15-15s-15 6.716-15 15v30c0 8.284 6.716 15 15 15z"></path>
-                                                <path d="m256 150c8.284 0 15-6.716 15-15v-30c0-8.284-6.716-15-15-15s-15 6.716-15 15v30c0 8.284 6.716 15 15 15z"></path>
-                                                <path d="m115.51 86.664c2.778 4.813 7.82 7.502 13.004 7.502 2.545 0 5.124-.648 7.486-2.012 7.175-4.142 9.633-13.316 5.49-20.49l-15-25.981c-4.143-7.175-13.316-9.632-20.49-5.49-7.175 4.142-9.633 13.316-5.49 20.49z"></path>
-                                                <path d="m160.51 164.606c2.778 4.813 7.82 7.502 13.004 7.502 2.545 0 5.124-.648 7.486-2.012 7.175-4.142 9.633-13.316 5.49-20.49l-15-25.981c-4.143-7.175-13.316-9.631-20.49-5.49-7.175 4.142-9.633 13.316-5.49 20.49z"></path>
-                                                <path d="m376 92.154c2.362 1.364 4.941 2.012 7.486 2.012 5.184 0 10.226-2.69 13.004-7.502l15-25.981c4.143-7.174 1.685-16.348-5.49-20.49-7.174-4.145-16.349-1.684-20.49 5.49l-15 25.981c-4.143 7.174-1.685 16.348 5.49 20.49z"></path>
-                                                <path d="m331 170.096c2.362 1.364 4.941 2.012 7.486 2.012 5.184 0 10.226-2.69 13.004-7.502l15-25.981c4.143-7.174 1.685-16.348-5.49-20.49-7.175-4.143-16.348-1.685-20.49 5.49l-15 25.981c-4.143 7.175-1.685 16.348 5.49 20.49z"></path>
-                                                <path d="m256 512c-3.401 0-6.802-1.152-9.579-3.457l-241-200c-6.375-5.291-7.254-14.747-1.964-21.122 5.289-6.375 14.747-7.255 21.122-1.964l231.421 192.051 231.421-192.05c6.373-5.289 15.83-4.412 21.122 1.964 5.29 6.375 4.411 15.832-1.964 21.122l-241 200c-2.777 2.304-6.177 3.456-9.579 3.456z"></path>
-                                                <g>
-                                                    <g>
-                                                        <path d="m405.014 314.86c-2.154-18.909-7.813-36.753-16.328-52.86-28.016 46.471-78.068 75-132.686 75s-104.67-28.529-132.687-75c-8.515 16.106-14.173 33.951-16.328 52.86l149.015 123.663z"></path>
-                                                    </g>
-                                                    <path d="m256 307c46.416 0 88.766-25.552 110.521-66.686l3.224-6.097c-10.081-11.716-21.943-21.854-35.163-30.002-6.196 15.115-16.509 28.041-29.938 37.456-14.304 10.029-31.124 15.329-48.644 15.329s-34.34-5.3-48.644-15.328c-13.43-9.415-23.742-22.341-29.938-37.456-13.22 8.147-25.082 18.285-35.163 30.002l3.224 6.097c21.756 41.133 64.105 66.685 110.521 66.685z"></path>
-                                                    <path d="m256 227c22.908 0 43.039-13.853 51.287-35.292l.24-.623c-16.069-5.877-33.423-9.085-51.527-9.085s-35.458 3.208-51.527 9.085l.24.623c8.248 21.439 28.379 35.292 51.287 35.292z"></path>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Cornea</a>
-                                    </h3>
-                                    <div class="pbmit-serv-cat">
-                                        <a href="services.html" rel="tag">Glaucoma</a>,
-                                        <a href="services.html" rel="tag">Lasek Option</a>
-                                    </div>
-                                    <div class="pbmit-service-description">
-                                        Common treatments include eye drops, medications, surgeries, and protective lifestyle changes.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <!-- Slide7 -->
-                    <article class="pbmit-service-style-1 swiper-slide">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-box-content-wrap">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/service/service-img-07.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="service-details.html" title="Go to Vitreoretinal"></a>
-                                <div class="pbmit-heading-box">
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Vitreoretinal</a>
-                                    </h3>
-                                </div>
-                                <div class="pbmit-content-box">
-                                    <div class="pbmit-service-number">07</div>
-                                    <div class="pbmit-service-icon">
-                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <circle cx="472" cy="171" r="40"></circle>
-                                                <circle cx="416" cy="317" r="15"></circle>
-                                                <circle cx="356" cy="317" r="15"></circle>
-                                                <path d="m472 241c-38.09 0-69.151-30.587-69.962-68.487-3.636-.334-7.316-.513-11.038-.513-66.168 0-120 53.832-120 120v115c0 57.897 47.103 105 105 105 27.57 0 50-22.43 50-50v-55.193c49.926-15.179 85-61.62 85-114.807 0-20.105-4.978-39.067-13.753-55.73-7.838 3.043-16.347 4.73-25.247 4.73zm-81-14c8.284 0 15 6.716 15 15s-6.716 15-15 15-15-6.716-15-15 6.716-15 15-15zm-34 200c-8.284 0-15-6.716-15-15s6.716-15 15-15 15 6.716 15 15-6.716 15-15 15zm59-65c-11.517 0-22.032-4.353-30-11.495-7.968 7.142-18.483 11.495-30 11.495-24.813 0-45-20.187-45-45s20.187-45 45-45c11.517 0 22.032 4.353 30 11.495 7.968-7.141 18.483-11.495 30-11.495 24.813 0 45 20.187 45 45s-20.187 45-45 45z"></path>
-                                                <circle cx="40" cy="171" r="40"></circle>
-                                                <circle cx="96" cy="317" r="15"></circle>
-                                                <circle cx="156" cy="317" r="15"></circle>
-                                                <path d="m121 172c-3.722 0-7.402.179-11.038.513-.811 37.9-31.872 68.487-69.962 68.487-8.9 0-17.409-1.687-25.247-4.73-8.775 16.663-13.753 35.625-13.753 55.73 0 53.187 35.074 99.628 85 114.807v55.193c0 27.57 22.43 50 50 50 57.897 0 105-47.103 105-105v-115c0-66.168-53.832-120-120-120zm0 55c8.284 0 15 6.716 15 15s-6.716 15-15 15-15-6.716-15-15 6.716-15 15-15zm34 200c-8.284 0-15-6.716-15-15s6.716-15 15-15 15 6.716 15 15-6.716 15-15 15zm1-65c-11.517 0-22.032-4.353-30-11.495-7.968 7.142-18.483 11.495-30 11.495-24.813 0-45-20.187-45-45s20.187-45 45-45c11.517 0 22.032 4.353 30 11.495 7.968-7.141 18.483-11.495 30-11.495 24.813 0 45 20.187 45 45s-20.187 45-45 45z"></path>
-                                                <path d="m286 60h63c8.284 0 15-6.716 15-15v-30c0-8.284-6.716-15-15-15h-108c-8.284 0-15 6.716-15 15v75h60z"></path>
-                                                <path d="m291.358 180c20.605-18.353 46.281-31.113 74.642-35.893v-9.107c0-8.284-6.716-15-15-15h-190c-8.284 0-15 6.716-15 15v9.107c28.361 4.78 54.037 17.54 74.642 35.893z"></path>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Vitreoretinal</a>
-                                    </h3>
-                                    <div class="pbmit-serv-cat">
-                                        <a href="services.html" rel="tag">Pediatric Care</a>,
-                                        <a href="services.html" rel="tag">Vision therapy</a>
-                                    </div>
-                                    <div class="pbmit-service-description">
-                                        Common treatments include eye drops, medications, surgeries, and protective lifestyle changes.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <!-- Slide8 -->
-                    <article class="pbmit-service-style-1 swiper-slide">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-box-content-wrap">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/service/service-img-08.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="service-details.html" title="Go to Glaucoma"></a>
-                                <div class="pbmit-heading-box">
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Glaucoma</a>
-                                    </h3>
-                                </div>
-                                <div class="pbmit-content-box">
-                                    <div class="pbmit-service-number">08</div>
-                                    <div class="pbmit-service-icon">
-                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <g>
-                                                    <path d="m414.394 236.606c2.928 2.929 6.767 4.394 10.606 4.394s7.678-1.465 10.606-4.394c5.858-5.857 5.858-15.355 0-21.213l-4.393-4.393h65.787c8.284 0 15-6.716 15-15s-6.716-15-15-15h-65.787l4.394-4.394c5.858-5.857 5.858-15.355 0-21.213-5.857-5.857-15.355-5.857-21.213 0l-30 30c-5.858 5.857-5.858 15.355 0 21.213z"></path>
-                                                    <path d="m497 301h-65.787l4.394-4.394c5.858-5.857 5.858-15.355 0-21.213-5.857-5.857-15.355-5.857-21.213 0l-30 30c-5.858 5.857-5.858 15.355 0 21.213l30 30c2.928 2.929 6.767 4.394 10.606 4.394s7.678-1.465 10.606-4.394c5.858-5.857 5.858-15.355 0-21.213l-4.393-4.393h65.787c8.284 0 15-6.716 15-15s-6.716-15-15-15z"></path>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <path d="m80.197 301.288 114.493-22.616c-2.844-6.928-4.69-14.54-4.69-22.672s1.846-15.744 4.69-22.672l-114.493-22.616 15.147 14.426c3.896 3.711 5.507 9.224 4.221 14.447-1.286 5.225-5.271 9.359-10.444 10.838l-19.52 5.577 19.521 5.577c5.173 1.479 9.158 5.613 10.444 10.838 1.286 5.224-.324 10.736-4.221 14.447z"></path>
-                                                    </g>
-                                                    <g>
-                                                        <path d="m280 256c0 11.095-3.422 21.228-8.158 29.959l61.222 27.21c10.902-16.767 16.936-36.534 16.936-57.169s-6.034-40.402-16.936-57.169l-61.222 27.21c4.736 8.731 8.158 18.864 8.158 29.959z"></path>
-                                                    </g>
-                                                    <g>
-                                                        <path d="m237.486 282.953c.207-.259.417-.515.639-.758 6.137-7.332 11.875-16.822 11.875-26.195 0-9.393-5.824-18.956-11.969-26.29-.183-.204-.358-.416-.531-.631-.836-.978-1.676-1.918-2.504-2.805-7.154 7.639-14.996 18.768-14.996 29.726 0 10.939 7.897 22.118 15.004 29.727.823-.879 1.654-1.809 2.482-2.774z"></path>
-                                                    </g>
-                                                    <g>
-                                                        <path d="m252.868 310.356c-4.374 4.203-7.833 6.871-8.898 7.666-2.66 1.986-5.815 2.978-8.97 2.978s-6.31-.992-8.971-2.979c-1.415-1.055-7.051-5.414-13.456-12.301l-177.166 34.996c-.973.192-1.948.285-2.912.285-5.521 0-10.701-3.058-13.313-8.101-3.069-5.924-1.857-13.162 2.974-17.763l33.514-31.918-44.79-12.797c-6.441-1.839-10.88-7.725-10.88-14.422 0 90.981 74.019 165 165 165 29.462 0 58.379-7.887 83.624-22.807 23.465-13.867 43.253-33.451 57.407-56.776 2.103-1.503 4.131-3.084 6.101-4.721z"></path>
-                                                    </g>
-                                                    <g>
-                                                        <path d="m10.879 241.577 44.79-12.797-33.514-31.918c-4.831-4.601-6.043-11.839-2.974-17.763 3.068-5.924 9.681-9.109 16.226-7.815l177.166 34.996c6.406-6.888 12.042-11.246 13.457-12.302 5.322-3.973 12.619-3.973 17.941 0 1.065.794 4.524 3.463 8.898 7.666l59.264-26.34c-1.97-1.638-3.999-3.218-6.101-4.721-14.154-23.325-33.942-42.909-57.407-56.776-25.246-14.92-54.163-22.807-83.625-22.807-90.981 0-165 74.019-165 165 0-6.697 4.439-12.583 10.879-14.423z"></path>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Glaucoma</a>
-                                    </h3>
-                                    <div class="pbmit-serv-cat">
-                                        <a href="services.html" rel="tag">Lasek Option</a>,
-                                        <a href="services.html" rel="tag">Lens Coating</a>
-                                    </div>
-                                    <div class="pbmit-service-description">
-                                        Common treatments include eye drops, medications, surgeries, and protective lifestyle changes.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <!-- Slide9 -->
-                    <article class="pbmit-service-style-1 swiper-slide">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-box-content-wrap">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/service/service-img-09.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="service-details.html" title="Go to Cataract & Refractive"></a>
-                                <div class="pbmit-heading-box">
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Cataract & Refractive</a>
-                                    </h3>
-                                </div>
-                                <div class="pbmit-content-box">
-                                    <div class="pbmit-service-number">09</div>
-                                    <div class="pbmit-service-icon">
-                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <path d="m412 175c0 4.88-.484 9.647-1.378 14.269 6.409-5.171 11.798-10.175 15.888-14.247-4.09-4.057-9.474-9.043-15.872-14.2.883 4.595 1.362 9.33 1.362 14.178z"></path>
-                                                <path d="m337 130c-24.813 0-45 20.187-45 45s20.187 45 45 45 45-20.187 45-45-20.187-45-45-45zm0 60c-8.284 0-15-6.716-15-15s6.716-15 15-15 15 6.716 15 15-6.716 15-15 15z"></path>
-                                                <path d="m247.49 174.978c4.089 4.056 9.474 9.042 15.872 14.2-.883-4.594-1.362-9.33-1.362-14.178 0-4.88.484-9.647 1.378-14.269-6.409 5.172-11.798 10.175-15.888 14.247z"></path>
-                                                <path d="m337 0c-96.495 0-175 78.505-175 175s78.505 175 175 175 175-78.505 175-175-78.505-175-175-175zm121.594 184.517c-2.194 2.673-54.52 65.483-121.594 65.483s-119.4-62.81-121.594-65.483c-4.541-5.532-4.541-13.501 0-19.033 2.194-2.674 54.52-65.484 121.594-65.484s119.4 62.81 121.594 65.483c4.541 5.532 4.541 13.502 0 19.034z"></path>
-                                                <path d="m105.104 364.469c-5.858-5.858-15.355-5.858-21.213 0l-70.711 70.712c-17.573 17.574-17.573 46.066 0 63.639 17.573 17.573 46.066 17.573 63.639 0l70.711-70.711c5.858-5.858 5.858-15.355 0-21.213z"></path>
-                                                <path d="m169.478 293.025-46.696 46.696 49.497 49.497 46.696-46.696c-19.182-13.554-35.943-30.315-49.497-49.497z"></path>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h3 class="pbmit-service-title">
-                                        <a href="service-details.html">Cataract & Refractive</a>
-                                    </h3>
-                                    <div class="pbmit-serv-cat">
-                                        <a href="services.html" rel="tag">Eye Exams</a>,
-                                        <a href="services.html" rel="tag">Vision Testing</a>
-                                    </div>
-                                    <div class="pbmit-service-description">
-                                        Common treatments include eye drops, medications, surgeries, and protective lifestyle changes.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
+
+                        </article>
+
+                    <?php endforeach; ?>
+
                 </div>
             </div>
         </div>
@@ -771,410 +419,498 @@ include('include/data.php');
 </section>
 <!-- Service End -->
 
-<!-- Why Choose Us Start -->
-<section>
+
+<!-- Why Choose Start -->
+<section class="animation animated fadeIn why-choose-sec-two">
     <div class="container">
-        <div class="pbmit-heading-subheading text-center animation-style3">
-            <h4 class="pbmit-subtitle">How It work</h4>
-            <h2 class="pbmit-title">Why choose vision care center?</h2>
-            <div class="pbmit-heading-desc">
-                Choose vision care center for expert eye care, advanced technology, <br> personalized treatment.
-            </div>
-        </div>
-        <div class="row pt-xl-4">
-            <div class="col-md-12 col-xl-4 why-choose-one-left-col">
-                <div class="why-choose-one-left-area animation animated fadeIn">
-                    <div class="pbmit-ihbox-style-8">
-                        <div class="pbmit-ihbox-box">
-                            <div class="pbmit-ihbox-heading-wrap">
-                                <div class="pbmit-ihbox-icon">
-                                    <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <path d="m418.247 218.63c-14.687-8.387-32.514-17.389-52.601-25.289l-7.832 9.25c8.413 15.969 13.186 34.14 13.186 53.409 0 25.956-8.648 49.928-23.208 69.196 58.294-19.518 104.372-52.213 125.828-69.202-11.781-9.346-30.958-23.422-55.373-37.364z"></path>
-                                                <path d="m164.209 186.805c-58.294 19.518-104.372 52.213-125.829 69.202 11.78 9.345 30.956 23.42 55.374 37.363 14.687 8.387 32.514 17.389 52.601 25.289l7.832-9.25c-8.413-15.968-13.187-34.14-13.187-53.409 0-25.956 8.648-49.928 23.209-69.195z"></path>
-                                                <path d="m224.553 226.307c2.71-3.2 6.636-5.12 10.827-5.294 4.172-.188 8.262 1.414 11.227 4.381l28.477 28.477 45.202-53.384c-15.598-18.039-38.623-29.487-64.286-29.487-46.869 0-85 38.131-85 85 0 9.79 1.684 19.19 4.744 27.95z"></path>
-                                                <path d="m276.621 290.988c-4.181.184-8.262-1.414-11.227-4.381l-28.477-28.477-45.202 53.384c15.598 18.039 38.622 29.486 64.285 29.486 46.869 0 85-38.131 85-85 0-9.79-1.684-19.19-4.744-27.95l-48.809 57.643c-2.709 3.201-6.636 5.121-10.826 5.295z"></path>
-                                                <g>
-                                                    <path d="m360.272 107.62c-35.243-17.712-70.325-26.693-104.272-26.693s-69.029 8.98-104.272 26.693c-27.614 13.877-55.413 33.14-82.628 57.252-25.133 22.269-44.974 44.382-57.994 60.134-7.176 8.683-11.106 19.583-11.106 30.848v.146c0-4.176 1.741-8.163 4.804-11.002 1.152-1.068 28.741-26.455 73.324-52.012 41.372-23.715 105.816-51.986 177.872-51.986 25.082 0 59.467 3.598 100.24 17.025l30.205-35.672c-8.727-5.435-17.459-10.353-26.173-14.733z"></path>
-                                                    <path d="m500.894 225.006c-13.02-15.752-32.861-37.865-57.994-60.134-10.432-9.243-20.95-17.766-31.51-25.553l-25.322 29.905c15.277 6.446 31.251 14.274 47.805 23.763 44.583 25.557 72.172 50.943 73.324 52.012 3.062 2.838 4.803 6.825 4.803 11.001v-.146c0-11.265-3.93-22.165-11.106-30.848z"></path>
-                                                    <path d="m508.447 24.694c5.353-6.322 4.568-15.787-1.754-21.141-6.322-5.354-15.787-4.568-21.14 1.754l-99.108 117.046c8.327 5.186 16.648 10.849 24.944 16.966z"></path>
-                                                </g>
-                                                <g>
-                                                    <path d="m78.128 319.014c-44.583-25.557-72.172-50.944-73.324-52.012-3.063-2.839-4.804-6.826-4.804-11.002 0 11.265 3.93 22.165 11.107 30.848 13.02 15.752 32.861 37.865 57.994 60.134 10.457 9.265 21.001 17.807 31.587 25.609l25.245-29.814c-15.277-6.446-31.251-14.274-47.805-23.763z"></path>
-                                                    <path d="m507.197 267.002c-1.152 1.068-28.741 26.455-73.324 52.012-41.373 23.716-105.816 51.986-177.873 51.986-25.082 0-59.467-3.598-100.24-17.025l-30.125 35.577c8.7 5.415 17.405 10.316 26.093 14.681 35.243 17.713 70.325 26.693 104.272 26.693s69.029-8.98 104.272-26.693c27.614-13.877 55.413-33.14 82.628-57.252 25.133-22.269 44.974-44.382 57.994-60.134 7.176-8.682 11.106-19.582 11.106-30.847 0 4.176-1.741 8.163-4.803 11.002z"></path>
-                                                    <path d="m3.553 487.307c-5.354 6.322-4.568 15.787 1.754 21.141 2.818 2.387 6.261 3.553 9.686 3.553 4.257 0 8.488-1.803 11.455-5.307l99.188-117.141c-8.328-5.184-16.651-10.846-24.948-16.961z"></path>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <h2 class="pbmit-element-title">Cutting-Edge Technology</h2>
-                            </div>
-                            <div class="pbmit-ihbox-contents">
-                                <div class="pbmit-heading-desc">We use the latest diagnostic and advanced treatment to detect vision problem</div>
-                            </div>
-                        </div>
+        <div class="row align-items-center">
+            <div class="col-md-12 col-xl-4 half-width-1366-to-1025">
+                <div class="pbmit-heading-subheading animation-style3">
+                    <h4 class="pbmit-subtitle">Why Choose Us</h4>
+
+                    <h2 class="pbmit-title">Trusted Care for Your Vision</h2>
+
+                    <div class="pbmit-heading-desc">
+                        At Lions Eye Hospital, Ghaziabad, we focus on accurate diagnosis,
+                        advanced eye care and compassionate treatment to help protect
+                        and improve your vision.
                     </div>
-                    <div class="pbmit-ihbox-style-8">
-                        <div class="pbmit-ihbox-box">
-                            <div class="pbmit-ihbox-heading-wrap">
-                                <div class="pbmit-ihbox-icon">
-                                    <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <path d="m341 462v-42h-170v42c-16.569 0-30 13.431-30 30v5c0 8.284 6.716 15 15 15h200c8.284 0 15-6.716 15-15v-5c0-16.569-13.431-30-30-30z"></path>
-                                                <path d="m0 335c0 30.327 24.673 55 55 55h402c30.327 0 55-24.673 55-55v-15h-512z"></path>
-                                                <path d="m195.587 100c-10.466-10.152-29.251-25-49.587-25-20.338 0-39.122 14.849-49.588 25.001 10.458 10.145 29.247 24.999 49.588 24.999 20.336 0 39.121-14.848 49.587-25zm-64.587 0c0-8.284 6.716-15 15-15s15 6.716 15 15-6.716 15-15 15-15-6.716-15-15z"></path>
-                                                <path d="m457 0h-402c-30.327 0-55 24.673-55 55v235h512v-235c0-30.327-24.673-55-55-55zm-392.808 109.251c-4.257-5.433-4.257-13.069 0-18.502 1.464-1.868 36.367-45.749 81.808-45.749s80.344 43.881 81.808 45.749c4.257 5.433 4.257 13.069 0 18.502-1.464 1.868-36.367 45.749-81.808 45.749s-80.344-43.881-81.808-45.749zm371.808 125.749h-340c-8.284 0-15-6.716-15-15s6.716-15 15-15h340c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-70h-160c-8.284 0-15-6.716-15-15s6.716-15 15-15h160c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-70h-160c-8.284 0-15-6.716-15-15s6.716-15 15-15h160c8.284 0 15 6.716 15 15s-6.716 15-15 15z"></path>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <h2 class="pbmit-element-title">Affordable <br> Pricing</h2>
+                </div>
+
+                <ul class="list-group">
+
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="pbmit-ophtical-icon pbmit-ophtical-icon-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">
+                            Experienced Eye Care Specialists
+                        </span>
+                    </li>
+
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="pbmit-ophtical-icon pbmit-ophtical-icon-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">
+                            Advanced Diagnostic & Treatment Facilities
+                        </span>
+                    </li>
+
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="pbmit-ophtical-icon pbmit-ophtical-icon-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">
+                            Comprehensive Eye Care Under One Roof
+                        </span>
+                    </li>
+
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="pbmit-ophtical-icon pbmit-ophtical-icon-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">
+                            Patient-Focused & Compassionate Care
+                        </span>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-md-12 col-xl-4 half-width-1366-to-1025">
+                <div class="why-choose-two-center-box">
+                    <div class="about-img">
+                        <img src="assets/images/resource/why-choose.png" alt="">
+                    </div>
+                    <div class="pbmit-main-round-wrap">
+                        <div class="pbmit-main-round">
+                            <div class="pbmit-dot-round">
+                                <span></span><span></span>
                             </div>
-                            <div class="pbmit-ihbox-contents">
-                                <div class="pbmit-heading-desc">We provide top-quality eye care services at transparent and budget-friendly rates</div>
-                            </div>
+                            <div class="pbmit-main-round-inner"></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-12 col-xl-4 why-choose-one-center-col animation animated fadeIn">
-                <div class="why-choose-one-center-area">
-                    <div class="gap-20 top-inner-box">
-                        <div>
-                            <img src="images/demo-1/eye-goggles.png" alt="">
-                        </div>
-                        <div class="alpabet-img">
-                            <img src="images/demo-1/alpabet.png" alt="">
-                        </div>
-                        <div class="girl-full-img">
-                            <img src="images/demo-1/girl-full-img.png" alt="">
-                        </div>
-                    </div>
-                    <div class="girl-circle-img-wrap">
-                        <div class="girl-circle-img">
-                            <img src="images/demo-1/girl-circle.png" alt="">
-                        </div>
-                        <div class="girl-circle-bg"></div>
-                    </div>
-                    <div class="half-circle-img">
-                        <img src="images/demo-1/half-circle.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 col-xl-4 why-choose-one-right-col">
-                <div class="why-choose-one-right-area animation animated fadeIn">
-                    <div class="pbmit-ihbox-style-8">
-                        <div class="pbmit-ihbox-box">
-                            <div class="pbmit-ihbox-heading-wrap">
+            <div class="col-md-4 full-width-1366">
+                <div class="why-choose-two-right-box pbmit-bg-color-light">
+                    <div class="fid-style-4-wrap">
+                        <div class="pbminfotech-ele-fid-style-4">
+                            <div class="pbmit-fld-contents">
                                 <div class="pbmit-ihbox-icon">
                                     <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512"
+                                            width="512" xmlns="http://www.w3.org/2000/svg">
                                             <g>
                                                 <circle cx="321" cy="310" r="25"></circle>
-                                                <path d="m145.333 279.385c9.883-14.696 26.664-24.385 45.667-24.385 25.127 0 46.356 16.943 52.904 40h24.193c6.547-23.057 27.777-40 52.904-40 19.003 0 35.784 9.689 45.668 24.385l32.223-39.385h-285.783z"></path>
+                                                <path
+                                                    d="m145.333 279.385c9.883-14.696 26.664-24.385 45.667-24.385 25.127 0 46.356 16.943 52.904 40h24.193c6.547-23.057 27.777-40 52.904-40 19.003 0 35.784 9.689 45.668 24.385l32.223-39.385h-285.783z">
+                                                </path>
                                                 <circle cx="191" cy="310" r="25"></circle>
-                                                <path d="m321 365c-25.127 0-46.356-16.943-52.904-40h-24.193c-6.547 23.057-27.777 40-52.904 40-28.396 0-51.833-21.632-54.702-49.281l-45.297-55.364v86.645c0 90.981 74.019 165 165 165s165-74.019 165-165v-86.645l-45.298 55.364c-2.869 27.649-26.306 49.281-54.702 49.281zm-14.394 64.038c-13.952 13.952-32.279 20.928-50.606 20.928s-36.654-6.976-50.606-20.928c-5.858-5.857-5.858-15.355 0-21.213 5.858-5.857 15.356-5.857 21.213 0 16.208 16.207 42.579 16.207 58.787 0 5.858-5.858 15.354-5.858 21.213 0 5.857 5.858 5.857 15.356-.001 21.213z"></path>
-                                                <path d="m21 285v30c0 22.091 17.909 40 40 40v-110c-22.091 0-40 17.909-40 40z"></path>
-                                                <path d="m451 245v110c22.091 0 40-17.909 40-40v-30c0-22.091-17.909-40-40-40z"></path>
-                                                <path d="m451 215c14.808 0 28.547 4.635 39.869 12.511-1.865-59.963-26.084-116.066-68.699-158.681-44.385-44.386-103.399-68.83-166.17-68.83s-121.785 24.444-166.17 68.83c-42.615 42.616-66.834 98.718-68.699 158.681 11.322-7.876 25.061-12.511 39.869-12.511v-15c0-35.841 29.159-65 65-65h50.644c9.821-34.585 41.666-60 79.356-60s69.535 25.415 79.356 60h50.644c35.841 0 65 29.159 65 65z"></path>
-                                                <path d="m386 165h-47.856c-1.54 17.003-8.245 32.538-18.552 45h101.408v-10c0-19.299-15.701-35-35-35z"></path>
-                                                <path d="m126 165c-19.299 0-35 15.701-35 35v10h101.408c-10.307-12.462-17.012-27.997-18.552-45z"></path>
-                                                <path d="m308.5 157.5c0-28.949-23.552-52.5-52.5-52.5s-52.5 23.551-52.5 52.5 23.552 52.5 52.5 52.5 52.5-23.551 52.5-52.5zm-67.5 0c0-8.284 6.716-15 15-15s15 6.716 15 15-6.716 15-15 15-15-6.716-15-15z"></path>
+                                                <path
+                                                    d="m321 365c-25.127 0-46.356-16.943-52.904-40h-24.193c-6.547 23.057-27.777 40-52.904 40-28.396 0-51.833-21.632-54.702-49.281l-45.297-55.364v86.645c0 90.981 74.019 165 165 165s165-74.019 165-165v-86.645l-45.298 55.364c-2.869 27.649-26.306 49.281-54.702 49.281zm-14.394 64.038c-13.952 13.952-32.279 20.928-50.606 20.928s-36.654-6.976-50.606-20.928c-5.858-5.857-5.858-15.355 0-21.213 5.858-5.857 15.356-5.857 21.213 0 16.208 16.207 42.579 16.207 58.787 0 5.858-5.858 15.354-5.858 21.213 0 5.857 5.858 5.857 15.356-.001 21.213z">
+                                                </path>
+                                                <path
+                                                    d="m21 285v30c0 22.091 17.909 40 40 40v-110c-22.091 0-40 17.909-40 40z">
+                                                </path>
+                                                <path
+                                                    d="m451 245v110c22.091 0 40-17.909 40-40v-30c0-22.091-17.909-40-40-40z">
+                                                </path>
+                                                <path
+                                                    d="m451 215c14.808 0 28.547 4.635 39.869 12.511-1.865-59.963-26.084-116.066-68.699-158.681-44.385-44.386-103.399-68.83-166.17-68.83s-121.785 24.444-166.17 68.83c-42.615 42.616-66.834 98.718-68.699 158.681 11.322-7.876 25.061-12.511 39.869-12.511v-15c0-35.841 29.159-65 65-65h50.644c9.821-34.585 41.666-60 79.356-60s69.535 25.415 79.356 60h50.644c35.841 0 65 29.159 65 65z">
+                                                </path>
+                                                <path
+                                                    d="m386 165h-47.856c-1.54 17.003-8.245 32.538-18.552 45h101.408v-10c0-19.299-15.701-35-35-35z">
+                                                </path>
+                                                <path
+                                                    d="m126 165c-19.299 0-35 15.701-35 35v10h101.408c-10.307-12.462-17.012-27.997-18.552-45z">
+                                                </path>
+                                                <path
+                                                    d="m308.5 157.5c0-28.949-23.552-52.5-52.5-52.5s-52.5 23.551-52.5 52.5 23.552 52.5 52.5 52.5 52.5-23.551 52.5-52.5zm-67.5 0c0-8.284 6.716-15 15-15s15 6.716 15 15-6.716 15-15 15-15-6.716-15-15z">
+                                                </path>
                                             </g>
                                         </svg>
                                     </div>
                                 </div>
-                                <h2 class="pbmit-element-title">Qualified <br> Doctor</h2>
-                            </div>
-                            <div class="pbmit-ihbox-contents">
-                                <div class="pbmit-heading-desc">Our experienced eye specialists are trained to diagnose complex vision issues</div>
+                                <div class="pbmit-contents-box">
+                                    <h4 class="pbmit-fid-counter">
+                                        <span class="pbmit-fid-before"></span>
+                                        <span class="pbmit-number-rotate numinate"
+                                            data-appear-animation="animateDigits"
+                                            data-from="0"
+                                            data-to="100"
+                                            data-interval="10">
+                                            100
+                                        </span>
+
+                                        <span class="pbmit-fid"><span>%</span></span>
+                                    </h4>
+                                    <h3 class="pbmit-fid-title">
+                                        Patient-focused care for every visit
+                                    </h3>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="pbmit-ihbox-style-8">
-                        <div class="pbmit-ihbox-box">
-                            <div class="pbmit-ihbox-heading-wrap">
+                    <div class="fid-style-4-wrap">
+                        <div class="pbminfotech-ele-fid-style-4">
+                            <div class="pbmit-fld-contents">
                                 <div class="pbmit-ihbox-icon">
                                     <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512"
+                                            width="512" xmlns="http://www.w3.org/2000/svg">
                                             <g>
-                                                <g>
-                                                    <path d="m64.425 60.672c2.179-17.486 17.11-30.672 34.731-30.672h25.844c8.284 0 15-6.716 15-15s-6.716-15-15-15h-25.844c-32.724 0-60.454 24.489-64.501 56.962l-29.22 234.489c10.444-3.912 20.946-7.247 31.483-10.039z"></path>
-                                                    <path d="m477.345 56.962c-4.047-32.473-31.777-56.962-64.501-56.962h-25.844c-8.284 0-15 6.716-15 15s6.716 15 15 15h25.844c17.621 0 32.553 13.186 34.731 30.672l27.507 220.739c10.537 2.792 21.039 6.127 31.483 10.039z"></path>
-                                                </g>
-                                                <path d="m502.571 322.073c-70.053-28.021-141.09-28.021-211.143 0-5.694 2.278-9.428 7.793-9.428 13.927v32.023c-17.194-8.063-34.806-8.063-52 0v-32.023c0-6.134-3.734-11.649-9.429-13.927-70.053-28.021-141.09-28.021-211.143 0-5.694 2.278-9.428 7.793-9.428 13.927v81c0 52.383 42.617 95 95 95h40c52.383 0 95-42.617 95-95v-13.394c17.992-15.351 34.008-15.351 52 0v13.394c0 52.383 42.617 95 95 95h40c52.383 0 95-42.617 95-95v-81c0-6.134-3.734-11.649-9.429-13.927zm-302.571 94.927c0 35.841-29.159 65-65 65h-40c-35.841 0-65-29.159-65-65v-70.654c28.318-10.188 56.864-15.346 85-15.346s56.682 5.158 85 15.346zm282 0c0 35.841-29.159 65-65 65h-40c-35.841 0-65-29.159-65-65v-70.654c28.318-10.188 56.864-15.346 85-15.346s56.682 5.158 85 15.346z"></path>
+                                                <path
+                                                    d="m415.762 183.611-70-60c-3.507-3.007-8.203-4.23-12.731-3.314-4.528.914-8.381 3.863-10.447 7.995-15.948 31.895-48.006 51.708-83.666 51.708h-92.918c-30.327 0-55 24.673-55 55v112c0 46.302 19.179 88.203 50 118.198v-101.5c-9.059-6.332-15-16.832-15-28.698v-50c0-19.299 15.701-35 35-35h50c19.299 0 35 15.701 35 35v50c0 11.866-5.941 22.365-15 28.698v146.411c8.155 1.245 16.503 1.891 25 1.891 90.981 0 165-74.019 165-165v-152c0-4.379-1.914-8.539-5.238-11.389zm-89.762 166.389c-24.813 0-45-20.187-45-45s20.187-45 45-45 45 20.187 45 45-20.187 45-45 45z">
+                                                </path>
+                                                <circle cx="326" cy="305" r="15"></circle>
+                                                <path
+                                                    d="m211 280h-50c-2.757 0-5 2.243-5 5v50c0 2.757 2.243 5 5 5h50c2.757 0 5-2.243 5-5v-50c0-2.757-2.243-5-5-5z">
+                                                </path>
+                                                <path d="m171 370h30v142h-30z"></path>
+                                                <path
+                                                    d="m21 275v30c0 22.091 17.909 40 40 40v-110c-22.091 0-40 17.909-40 40z">
+                                                </path>
+                                                <path
+                                                    d="m316 0h-129.01c-32.656 0-61.478 20.698-72.477 50.624-52.515 5.738-93.513 50.358-93.513 104.376v62.604c11.348-7.932 25.135-12.604 40-12.604h5.484c12.154-32.106 43.205-55 79.516-55h92.918c24.223 0 46-13.459 56.833-35.124 6.241-12.482 17.665-21.225 31.344-23.986 2.918-.59 5.919-.891 8.908-.891 10.734 0 21.135 3.849 29.286 10.837l69.998 59.998c9.985 8.559 15.713 21.013 15.713 34.166v10c14.865 0 28.652 4.672 40 12.604v-42.604c0-96.495-78.504-175-175-175z">
+                                                </path>
+                                                <path
+                                                    d="m451 235v110c22.091 0 40-17.909 40-40v-30c0-22.091-17.909-40-40-40z">
+                                                </path>
                                             </g>
                                         </svg>
                                     </div>
                                 </div>
-                                <h2 class="pbmit-element-title">Stylish <br> Eyewear</h2>
+                                <div class="pbmit-contents-box">
+                                    <h4 class="pbmit-fid-counter">
+                                        <span class="pbmit-fid-before"></span>
+                                        <span class="pbmit-number-rotate numinate"
+                                            data-appear-animation="animateDigits"
+                                            data-from="0"
+                                            data-to="6"
+                                            data-interval="10">
+                                            6
+                                        </span>
+
+                                        <span class="pbmit-fid"><span>+</span></span>
+
+                                    </h4>
+
+                                    <h3 class="pbmit-fid-title">
+                                        Comprehensive Eye Care Services
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fid-style-4-wrap">
+                        <div class="pbminfotech-ele-fid-style-4">
+                            <div class="pbmit-fld-contents">
+                                <div class="pbmit-ihbox-icon">
+                                    <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
+                                        <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512"
+                                            width="512" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path
+                                                    d="m156.412 175.001c10.458 10.145 29.247 24.999 49.588 24.999 20.336 0 39.121-14.848 49.587-25-10.466-10.152-29.251-25-49.587-25-20.338 0-39.122 14.849-49.588 25.001zm64.588-.001c0 8.284-6.716 15-15 15s-15-6.716-15-15 6.716-15 15-15 15 6.716 15 15z">
+                                                </path>
+                                                <path
+                                                    d="m497 0h-482c-8.284 0-15 6.716-15 15v380c0 8.284 6.716 15 15 15h158.084c-4.561-10.764-7.084-22.593-7.084-35 0-8.672 1.237-17.059 3.536-25h-54.536c-8.284 0-15-6.716-15-15 0-13.785-11.215-25-25-25-8.284 0-15-6.716-15-15v-180c0-8.284 6.716-15 15-15 13.785 0 25-11.215 25-25 0-8.284 6.716-15 15-15h282c8.284 0 15 6.716 15 15 0 13.785 11.215 25 25 25 8.284 0 15 6.716 15 15v180c0 8.284-6.716 15-15 15-13.785 0-25 11.215-25 25 0 8.284-6.716 15-15 15h-54.536c2.3 7.941 3.536 16.328 3.536 25 0 12.407-2.524 24.236-7.084 35h158.084c8.284 0 15-6.716 15-15v-380c0-8.284-6.716-15-15-15z">
+                                                </path>
+                                                <path
+                                                    d="m422 282.079v-154.158c-18.291-5.19-32.73-19.63-37.921-37.921h-256.158c-5.19 18.291-19.63 32.73-37.921 37.921v154.158c18.291 5.19 32.73 19.63 37.921 37.921h56.892c16.476-21.276 42.257-35 71.187-35s54.711 13.724 71.187 35h56.892c5.191-18.291 19.63-32.73 37.921-37.921zm-86-162.079h40c8.284 0 15 6.716 15 15s-6.716 15-15 15h-40c-8.284 0-15-6.716-15-15s6.716-15 15-15zm0 60h40c8.284 0 15 6.716 15 15s-6.716 15-15 15h-40c-8.284 0-15-6.716-15-15s6.716-15 15-15zm-211.808 4.251c-4.257-5.433-4.257-13.069 0-18.502 1.464-1.868 36.367-45.749 81.808-45.749s80.344 43.881 81.808 45.749c4.257 5.433 4.257 13.069 0 18.502-1.464 1.868-36.367 45.749-81.808 45.749s-80.344-43.881-81.808-45.749zm131.808 85.749c-8.284 0-15-6.716-15-15s6.716-15 15-15h120c8.284 0 15 6.716 15 15s-6.716 15-15 15z">
+                                                </path>
+                                                <path
+                                                    d="m256 315c-33.084 0-60 26.916-60 60s26.916 60 60 60 60-26.916 60-60-26.916-60-60-60zm0 75c-8.284 0-15-6.716-15-15s6.716-15 15-15 15 6.716 15 15-6.716 15-15 15z">
+                                                </path>
+                                                <path
+                                                    d="m216 455.606v41.394c0 5.766 3.306 11.021 8.502 13.52 5.197 2.497 11.365 1.797 15.868-1.807l15.63-12.504 15.63 12.504c2.712 2.17 6.027 3.287 9.372 3.287 2.208 0 4.43-.487 6.496-1.48 5.196-2.498 8.502-7.754 8.502-13.52v-41.394c-12.057 6.007-25.639 9.394-40 9.394s-27.943-3.387-40-9.394z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="pbmit-contents-box">
+                                    <h4 class="pbmit-fid-counter">
+                                        <span class="pbmit-fid-before"></span>
+                                        <span class="pbmit-number-rotate numinate"
+                                            data-appear-animation="animateDigits"
+                                            data-from="0"
+                                            data-to="25"
+                                            data-interval="10">
+                                            25
+                                        </span>
+                                        <span class="pbmit-fid"><span>+</span></span>
+                                    </h4>
+                                    <h3 class="pbmit-fid-title">
+                                        Years of Trusted Eye Care
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="pbmit-bottom-text text-center mt-xl-5 mt-4">
+            <span>Free</span> Estimate or schedule an appointment with us <a href="contact-us.html">Contact Us</a>
+        </div> -->
+    </div>
+</section>
+<!-- Why Choose end -->
+
+<!-- About Us Start -->
+<section class="pbmit-bg-color-secondary about-us-two-section animation animated fadeIn">
+    <div class="tween-effect-style-wrap">
+        <div class="pbmit-ele-tween-effect pbmit-tween-image pbmit-tween-effect-style-1">
+            <div class="pbmit-tween-effect" data-x-start="0" data-x-end="150" data-y-start="0" data-y-end="0"
+                data-scale-x-start="1" data-scale-x-end=" 1" data-skew-x-start=" 0deg" data-skew-x-end="0deg"
+                data-skew-y-start=" 0deg" data-skew-y-end=" 0deg" data-rotate-x-start="0" data-rotate-x-end="0">
+                <img src="assets/images/resource/png-icon.png" class="img-fluid" alt="video-icon">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-xl-6 pbmit-sticky-column">
+                <div class="left-area">
+                    <div class="d-flex flex-column gap-20">
+                        <div class="about-img">
+                            <img src="assets/images/resource/advantage.jpg" class="img-fluid" alt="Advantage Image">
+                        </div>
+                        <div class="rating-highlight">
+                            <div class="pbmit-custom-title">
+                                <h2>Our Best Skilled doctors, Trust Score 4.5</h2>
+                            </div>
+                            <div class="rating-icon-wrap">
+                                <div class="rating-icon">
+                                    <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star" viewbox="0 0 1000 1000"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="rating-icon">
+                                    <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star" viewbox="0 0 1000 1000"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="rating-icon">
+                                    <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star" viewbox="0 0 1000 1000"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="rating-icon">
+                                    <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star" viewbox="0 0 1000 1000"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="rating-icon">
+                                    <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star" viewbox="0 0 1000 1000"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-xl-6">
+                <div class="right-area">
+                    <div class="pbmit-custom-heading animation-style3">
+                        <h2 class="pbmit-title">Expert Eye Care for Clearer, Healthier Vision</h2>
+                    </div>
+                    <div class="pbmit-ihbox-style-18">
+                        <div class="pbmit-ihbox-box">
+                            <div class="pbmit-ihbox-icon">
+                                <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
+                                    <svg enable-background="new 0 0 512 512" height="512" viewbox="0 0 512 512"
+                                        width="512" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <g>
+                                                <path
+                                                    d="m497 42h-30v410c0 8.284-6.716 15-15 15h-270c-8.284 0-15-6.716-15-15v-410h-30c-8.284 0-15 6.716-15 15v440c0 8.284 6.716 15 15 15h360c8.284 0 15-6.716 15-15v-440c0-8.284-6.716-15-15-15z">
+                                                </path>
+                                                <path
+                                                    d="m264.5 77h105c8.284 0 15-6.716 15-15v-22c0-22.056-17.944-40-40-40h-55c-22.056 0-40 17.944-40 40v22c0 8.284 6.716 15 15 15z">
+                                                </path>
+                                                <path
+                                                    d="m267.412 197.001c10.458 10.145 29.247 24.999 49.588 24.999 20.336 0 39.121-14.848 49.587-25-10.466-10.152-29.251-25-49.587-25-20.338 0-39.122 14.849-49.588 25.001zm64.588-.001c0 8.284-6.716 15-15 15s-15-6.716-15-15 6.716-15 15-15 15 6.716 15 15z">
+                                                </path>
+                                                <path
+                                                    d="m437 42h-22.5v20c0 24.813-20.187 45-45 45h-105c-24.813 0-45-20.187-45-45v-20h-22.5v395h240zm-60 350h-120c-8.284 0-15-6.716-15-15s6.716-15 15-15h120c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-70h-120c-8.284 0-15-6.716-15-15s6.716-15 15-15h120c8.284 0 15 6.716 15 15s-6.716 15-15 15zm21.808-115.749c-1.464 1.868-36.367 45.749-81.808 45.749s-80.344-43.881-81.808-45.749c-4.256-5.433-4.256-13.069 0-18.502 1.464-1.868 36.367-45.749 81.808-45.749s80.344 43.881 81.808 45.749c4.256 5.433 4.256 13.069 0 18.502z">
+                                                </path>
+                                                <path d="m0 152h75v260h-75z"></path>
+                                                <path
+                                                    d="m50 62h-25c-13.807 0-25 11.193-25 25v35h75v-35c0-13.807-11.193-25-25-25z">
+                                                </path>
+                                                <path
+                                                    d="m23.22 501.59c1.994 6.203 7.764 10.41 14.28 10.41s12.286-4.207 14.28-10.41l19.154-59.59h-66.868z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
                             </div>
                             <div class="pbmit-ihbox-contents">
-                                <div class="pbmit-heading-desc">Explore our wide range of fashionable, high-quality frames designed to suit you.</div>
+                                <h2 class="pbmit-element-title">
+                                    Complete eye care focused on accurate diagnosis, advanced treatment and better vision.
+                                </h2>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="pbmit-bottom-text text-center mt-md-5 mt-4">
-            <span>Free</span> Estimate or schedule an appointment with us <a href="contact-us.html">Contact us</a>
-        </div>
-    </div>
-</section>
-<!-- Why Choose Us end -->
-
-<!-- Pricing Start -->
-<section class="section-xxl">
-    <div class="mx-5 rounded-20 pbmit-bg-color-light pricing-section-one">
-        <div class="container">
-            <div class="tween-effect-style-1-wrap first">
-                <div class="pbmit-ele-tween-effect pbmit-tween-image pbmit-tween-effect-style-1">
-                    <div class="pbmit-tween-effect" data-x-start="0" data-x-end="30" data-y-start="0" data-y-end="0" data-scale-x-start="1" data-scale-x-end=" 1" data-skew-x-start=" 0deg" data-skew-x-end="0deg" data-skew-y-start=" 0deg" data-skew-y-end=" 0deg" data-rotate-x-start="0" data-rotate-x-end="0">
-                        <img src="images/demo-1/pricing-cicle.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="tween-effect-style-1-wrap second">
-                <div class="pbmit-ele-tween-effect pbmit-tween-image pbmit-tween-effect-style-1">
-                    <div class="pbmit-tween-effect" data-x-start="0" data-x-end="0" data-y-start="0" data-y-end="0" data-scale-x-start="0.6" data-scale-x-end=" 1.01" data-skew-x-start=" 0deg" data-skew-x-end="0deg" data-skew-y-start=" 0deg" data-skew-y-end=" 0deg" data-rotate-x-start="0" data-rotate-x-end="0" style="transform: translate(0%, 0%) scale(0.873512) skew(0deg, 0deg) rotate(0deg);">
-                        <img src="images/demo-1/pricing-frame.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 pe-md-5 pt-md-5 full-width-1200">
-                    <div class="pbmit-heading-subheading animation-style3">
-                        <h4 class="pbmit-subtitle">Reason</h4>
-                        <h2 class="pbmit-title">Simple and flexible pricing.</h2>
-                        <div class="pbmit-heading-desc">
-                            Vision care committed to providing world-class eye care with a focus on innovation.
-                        </div>
-                    </div>
-                    <div class="pricing-toggle">
-                        <span class="pricing-toggler" id="filt-monthly">Monthly</span>
-                        <input type="checkbox" id="switcher" class="pricing-check">
-                        <span class="pricing-toggler" id="filt-yearly">Yearly</span>
-                    </div>
-                </div>
-                <div class="col-md-8 full-width-1200">
-                    <div class="pbminfotech-ele-ptable-style-1">
-                        <div class="pbmit-ptable-cols row">
-                            <div class="pbmit-ptable-col col-md-6">
-                                <div class="pbmit-pricing-table-box">
-                                    <div class="pbmit-head-wrap">
-                                        <div class="pbmit-heading-box">
-                                            <h3 class="pbminfotech-ptable-heading">Basic Plan</h3>
-                                        </div>
-                                        <div class="pbmit-price-wrapper" id="monthly-basic">
-                                            <div class="pbmit-ptable-price-w">
-                                                <div class="pbminfotech-ptable-symbol">$</div>
-                                                <div class="pbminfotech-ptable-price">29</div>
-                                            </div>
-                                            <div class="pbminfotech-ptable-frequency">/monthly</div>
-                                        </div>
-                                        <div class="pbmit-price-wrapper hide" id="yearly-basic">
-                                            <div class="pbmit-ptable-price-w">
-                                                <div class="pbminfotech-ptable-symbol">$</div>
-                                                <div class="pbminfotech-ptable-price">99</div>
-                                            </div>
-                                            <div class="pbminfotech-ptable-frequency">/yearly</div>
-                                        </div>
-                                    </div>
-                                    <div class="pbmit-ptable-inner">
-                                        <div class="pbmit-ptable-desc">
-                                            <div class="pbminfotech-ptable-desc">Affordable, transparent pricing for quality eye care and surgical services.</div>
-                                        </div>
-                                        <div class="pbminfotech-ptable-btn">
-                                            <div class="pbmit-price-btn">
-                                                <a class="pbmit-btn" href="#">
-                                                    <span class="pbmit-button-content-wrapper">
-                                                        <span class="pbmit-button-text-wrap">
-                                                            <span class="pbmit-button-text" data-text="Purchase now">
-                                                                <span>Purchase now</span>
-                                                            </span>
-                                                        </span>
-                                                        <span class="pbmit-button-icon">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" height="512" viewbox="0 0 24 24" width="512">
-                                                                <path d="m21.706 12.708-7 7a1 1 0 0 1 -1.414-1.414l5.294-5.294h-15.586a1 1 0 0 1 0-2h15.586l-5.293-5.293a1 1 0 0 1 1.414-1.414l7 7a1 1 0 0 1 0 1.416z" fill="rgb(0,0,0)"></path>
-                                                            </svg>
-                                                        </span>
-                                                    </span>
-                                                </a>
+                    <p class="pbmit-desc">
+                        Lions Eye Hospital, Ghaziabad provides comprehensive eye care with experienced specialists,
+                        modern diagnostic facilities and patient-focused treatment. From routine eye check-ups to
+                        cataract, retina and glaucoma care, we are committed to protecting your vision at every stage.
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="ihbox-style-1-wrap">
+                                <div class="pbmit-ihbox-style-1">
+                                    <div class="pbmit-ihbox-box">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
+                                                <svg enable-background="new 0 0 512 512" height="512"
+                                                    viewbox="0 0 512 512" width="512"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g>
+                                                        <path
+                                                            d="m194.778 356.345c-2.914-41.48-37.569-74.345-79.778-74.345s-76.864 32.865-79.778 74.345c20.059-21.14 48.404-34.345 79.778-34.345s59.719 13.205 79.778 34.345z">
+                                                        </path>
+                                                        <path
+                                                            d="m397 352c-44.112 0-80 35.888-80 80s35.888 80 80 80 80-35.888 80-80-35.888-80-80-80zm0 130c-27.57 0-50-22.43-50-50s22.43-50 50-50 50 22.43 50 50-22.43 50-50 50z">
+                                                        </path>
+                                                        <path
+                                                            d="m115 352c-44.112 0-80 35.888-80 80s35.888 80 80 80 80-35.888 80-80-35.888-80-80-80zm0 130c-27.57 0-50-22.43-50-50s22.43-50 50-50 50 22.43 50 50-22.43 50-50 50z">
+                                                        </path>
+                                                        <path
+                                                            d="m497 212h-17.565l-30.01-159.052c-5.789-30.68-32.652-52.948-63.873-52.948h-18.552c-8.284 0-15 6.716-15 15s6.716 15 15 15h18.552c16.812 0 31.276 11.99 34.393 28.511l28.96 153.489h-151.905c-8.284 0-15 6.716-15 15v21.023c-17.194-8.063-34.806-8.063-52 0v-21.023c0-8.284-6.716-15-15-15h-151.905l28.96-153.489c3.117-16.521 17.582-28.511 34.393-28.511h18.552c8.284 0 15-6.716 15-15s-6.716-15-15-15h-18.552c-31.221 0-58.084 22.268-63.873 52.948l-30.01 159.052h-17.565c-8.284 0-15 6.716-15 15v120c0 4.472 1.968 8.475 5.072 11.223 1.999-58.911 50.538-106.223 109.928-106.223s107.929 47.312 109.928 106.223c3.104-2.748 5.072-6.751 5.072-11.223v-63.394c17.992-15.351 34.008-15.351 52 0v63.394c0 4.472 1.968 8.475 5.072 11.223 1.999-58.911 50.538-106.223 109.928-106.223s107.929 47.312 109.928 106.223c3.104-2.748 5.072-6.751 5.072-11.223v-120c0-8.284-6.716-15-15-15z">
+                                                        </path>
+                                                        <path
+                                                            d="m476.778 356.345c-2.914-41.48-37.569-74.345-79.778-74.345s-76.864 32.865-79.778 74.345c20.059-21.14 48.404-34.345 79.778-34.345s59.719 13.205 79.778 34.345z">
+                                                        </path>
+                                                    </g>
+                                                </svg>
                                             </div>
                                         </div>
-                                        <div class="pbmit-ptable-lines-w">
-                                            <div class="pbmit-ptable-line ">
-                                                <div class="pbmit-ptable-line-svg">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                                        <g>
-                                                            <g>
-                                                                <path d="M504.502,75.496c-9.997-9.998-26.205-9.998-36.204,0L161.594,382.203L43.702,264.311c-9.997-9.998-26.205-9.997-36.204,0 c-9.998,9.997-9.998,26.205,0,36.203l135.994,135.992c9.994,9.997,26.214,9.99,36.204,0L504.502,111.7 C514.5,101.703,514.499,85.494,504.502,75.496z"></path>
-                                                            </g>
-                                                        </g>
-                                                    </svg>
-                                                </div>
-                                                <span>Free vision test included</span>
-                                            </div>
-                                            <!-- .pbmit-ptable-line -->
-                                            <div class="pbmit-ptable-line ">
-                                                <div class="pbmit-ptable-line-svg">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                                        <g>
-                                                            <g>
-                                                                <path d="M504.502,75.496c-9.997-9.998-26.205-9.998-36.204,0L161.594,382.203L43.702,264.311c-9.997-9.998-26.205-9.997-36.204,0 c-9.998,9.997-9.998,26.205,0,36.203l135.994,135.992c9.994,9.997,26.214,9.99,36.204,0L504.502,111.7 C514.5,101.703,514.499,85.494,504.502,75.496z"></path>
-                                                            </g>
-                                                        </g>
-                                                    </svg>
-                                                </div>
-                                                <span>Affordable consultation free available</span>
-                                            </div>
-                                            <!-- .pbmit-ptable-line -->
-                                            <div class="pbmit-ptable-line ">
-                                                <div class="pbmit-ptable-line-svg">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                                        <g>
-                                                            <g>
-                                                                <path d="M504.502,75.496c-9.997-9.998-26.205-9.998-36.204,0L161.594,382.203L43.702,264.311c-9.997-9.998-26.205-9.997-36.204,0 c-9.998,9.997-9.998,26.205,0,36.203l135.994,135.992c9.994,9.997,26.214,9.99,36.204,0L504.502,111.7 C514.5,101.703,514.499,85.494,504.502,75.496z"></path>
-                                                            </g>
-                                                        </g>
-                                                    </svg>
-                                                </div>
-                                                <span>Basic eye exam covered</span>
-                                            </div>
-                                            <!-- .pbmit-ptable-line -->
-                                            <div class="pbmit-ptable-line pbmit-faded-line">
-                                                <div class="pbmit-ptable-line-svg">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                                        <g>
-                                                            <g>
-                                                                <path d="M504.502,75.496c-9.997-9.998-26.205-9.998-36.204,0L161.594,382.203L43.702,264.311c-9.997-9.998-26.205-9.997-36.204,0 c-9.998,9.997-9.998,26.205,0,36.203l135.994,135.992c9.994,9.997,26.214,9.99,36.204,0L504.502,111.7 C514.5,101.703,514.499,85.494,504.502,75.496z"></path>
-                                                            </g>
-                                                        </g>
-                                                    </svg>
-                                                </div>
-                                                <span>Prescription glasses discount offered</span>
-                                            </div>
-                                            <!-- .pbmit-ptable-line -->
+                                        <h2 class="pbmit-element-title">Affordable Eye Care</h2>
+                                        <div class="pbmit-heading-desc">
+                                            Quality eye care with clear guidance and treatment options focused on patient needs.
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="pbmit-pricing-table-featured-col pbmit-ptable-col col-md-6">
-                                <div class="pbmit-pricing-table-box">
-                                    <div class="pbmit-head-wrap">
-                                        <div class="pbmit-heading-box">
-                                            <h3 class="pbminfotech-ptable-heading">Advanced Plan</h3>
-                                            <div class="pbmit-feature-wrap">
-                                                <div class="pbmit-ptablebox-featured-w">popular</div>
+                        </div>
+                        <div class="col-md-6 pt-md-0 pt-4">
+                            <div class="ihbox-style-1-wrap">
+                                <div class="pbmit-ihbox-style-1">
+                                    <div class="pbmit-ihbox-box">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
+                                                <svg enable-background="new 0 0 512 512" height="512"
+                                                    viewbox="0 0 512 512" width="512"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g>
+                                                        <path
+                                                            d="m415.762 183.611-70-60c-3.507-3.007-8.203-4.23-12.731-3.314-4.528.914-8.381 3.863-10.447 7.995-15.948 31.895-48.006 51.708-83.666 51.708h-92.918c-30.327 0-55 24.673-55 55v112c0 46.302 19.179 88.203 50 118.198v-101.5c-9.059-6.332-15-16.832-15-28.698v-50c0-19.299 15.701-35 35-35h50c19.299 0 35 15.701 35 35v50c0 11.866-5.941 22.365-15 28.698v146.411c8.155 1.245 16.503 1.891 25 1.891 90.981 0 165-74.019 165-165v-152c0-4.379-1.914-8.539-5.238-11.389zm-89.762 166.389c-24.813 0-45-20.187-45-45s20.187-45 45-45 45 20.187 45 45-20.187 45-45 45z">
+                                                        </path>
+                                                        <circle cx="326" cy="305" r="15"></circle>
+                                                        <path
+                                                            d="m211 280h-50c-2.757 0-5 2.243-5 5v50c0 2.757 2.243 5 5 5h50c2.757 0 5-2.243 5-5v-50c0-2.757-2.243-5-5-5z">
+                                                        </path>
+                                                        <path d="m171 370h30v142h-30z"></path>
+                                                        <path
+                                                            d="m21 275v30c0 22.091 17.909 40 40 40v-110c-22.091 0-40 17.909-40 40z">
+                                                        </path>
+                                                        <path
+                                                            d="m316 0h-129.01c-32.656 0-61.478 20.698-72.477 50.624-52.515 5.738-93.513 50.358-93.513 104.376v62.604c11.348-7.932 25.135-12.604 40-12.604h5.484c12.154-32.106 43.205-55 79.516-55h92.918c24.223 0 46-13.459 56.833-35.124 6.241-12.482 17.665-21.225 31.344-23.986 2.918-.59 5.919-.891 8.908-.891 10.734 0 21.135 3.849 29.286 10.837l69.998 59.998c9.985 8.559 15.713 21.013 15.713 34.166v10c14.865 0 28.652 4.672 40 12.604v-42.604c0-96.495-78.504-175-175-175z">
+                                                        </path>
+                                                        <path
+                                                            d="m451 235v110c22.091 0 40-17.909 40-40v-30c0-22.091-17.909-40-40-40z">
+                                                        </path>
+                                                    </g>
+                                                </svg>
                                             </div>
                                         </div>
-                                        <div class="pbmit-price-wrapper" id="monthly-advanced">
-                                            <div class="pbmit-ptable-price-w">
-                                                <div class="pbminfotech-ptable-symbol">$</div>
-                                                <div class="pbminfotech-ptable-price">69</div>
-                                            </div>
-                                            <div class="pbminfotech-ptable-frequency">/monthly</div>
-                                        </div>
-                                        <div class="pbmit-price-wrapper hide" id="yearly-advanced">
-                                            <div class="pbmit-ptable-price-w">
-                                                <div class="pbminfotech-ptable-symbol">$</div>
-                                                <div class="pbminfotech-ptable-price">129</div>
-                                            </div>
-                                            <div class="pbminfotech-ptable-frequency">/yearly</div>
+                                        <h2 class="pbmit-element-title">Complete Eye Care</h2>
+                                        <div class="pbmit-heading-desc">
+                                            Comprehensive services for cataract, retina, glaucoma, diabetic eye care and vision testing.
                                         </div>
                                     </div>
-                                    <div class="pbmit-ptable-inner">
-                                        <div class="pbmit-ptable-desc">
-                                            <div class="pbminfotech-ptable-desc">Affordable, transparent pricing for quality eye care and surgical services.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-4">
+                            <div class="ihbox-style-1-wrap">
+                                <div class="pbmit-ihbox-style-1">
+                                    <div class="pbmit-ihbox-box">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
+                                                <svg enable-background="new 0 0 512 512" height="512"
+                                                    viewbox="0 0 512 512" width="512"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g>
+                                                        <g>
+                                                            <path
+                                                                d="m64.425 60.672c2.179-17.486 17.11-30.672 34.731-30.672h25.844c8.284 0 15-6.716 15-15s-6.716-15-15-15h-25.844c-32.724 0-60.454 24.489-64.501 56.962l-29.22 234.489c10.444-3.912 20.946-7.247 31.483-10.039z">
+                                                            </path>
+                                                            <path
+                                                                d="m477.345 56.962c-4.047-32.473-31.777-56.962-64.501-56.962h-25.844c-8.284 0-15 6.716-15 15s6.716 15 15 15h25.844c17.621 0 32.553 13.186 34.731 30.672l27.507 220.739c10.537 2.792 21.039 6.127 31.483 10.039z">
+                                                            </path>
+                                                        </g>
+                                                        <path
+                                                            d="m502.571 322.073c-70.053-28.021-141.09-28.021-211.143 0-5.694 2.278-9.428 7.793-9.428 13.927v32.023c-17.194-8.063-34.806-8.063-52 0v-32.023c0-6.134-3.734-11.649-9.429-13.927-70.053-28.021-141.09-28.021-211.143 0-5.694 2.278-9.428 7.793-9.428 13.927v81c0 52.383 42.617 95 95 95h40c52.383 0 95-42.617 95-95v-13.394c17.992-15.351 34.008-15.351 52 0v13.394c0 52.383 42.617 95 95 95h40c52.383 0 95-42.617 95-95v-81c0-6.134-3.734-11.649-9.429-13.927zm-302.571 94.927c0 35.841-29.159 65-65 65h-40c-35.841 0-65-29.159-65-65v-70.654c28.318-10.188 56.864-15.346 85-15.346s56.682 5.158 85 15.346zm282 0c0 35.841-29.159 65-65 65h-40c-35.841 0-65-29.159-65-65v-70.654c28.318-10.188 56.864-15.346 85-15.346s56.682 5.158 85 15.346z">
+                                                        </path>
+                                                    </g>
+                                                </svg>
+                                            </div>
                                         </div>
-                                        <div class="pbminfotech-ptable-btn">
-                                            <div class="pbmit-price-btn">
-                                                <a class="pbmit-btn" href="#">
-                                                    <span class="pbmit-button-content-wrapper">
-                                                        <span class="pbmit-button-text-wrap">
-                                                            <span class="pbmit-button-text" data-text="Purchase now">
-                                                                <span>Purchase now</span>
-                                                            </span>
-                                                        </span>
-                                                        <span class="pbmit-button-icon">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" height="512" viewbox="0 0 24 24" width="512">
-                                                                <path d="m21.706 12.708-7 7a1 1 0 0 1 -1.414-1.414l5.294-5.294h-15.586a1 1 0 0 1 0-2h15.586l-5.293-5.293a1 1 0 0 1 1.414-1.414l7 7a1 1 0 0 1 0 1.416z" fill="rgb(0,0,0)"></path>
-                                                            </svg>
-                                                        </span>
-                                                    </span>
-                                                </a>
+                                        <h2 class="pbmit-element-title">Personalized Patient Care</h2>
+                                        <div class="pbmit-heading-desc">
+                                            Every patient receives attentive care and treatment planned around their individual needs.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-4">
+                            <div class="ihbox-style-1-wrap">
+                                <div class="pbmit-ihbox-style-1">
+                                    <div class="pbmit-ihbox-box">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
+                                                <svg enable-background="new 0 0 512 512" height="512"
+                                                    viewbox="0 0 512 512" width="512"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g>
+                                                        <path
+                                                            d="m361 256c0-57.897-47.103-105-105-105s-105 47.103-105 105 47.103 105 105 105 105-47.103 105-105zm-105 55c-30.327 0-55-24.673-55-55s24.673-55 55-55 55 24.673 55 55-24.673 55-55 55z">
+                                                        </path>
+                                                        <circle cx="256" cy="256" r="25"></circle>
+                                                        <path
+                                                            d="m256 0c-141.159 0-256 114.841-256 256s114.841 256 256 256 256-114.841 256-256-114.841-256-256-256zm180 271h-45.838c-1.527 13.753-5.128 26.887-10.484 39.085l39.706 22.924c7.174 4.142 9.632 13.315 5.49 20.49-2.778 4.812-7.82 7.503-13.004 7.503-2.545 0-5.124-.648-7.486-2.013l-39.745-22.947c-8.051 10.898-17.698 20.546-28.596 28.596l22.946 39.745c4.142 7.175 1.684 16.349-5.49 20.49-2.362 1.364-4.941 2.013-7.486 2.013-5.185 0-10.226-2.69-13.004-7.503l-22.924-39.706c-12.199 5.355-25.333 8.956-39.086 10.483v45.84c0 8.284-6.716 15-15 15s-15-6.716-15-15v-45.838c-13.753-1.527-26.887-5.128-39.085-10.483l-22.924 39.706c-2.778 4.812-7.82 7.503-13.004 7.503-2.545 0-5.123-.648-7.486-2.013-7.174-4.142-9.632-13.315-5.49-20.49l22.946-39.745c-10.898-8.051-20.546-17.698-28.596-28.596l-39.744 22.946c-2.362 1.364-4.941 2.013-7.486 2.013-5.185 0-10.226-2.69-13.004-7.503-4.142-7.175-1.684-16.349 5.49-20.49l39.706-22.924c-5.355-12.199-8.956-25.333-10.484-39.086h-45.838c-8.284 0-15-6.716-15-15s6.716-15 15-15h45.838c1.527-13.753 5.128-26.887 10.484-39.085l-39.707-22.925c-7.174-4.142-9.632-13.315-5.49-20.49 4.142-7.174 13.314-9.635 20.49-5.49l39.745 22.947c8.051-10.898 17.698-20.546 28.596-28.596l-22.946-39.745c-4.142-7.175-1.684-16.349 5.49-20.49 7.175-4.145 16.348-1.685 20.49 5.49l22.924 39.706c12.199-5.355 25.333-8.956 39.086-10.483v-45.839c0-8.284 6.716-15 15-15s15 6.716 15 15v45.838c13.753 1.527 26.887 5.128 39.086 10.483l22.924-39.706c4.141-7.174 13.314-9.635 20.49-5.49 7.174 4.142 9.632 13.315 5.49 20.49l-22.946 39.745c10.898 8.051 20.546 17.698 28.596 28.596l39.744-22.946c7.174-4.144 16.348-1.685 20.49 5.49s1.684 16.349-5.49 20.49l-39.706 22.924c5.355 12.199 8.956 25.333 10.484 39.086h45.838c8.284 0 15 6.716 15 15s-6.716 15-15 15z">
+                                                        </path>
+                                                    </g>
+                                                </svg>
                                             </div>
                                         </div>
-                                        <div class="pbmit-ptable-lines-w">
-                                            <div class="pbmit-ptable-line ">
-                                                <div class="pbmit-ptable-line-svg">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                                        <g>
-                                                            <g>
-                                                                <path d="M504.502,75.496c-9.997-9.998-26.205-9.998-36.204,0L161.594,382.203L43.702,264.311c-9.997-9.998-26.205-9.997-36.204,0 c-9.998,9.997-9.998,26.205,0,36.203l135.994,135.992c9.994,9.997,26.214,9.99,36.204,0L504.502,111.7 C514.5,101.703,514.499,85.494,504.502,75.496z"></path>
-                                                            </g>
-                                                        </g>
-                                                    </svg>
-                                                </div>
-                                                <span>Free vision test included</span>
-                                            </div>
-                                            <!-- .pbmit-ptable-line -->
-                                            <div class="pbmit-ptable-line ">
-                                                <div class="pbmit-ptable-line-svg">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                                        <g>
-                                                            <g>
-                                                                <path d="M504.502,75.496c-9.997-9.998-26.205-9.998-36.204,0L161.594,382.203L43.702,264.311c-9.997-9.998-26.205-9.997-36.204,0 c-9.998,9.997-9.998,26.205,0,36.203l135.994,135.992c9.994,9.997,26.214,9.99,36.204,0L504.502,111.7 C514.5,101.703,514.499,85.494,504.502,75.496z"></path>
-                                                            </g>
-                                                        </g>
-                                                    </svg>
-                                                </div>
-                                                <span>Affordable consultation free available</span>
-                                            </div>
-                                            <!-- .pbmit-ptable-line -->
-                                            <div class="pbmit-ptable-line ">
-                                                <div class="pbmit-ptable-line-svg">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                                        <g>
-                                                            <g>
-                                                                <path d="M504.502,75.496c-9.997-9.998-26.205-9.998-36.204,0L161.594,382.203L43.702,264.311c-9.997-9.998-26.205-9.997-36.204,0 c-9.998,9.997-9.998,26.205,0,36.203l135.994,135.992c9.994,9.997,26.214,9.99,36.204,0L504.502,111.7 C514.5,101.703,514.499,85.494,504.502,75.496z"></path>
-                                                            </g>
-                                                        </g>
-                                                    </svg>
-                                                </div>
-                                                <span>Basic eye exam covered</span>
-                                            </div>
-                                            <!-- .pbmit-ptable-line -->
-                                            <div class="pbmit-ptable-line pbmit-faded-line">
-                                                <div class="pbmit-ptable-line-svg">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                                        <g>
-                                                            <g>
-                                                                <path d="M504.502,75.496c-9.997-9.998-26.205-9.998-36.204,0L161.594,382.203L43.702,264.311c-9.997-9.998-26.205-9.997-36.204,0 c-9.998,9.997-9.998,26.205,0,36.203l135.994,135.992c9.994,9.997,26.214,9.99,36.204,0L504.502,111.7 C514.5,101.703,514.499,85.494,504.502,75.496z"></path>
-                                                            </g>
-                                                        </g>
-                                                    </svg>
-                                                </div>
-                                                <span>Prescription glasses discount offered</span>
-                                            </div>
-                                            <!-- .pbmit-ptable-line -->
-                                            <div class="pbmit-ptable-line ">
-                                                <div class="pbmit-ptable-line-svg">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                                        <g>
-                                                            <g>
-                                                                <path d="M504.502,75.496c-9.997-9.998-26.205-9.998-36.204,0L161.594,382.203L43.702,264.311c-9.997-9.998-26.205-9.997-36.204,0 c-9.998,9.997-9.998,26.205,0,36.203l135.994,135.992c9.994,9.997,26.214,9.99,36.204,0L504.502,111.7 C514.5,101.703,514.499,85.494,504.502,75.496z"></path>
-                                                            </g>
-                                                        </g>
-                                                    </svg>
-                                                </div>
-                                                <span>Cataract screening cost effective</span>
-                                            </div>
-                                            <!-- .pbmit-ptable-line -->
+                                        <h2 class="pbmit-element-title">Experienced Specialists</h2>
+                                        <div class="pbmit-heading-desc">
+                                            Skilled eye care professionals providing dependable diagnosis and advanced treatment.
                                         </div>
                                     </div>
                                 </div>
@@ -1186,978 +922,168 @@ include('include/data.php');
         </div>
     </div>
 </section>
-<!-- Pricing Start -->
+<!-- About Us Start -->
 
-<!-- Team Start -->
-<section class="team-section-one">
+<!-- Work Start -->
+<section class="section-lgb pbmit-element-static-box-style-2">
     <div class="container">
-        <div class="tween-effect-style-wrap">
-            <div class="pbmit-ele-tween-effect pbmit-tween-image pbmit-tween-effect-style-1">
-                <div class="pbmit-tween-effect" data-x-start="0" data-x-end="8" data-y-start="-5" data-y-end="5" data-scale-x-start="1" data-scale-x-end=" 1" data-skew-x-start=" 0deg" data-skew-x-end="0deg" data-skew-y-start=" 0deg" data-skew-y-end=" 0deg" data-rotate-x-start="0" data-rotate-x-end="0">
-                    <img src="images/demo-1/team-bg.png" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="row g-0">
-            <div class="col-md-3 left-col full-width-1200">
-                <div class="pbmit-heading-subheading">
-                    <h4 class="pbmit-subtitle">team</h4>
-                </div>
-            </div>
-            <div class="col-md-9 right-col full-width-1200">
-                <div class="row">
-                    <div class="col-md-6 full-width-1200">
-                        <div class="pbmit-heading-subheading">
-                            <h4 class="pbmit-title">Meet ophtical care doctors</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-6 full-width-1200">
-                        <div>Our skilled optical care Doctors offer professional guidance, advanced treatments, and personalized solutions for all your eye health needs.</div>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <article class="pbmit-team-style-2 col-md-6">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-featured-inner">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/team/team-01.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="doctor-detail.html" title="Go to Dr. Jane Smith"></a>
-                            </div>
-                            <div class="pbminfotech-box-content">
-                                <div class="pbmit-box-title-wrap">
-                                    <h3 class="pbmit-team-title">
-                                        <a href="doctor-detail.html">Dr. Jane Smith</a>
-                                    </h3>
-                                    <div class="pbminfotech-box-team-position">Orthoptist</div>
-                                </div>
-                                <div class="pbmit-team-social-links">
-                                    <ul class="pbmit-social-links pbmit-team-social-links">
-                                        <li class="pbmit-social-li pbmit-social-facebook">
-                                            <a href="#" title="Facebook" target="_blank">
-                                                <span><i class="pbmit-base-icon-facebook-logo"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="pbmit-social-li pbmit-social-twitter">
-                                            <a href="#" title="Twitter" target="_blank">
-                                                <span><i class="pbmit-base-icon-twitter-2"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="pbmit-social-li pbmit-social-instagram">
-                                            <a href="#" title="Instagram" target="_blank">
-                                                <span><i class="pbmit-base-icon-instagram"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="pbmit-social-li pbmit-social-youtube">
-                                            <a href="#" title="Youtube" target="_blank">
-                                                <span><i class="pbmit-base-icon-youtube-play"></i></span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="pbmit-team-style-2 col-md-6">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-featured-inner">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/team/team-02.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="doctor-detail.html" title="Go to Dr. Mike Davis"></a>
-                            </div>
-                            <div class="pbminfotech-box-content">
-                                <div class="pbmit-box-title-wrap">
-                                    <h3 class="pbmit-team-title">
-                                        <a href="doctor-detail.html">Dr. Mike Davis</a>
-                                    </h3>
-                                    <div class="pbminfotech-box-team-position">Neuro-Ophthalmologist</div>
-                                </div>
-                                <div class="pbmit-team-social-links">
-                                    <ul class="pbmit-social-links pbmit-team-social-links">
-                                        <li class="pbmit-social-li pbmit-social-facebook">
-                                            <a href="#" title="Facebook" target="_blank">
-                                                <span><i class="pbmit-base-icon-facebook-logo"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="pbmit-social-li pbmit-social-twitter">
-                                            <a href="#" title="Twitter" target="_blank">
-                                                <span><i class="pbmit-base-icon-twitter-2"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="pbmit-social-li pbmit-social-linkedin">
-                                            <a href="#" title="LinkedIn" target="_blank">
-                                                <span><i class="pbmit-base-icon-linkedin-logo"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="pbmit-social-li pbmit-social-instagram">
-                                            <a href="#" title="Instagram" target="_blank">
-                                                <span><i class="pbmit-base-icon-instagram"></i></span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="pbmit-team-style-2 col-md-6">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-featured-inner">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/team/team-03.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="doctor-detail.html" title="Go to Dr. Jamie Oliver"></a>
-                            </div>
-                            <div class="pbminfotech-box-content">
-                                <div class="pbmit-box-title-wrap">
-                                    <h3 class="pbmit-team-title">
-                                        <a href="doctor-detail.html">Dr. Jamie Oliver</a>
-                                    </h3>
-                                    <div class="pbminfotech-box-team-position">Orthoptist</div>
-                                </div>
-                                <div class="pbmit-team-social-links">
-                                    <ul class="pbmit-social-links pbmit-team-social-links">
-                                        <li class="pbmit-social-li pbmit-social-facebook">
-                                            <a href="#" title="Facebook" target="_blank">
-                                                <span><i class="pbmit-base-icon-facebook-logo"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="pbmit-social-li pbmit-social-twitter">
-                                            <a href="#" title="Twitter" target="_blank">
-                                                <span><i class="pbmit-base-icon-twitter-2"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="pbmit-social-li pbmit-social-linkedin">
-                                            <a href="#" title="LinkedIn" target="_blank">
-                                                <span><i class="pbmit-base-icon-linkedin-logo"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="pbmit-social-li pbmit-social-instagram">
-                                            <a href="#" title="Instagram" target="_blank">
-                                                <span><i class="pbmit-base-icon-instagram"></i></span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="pbmit-team-style-2 col-md-6">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-featured-inner">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/team/team-04.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="doctor-detail.html" title="Go to Dr. Clare Smyth"></a>
-                            </div>
-                            <div class="pbminfotech-box-content">
-                                <div class="pbmit-box-title-wrap">
-                                    <h3 class="pbmit-team-title">
-                                        <a href="doctor-detail.html">Dr. Clare Smyth</a>
-                                    </h3>
-                                    <div class="pbminfotech-box-team-position">Optometrist</div>
-                                </div>
-                                <div class="pbmit-team-social-links">
-                                    <ul class="pbmit-social-links pbmit-team-social-links">
-                                        <li class="pbmit-social-li pbmit-social-facebook">
-                                            <a href="#" title="Facebook" target="_blank">
-                                                <span><i class="pbmit-base-icon-facebook-logo"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="pbmit-social-li pbmit-social-twitter">
-                                            <a href="#" title="Twitter" target="_blank">
-                                                <span><i class="pbmit-base-icon-twitter-2"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="pbmit-social-li pbmit-social-youtube">
-                                            <a href="#" title="Youtube" target="_blank">
-                                                <span><i class="pbmit-base-icon-youtube-play"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="pbmit-social-li pbmit-social-whatsapp">
-                                            <a href="#" title="Whatsapp" target="_blank">
-                                                <span><i class="pbmit-base-icon-whatsapp"></i></span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Team End -->
 
-<!-- Client Start -->
-<section class="client-section-one">
-    <div class="container">
-        <div class="swiper-slider" data-autoplay="true" data-allow-touch="true" data-loop="true" data-dots="false" data-arrows="false" data-columns="5" data-margin="30" data-effect="slide">
-            <div class="swiper-wrapper">
-                <!-- Slide1 -->
-                <article class="pbmit-client-style-1 swiper-slide">
-                    <div class="pbmit-border-wrapper">
-                        <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
-                            <div class="pbmit-client-hover-img">
-                                <img src="images/client/client-01-hover.png" alt="">
-                            </div>
-                            <div class="pbmit-featured-img-wrapper">
-                                <div class="pbmit-featured-wrapper">
-                                    <img src="images/client/client-01.png" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <!-- Slide2 -->
-                <article class="pbmit-client-style-1 swiper-slide">
-                    <div class="pbmit-border-wrapper">
-                        <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
-                            <div class="pbmit-client-hover-img">
-                                <img src="images/client/client-02-hover.png" alt="">
-                            </div>
-                            <div class="pbmit-featured-img-wrapper">
-                                <div class="pbmit-featured-wrapper">
-                                    <img src="images/client/client-02.png" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <!-- Slide3 -->
-                <article class="pbmit-client-style-1 swiper-slide">
-                    <div class="pbmit-border-wrapper">
-                        <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
-                            <div class="pbmit-client-hover-img">
-                                <img src="images/client/client-03-hover.png" alt="">
-                            </div>
-                            <div class="pbmit-featured-img-wrapper">
-                                <div class="pbmit-featured-wrapper">
-                                    <img src="images/client/client-03.png" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <!-- Slide4 -->
-                <article class="pbmit-client-style-1 swiper-slide">
-                    <div class="pbmit-border-wrapper">
-                        <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
-                            <div class="pbmit-client-hover-img">
-                                <img src="images/client/client-04-hover.png" alt="">
-                            </div>
-                            <div class="pbmit-featured-img-wrapper">
-                                <div class="pbmit-featured-wrapper">
-                                    <img src="images/client/client-04.png" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <!-- Slide5 -->
-                <article class="pbmit-client-style-1 swiper-slide">
-                    <div class="pbmit-border-wrapper">
-                        <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
-                            <div class="pbmit-client-hover-img">
-                                <img src="images/client/client-05-hover.png" alt="">
-                            </div>
-                            <div class="pbmit-featured-img-wrapper">
-                                <div class="pbmit-featured-wrapper">
-                                    <img src="images/client/client-05.png" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Client End -->
-
-<!-- Testimonial Start -->
-<section>
-    <div class="container">
-        <div class="pbmit-bg-color-secondary testimonial-one-inner rounded-20">
-            <div class="row g-0">
-                <div class="testimonial-bg-girl-img">
-                    <img src="images/demo-1/testimonial-bg-girl.png" alt="">
-                </div>
-                <div class="col-md-5 col-xl-6">
-                    <div class="testimonial-one-left-box">
-                        <div class="pbmit-heading-subheading animation-style3">
-                            <h2 class="pbmit-title">What our <br> customers <br> say?</h2>
-                        </div>
-                        <div class="rating-wrap">
-                            <div class="rating">
-                                <h2 class="pbmit-title">4.9 out of 5</h2>
-                                <div class="rating-icon-wrap">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="pbmit-desc">
-                                <p>Clutch average rating</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-7 col-xl-6">
-                    <div class="testimonial-one-right-box">
-                        <div class="testimonial-bg pbmit-bg-color-white rounded-20">
-                            <div class="swiper-slider" data-autoplay="true" data-allow-touch="true" data-loop="true" data-dots="false" data-arrows="true" data-columns="1" data-margin="30" data-effect="slide">
-                                <div class="swiper-wrapper">
-                                    <!-- Slide1 -->
-                                    <article class="pbmit-testimonial-style-2 swiper-slide">
-                                        <div class="pbminfotech-post-item">
-                                            <div class="pbmit-featured-img-wrapper">
-                                                <div class="pbmit-featured-wrapper">
-                                                    <img src="images/demo-1/testimonial/testimonial-img-01.jpg" class="img-fluid" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="pbminfotech-box-desc">
-                                                <blockquote class="pbminfotech-testimonial-text">
-                                                    <p>“I love this eye hospital—not only did they offer the care and attention I needed, but the range of advanced treatments and personal service was outstanding. Absolutely worth it. I highly recommend them to anyone looking for expert eye care with a compassionate touch.”</p>
-                                                </blockquote>
-                                            </div>
-                                            <div class="pbminfotech-box-author">
-                                                <div class="pbmit-auther-title-wrapper">
-                                                    <h3 class="pbminfotech-box-title">Naomi Violet</h3>
-                                                    <div class="pbminfotech-box-star-ratings">
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="pbminfotech-testimonial-detail">President, southern behavioural services</div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <!-- Slide2 -->
-                                    <article class="pbmit-testimonial-style-2 swiper-slide">
-                                        <div class="pbminfotech-post-item">
-                                            <div class="pbmit-featured-img-wrapper">
-                                                <div class="pbmit-featured-wrapper">
-                                                    <img src="images/demo-1/testimonial/testimonial-img-02.jpg" class="img-fluid" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="pbminfotech-box-desc">
-                                                <blockquote class="pbminfotech-testimonial-text">
-                                                    <p>“I had an incredible experience here. From front desk to the surgeons, everything was smooth and professional. The technology they use is top-notch, and care I received was beyond my expectations. The staff truly care about your comfort, and always care for you.”</p>
-                                                </blockquote>
-                                            </div>
-                                            <div class="pbminfotech-box-author">
-                                                <div class="pbmit-auther-title-wrapper">
-                                                    <h3 class="pbminfotech-box-title">Alex Zander</h3>
-                                                    <div class="pbminfotech-box-star-ratings">
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="pbminfotech-testimonial-detail">General manager of taj skyline</div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <!-- Slide3 -->
-                                    <article class="pbmit-testimonial-style-2 swiper-slide">
-                                        <div class="pbminfotech-post-item">
-                                            <div class="pbmit-featured-img-wrapper">
-                                                <div class="pbmit-featured-wrapper">
-                                                    <img src="images/demo-1/testimonial/testimonial-img-03.jpg" class="img-fluid" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="pbminfotech-box-desc">
-                                                <blockquote class="pbminfotech-testimonial-text">
-                                                    <p>“This hospital has everything I needed—from thorough exams to laser treatment—under one roof. The team explained every step, and the entire process was stress-free. They made a scary process feel completely manageable. I’ve never felt so confident in my vision care.”</p>
-                                                </blockquote>
-                                            </div>
-                                            <div class="pbminfotech-box-author">
-                                                <div class="pbmit-auther-title-wrapper">
-                                                    <h3 class="pbminfotech-box-title">Adeline Wood</h3>
-                                                    <div class="pbminfotech-box-star-ratings">
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="pbminfotech-testimonial-detail">Working as a assistant professor</div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <!-- Slide4 -->
-                                    <article class="pbmit-testimonial-style-2 swiper-slide">
-                                        <div class="pbminfotech-post-item">
-                                            <div class="pbmit-featured-img-wrapper">
-                                                <div class="pbmit-featured-wrapper">
-                                                    <img src="images/demo-1/testimonial/testimonial-img-04.jpg" class="img-fluid" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="pbminfotech-box-desc">
-                                                <blockquote class="pbminfotech-testimonial-text">
-                                                    <p>“I was nervous before my cataract surgery, but the doctors here made me feel completely at ease. The results were life-changing & follow-up care was just as excellent as the procedure itself. They were patient, kind, and incredibly skilled. I feel like I have a new pair of eyes!”</p>
-                                                </blockquote>
-                                            </div>
-                                            <div class="pbminfotech-box-author">
-                                                <div class="pbmit-auther-title-wrapper">
-                                                    <h3 class="pbminfotech-box-title">Anna Briggs</h3>
-                                                    <div class="pbminfotech-box-star-ratings">
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="pbminfotech-testimonial-detail">Adviser of constituent assembly</div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <!-- Slide5 -->
-                                    <article class="pbmit-testimonial-style-2 swiper-slide">
-                                        <div class="pbminfotech-post-item">
-                                            <div class="pbmit-featured-img-wrapper">
-                                                <div class="pbmit-featured-wrapper">
-                                                    <img src="images/demo-1/testimonial/testimonial-img-05.jpg" class="img-fluid" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="pbminfotech-box-desc">
-                                                <blockquote class="pbminfotech-testimonial-text">
-                                                    <p>“Outstanding care and a wonderful team! I came in for a second opinion and stayed for treatment. They truly listen and offer solutions that are tailored to your individual vision needs. Their attention to detail and empathy stood out. I trust them fully with my eye health”</p>
-                                                </blockquote>
-                                            </div>
-                                            <div class="pbminfotech-box-author">
-                                                <div class="pbmit-auther-title-wrapper">
-                                                    <h3 class="pbminfotech-box-title">Martin Bailey</h3>
-                                                    <div class="pbminfotech-box-star-ratings">
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="pbminfotech-testimonial-detail">Founder & CEO of Ophtical fiber</div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <!-- Slide6 -->
-                                    <article class="pbmit-testimonial-style-2 swiper-slide">
-                                        <div class="pbminfotech-post-item">
-                                            <div class="pbmit-featured-img-wrapper">
-                                                <div class="pbmit-featured-wrapper">
-                                                    <img src="images/demo-1/testimonial/testimonial-img-06.jpg" class="img-fluid" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="pbminfotech-box-desc">
-                                                <blockquote class="pbminfotech-testimonial-text">
-                                                    <p>“I couldn’t be more impressed. The staff is friendly, the doctors are incredibly knowledgeable, and the clinic is modern and well-equipped. I received treatment that exceeded my expectations. They made me feel welcome from day one. I’m grateful to doctors and staff.”</p>
-                                                </blockquote>
-                                            </div>
-                                            <div class="pbminfotech-box-author">
-                                                <div class="pbmit-auther-title-wrapper">
-                                                    <h3 class="pbminfotech-box-title">Hazel Jenkins</h3>
-                                                    <div class="pbminfotech-box-star-ratings">
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                        <i class="pbmit-base-icon-pointed-star pbmit-active"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="pbminfotech-testimonial-detail">Security supervisor in the UK</div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Testimonial End -->
-
-<!-- Portfolio Start -->
-<section class="section-xxl portfolio-one">
-    <div class="container-fluid px-5">
-        <div class="row">
-            <div class="col-md-9 left-col full-width-1200">
-                <div class="swiper-slider pbmit-column-four" data-autoplay="true" data-loop="true" data-allow-touch="true" data-dots="false" data-arrows="false" data-columns="4" data-margin="20" data-effect="slide">
-                    <div class="swiper-wrapper">
-                        <!-- Slide1 -->
-                        <article class="pbmit-portfolio-style-1 swiper-slide">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/portfolio/portfolio-img-01.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-box-content-inner">
-                                        <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Cataract & Refractive</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-detail-style-01.html">Corneal transplant to improve visual clarity.</a>
-                                        </h3>
-                                    </div>
-                                    <div class="pbmit-portfolio-btn-wrapper">
-                                        <a class="pbmit-portfolio-btn" href="portfolio-detail-style-01.html" title="Corneal transplant to improve visual clarity.">
-                                            <span class="pbmit-button-icon">
-                                                <i class="pbmit-base-icon-next-1"></i>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="portfolio-detail-style-01.html" title="Go to Corneal transplant to improve visual clarity."></a>
-                            </div>
-                        </article>
-                        <!-- Slide2 -->
-                        <article class="pbmit-portfolio-style-1 swiper-slide">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/portfolio/portfolio-img-02.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-box-content-inner">
-                                        <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Oculoplasty</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-detail-style-01.html">Retinal detachment repair through surgical procedure.</a>
-                                        </h3>
-                                    </div>
-                                    <div class="pbmit-portfolio-btn-wrapper">
-                                        <a class="pbmit-portfolio-btn" href="portfolio-detail-style-01.html" title="Retinal detachment repair through surgical procedure.">
-                                            <span class="pbmit-button-icon">
-                                                <i class="pbmit-base-icon-next-1"></i>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="portfolio-detail-style-01.html" title="Go to Retinal detachment repair through surgical procedure."></a>
-                            </div>
-                        </article>
-                        <!-- Slide3 -->
-                        <article class="pbmit-portfolio-style-1 swiper-slide">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/portfolio/portfolio-img-03.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-box-content-inner">
-                                        <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Vitreoretinal</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-detail-style-01.html">Glaucoma pressure control with medicated drops.</a>
-                                        </h3>
-                                    </div>
-                                    <div class="pbmit-portfolio-btn-wrapper">
-                                        <a class="pbmit-portfolio-btn" href="portfolio-detail-style-01.html" title="Glaucoma pressure control with medicated drops.">
-                                            <span class="pbmit-button-icon">
-                                                <i class="pbmit-base-icon-next-1"></i>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="portfolio-detail-style-01.html" title="Go to Glaucoma pressure control with medicated drops."></a>
-                            </div>
-                        </article>
-                        <!-- Slide4 -->
-                        <article class="pbmit-portfolio-style-1 swiper-slide">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/portfolio/portfolio-img-04.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-box-content-inner">
-                                        <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Glaucoma</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-detail-style-01.html">Contact lens fitting for refractive correction.</a>
-                                        </h3>
-                                    </div>
-                                    <div class="pbmit-portfolio-btn-wrapper">
-                                        <a class="pbmit-portfolio-btn" href="portfolio-detail-style-01.html" title="Contact lens fitting for refractive correction.">
-                                            <span class="pbmit-button-icon">
-                                                <i class="pbmit-base-icon-next-1"></i>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="portfolio-detail-style-01.html" title="Go to Contact lens fitting for refractive correction."></a>
-                            </div>
-                        </article>
-                        <!-- Slide5 -->
-                        <article class="pbmit-portfolio-style-1 swiper-slide">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/portfolio/portfolio-img-05.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-box-content-inner">
-                                        <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Glaucoma</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-detail-style-01.html">Laser vision correction for refractive errors</a>
-                                        </h3>
-                                    </div>
-                                    <div class="pbmit-portfolio-btn-wrapper">
-                                        <a class="pbmit-portfolio-btn" href="portfolio-detail-style-01.html" title="Laser vision correction for refractive errors">
-                                            <span class="pbmit-button-icon">
-                                                <i class="pbmit-base-icon-next-1"></i>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="portfolio-detail-style-01.html" title="Go to Laser vision correction for refractive errors"></a>
-                            </div>
-                        </article>
-                        <!-- Slide6 -->
-                        <article class="pbmit-portfolio-style-1 swiper-slide">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/portfolio/portfolio-img-06.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-box-content-inner">
-                                        <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Lasik</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-detail-style-01.html">Dry eye relief with advanced tear therapies</a>
-                                        </h3>
-                                    </div>
-                                    <div class="pbmit-portfolio-btn-wrapper">
-                                        <a class="pbmit-portfolio-btn" href="portfolio-detail-style-01.html" title="Dry eye relief with advanced tear therapies">
-                                            <span class="pbmit-button-icon">
-                                                <i class="pbmit-base-icon-next-1"></i>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="portfolio-detail-style-01.html" title="Go to Dry eye relief with advanced tear therapies"></a>
-                            </div>
-                        </article>
-                        <!-- Slide7 -->
-                        <article class="pbmit-portfolio-style-1 swiper-slide">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/portfolio/portfolio-img-07.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-box-content-inner">
-                                        <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Lasik</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-detail-style-01.html">Diabetic retinopathy treated with laser therapy</a>
-                                        </h3>
-                                    </div>
-                                    <div class="pbmit-portfolio-btn-wrapper">
-                                        <a class="pbmit-portfolio-btn" href="portfolio-detail-style-01.html" title="Diabetic retinopathy treated with laser therapy">
-                                            <span class="pbmit-button-icon">
-                                                <i class="pbmit-base-icon-next-1"></i>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="portfolio-detail-style-01.html" title="Go to Diabetic retinopathy treated with laser therapy"></a>
-                            </div>
-                        </article>
-                        <!-- Slide8 -->
-                        <article class="pbmit-portfolio-style-1 swiper-slide">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/portfolio/portfolio-img-08.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-box-content-inner">
-                                        <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Oculoplasty</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-detail-style-01.html">Eyeglass prescription optimization for daily comfort</a>
-                                        </h3>
-                                    </div>
-                                    <div class="pbmit-portfolio-btn-wrapper">
-                                        <a class="pbmit-portfolio-btn" href="portfolio-detail-style-01.html" title="Eyeglass prescription optimization for daily comfort">
-                                            <span class="pbmit-button-icon">
-                                                <i class="pbmit-base-icon-next-1"></i>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="portfolio-detail-style-01.html" title="Go to Eyeglass prescription optimization for daily comfort"></a>
-                            </div>
-                        </article>
-                        <!-- Slide9 -->
-                        <article class="pbmit-portfolio-style-1 swiper-slide">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="images/demo-1/portfolio/portfolio-img-09.jpg" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-box-content-inner">
-                                        <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Vitreoretinal</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-detail-style-01.html">Cataract removal to restore clear vision</a>
-                                        </h3>
-                                    </div>
-                                    <div class="pbmit-portfolio-btn-wrapper">
-                                        <a class="pbmit-portfolio-btn" href="portfolio-detail-style-01.html" title="Cataract removal to restore clear vision">
-                                            <span class="pbmit-button-icon">
-                                                <i class="pbmit-base-icon-next-1"></i>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a class="pbmit-link" href="portfolio-detail-style-01.html" title="Go to Cataract removal to restore clear vision"></a>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 right-col full-width-1200">
-                <div class="portfolio-one-heading pbmit-bg-color-secondary">
-                    <div class="pbmit-heading-subheading text-center animation-style3">
-                        <h2 class="pbmit-title">Patients case studies</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Portfolio End -->
-
-<!-- Blog start -->
-<section class="section-mdb">
-    <div class="container">
         <div class="pbmit-heading-subheading text-center animation-style3">
-            <h4 class="pbmit-subtitle">Read Our Blog</h4>
-            <h2 class="pbmit-title">Recently news & blogs</h2>
+            <h4 class="pbmit-subtitle">How It Works</h4>
+
+            <h2 class="pbmit-title">
+                Simple Steps Towards Better Eye Care
+            </h2>
+
             <div class="pbmit-heading-desc">
-                Read the latest news about medicos as well as medical news around the world.
+                From your first consultation to personalized treatment, our team ensures a smooth<br>
+                and comfortable eye care experience at every step.
             </div>
         </div>
+
         <div class="row">
-            <div class="col-md-12 col-lg-5 col-xl-6 pbmit-blog-group-left">
-                <article class="pbmit-blog-style-3">
-                    <div class="post-item">
-                        <div class="pbminfotech-box-content">
-                            <div class="pbmit-featured-container">
-                                <div class="pbmit-featured-container-inner">
-                                    <div class="pbmit-meta-category-wrapper pbmit-meta-line">
-                                        <span class="pbmit-meta-category">
-                                            <a href="blog-classic.html" rel="category tag">Eye Treatment</a>
-                                        </span>
-                                    </div>
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="images/demo-1/blog/blog-img-01.jpg" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                    <a class="pbmit-link" href="blog-single-detail.html" title="Go to Children’s eye care: what parents need to know"></a>
-                                </div>
-                                <div class="pbmit-meta-wraper-inner">
-                                    <div class="pbmit-meta-wraper">
-                                        <div class="pbmit-meta-date-wrapper pbmit-meta-line">
-                                            <span class="pbmit-meta-icon">
-                                                <i class="pbmit-base-icon-calendar-silhouette"></i>
-                                            </span>03 Thu 2025
-                                        </div>
-                                        <div class="pbmit-meta-author pbmit-meta-line">
-                                            <span class="pbmit-meta-icon">
-                                                <i class="pbmit-base-icon-user-1"></i>
-                                            </span>by
-                                            <span class="pbmit-post-author">
-                                                <a href="blog-classic.html" title="Posted by ophticalpbm" rel="author">ophticalpbm</a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <h3 class="pbmit-post-title">
-                                        <a href="blog-single-detail.html">Children’s eye care: what parents need to know</a>
-                                    </h3>
+
+            <div class="swiper-static-slide-nav col-md-12 col-lg-7">
+                <ul class="pbmit-hover-inner">
+
+                    <!-- Step 1 -->
+                    <li class="pbmit-title-wrapper">
+                        <div class="pbmit-static-responsive-img">
+                            <img src="images/demo-3/static-box/static-box-1.jpg"
+                                alt="Book your eye consultation">
+                        </div>
+
+                        <div class="pbmit-content-box">
+                            <div class="pbmit-number-wrapper">
+                                <div class="pbmit-box-number">1</div>
+                            </div>
+
+                            <div class="pbmit-content-inner">
+                                <h4 class="pbmit-static-box-title">
+                                    Book Your Eye Consultation
+                                </h4>
+
+                                <div class="pbmit-static-box-desc">
+                                    Schedule your appointment with our eye care team for a detailed consultation based on your vision needs.
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </article>
+                    </li>
+
+                    <!-- Step 2 -->
+                    <li class="pbmit-title-wrapper">
+                        <div class="pbmit-static-responsive-img">
+                            <img src="images/demo-3/static-box/static-box-2.jpg"
+                                alt="Complete eye examination">
+                        </div>
+
+                        <div class="pbmit-content-box">
+                            <div class="pbmit-number-wrapper">
+                                <div class="pbmit-box-number">2</div>
+                            </div>
+
+                            <div class="pbmit-content-inner">
+                                <h4 class="pbmit-static-box-title">
+                                    Get a Detailed Eye Examination
+                                </h4>
+
+                                <div class="pbmit-static-box-desc">
+                                    Our specialists perform the required eye tests to understand your vision and identify any underlying eye conditions.
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Step 3 -->
+                    <li class="pbmit-title-wrapper">
+                        <div class="pbmit-static-responsive-img">
+                            <img src="images/demo-3/static-box/static-box-3.jpg"
+                                alt="Get personalized treatment">
+                        </div>
+
+                        <div class="pbmit-content-box">
+                            <div class="pbmit-number-wrapper">
+                                <div class="pbmit-box-number">3</div>
+                            </div>
+
+                            <div class="pbmit-content-inner">
+                                <h4 class="pbmit-static-box-title">
+                                    Get Personalized Treatment
+                                </h4>
+
+                                <div class="pbmit-static-box-desc">
+                                    Based on your diagnosis, our doctors recommend the most suitable treatment or eye care plan for your condition.
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Step 4 -->
+                    <li class="pbmit-title-wrapper">
+                        <div class="pbmit-static-responsive-img">
+                            <img src="images/demo-3/static-box/static-box-4.jpg"
+                                alt="Follow up and ongoing eye care">
+                        </div>
+
+                        <div class="pbmit-content-box">
+                            <div class="pbmit-number-wrapper">
+                                <div class="pbmit-box-number">4</div>
+                            </div>
+
+                            <div class="pbmit-content-inner">
+                                <h4 class="pbmit-static-box-title">
+                                    Follow-Up & Ongoing Eye Care
+                                </h4>
+
+                                <div class="pbmit-static-box-desc">
+                                    Regular follow-ups help monitor your progress, support recovery and maintain healthy vision over time.
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
             </div>
-            <div class="col-md-12 col-lg-7 col-xl-6 pbmit-blog-group-right">
-                <div class="row">
-                    <article class="pbmit-blog-style-3 col-md-12">
-                        <div class="post-item">
-                            <div class="pbminfotech-box-content">
-                                <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-container-inner">
-                                        <div class="pbmit-meta-category-wrapper pbmit-meta-line">
-                                            <span class="pbmit-meta-category">
-                                                <a href="blog-classic.html" rel="category tag">Contact Lens</a>
-                                            </span>
-                                        </div>
-                                        <div class="pbmit-featured-img-wrapper">
-                                            <div class="pbmit-featured-wrapper">
-                                                <img src="images/demo-1/blog/blog-img-02.jpg" class="img-fluid" alt="">
-                                            </div>
-                                        </div>
-                                        <a class="pbmit-link" href="blog-single-detail.html" title="Go to Common signs you might need new glasses or contacts"></a>
-                                    </div>
-                                    <div class="pbmit-meta-wraper-inner">
-                                        <div class="pbmit-meta-wraper">
-                                            <div class="pbmit-meta-date-wrapper pbmit-meta-line">
-                                                <span class="pbmit-meta-icon">
-                                                    <i class="pbmit-base-icon-calendar-silhouette"></i>
-                                                </span>03 Thu 2025
-                                            </div>
-                                            <div class="pbmit-meta-author pbmit-meta-line">
-                                                <span class="pbmit-meta-icon">
-                                                    <i class="pbmit-base-icon-user-1"></i>
-                                                </span>by
-                                                <span class="pbmit-post-author">
-                                                    <a href="blog-classic.html" title="Posted by ophticalpbm" rel="author">ophticalpbm</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <h3 class="pbmit-post-title">
-                                            <a href="blog-single-detail.html">Common signs you might need new glasses or contacts</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
+
+            <div class="swiper-static-slide-images col-md-12 col-lg-5">
+                <div class="swiper-slider pbmit-static-image">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <img src="assets/images/resource/work-one.jpg"
+                                class="img-fluid"
+                                alt="Book your eye consultation">
                         </div>
-                    </article>
-                    <article class="pbmit-blog-style-3 col-md-12">
-                        <div class="post-item">
-                            <div class="pbminfotech-box-content">
-                                <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-container-inner">
-                                        <div class="pbmit-meta-category-wrapper pbmit-meta-line">
-                                            <span class="pbmit-meta-category">
-                                                <a href="blog-classic.html" rel="category tag">Insight</a>
-                                            </span>
-                                        </div>
-                                        <div class="pbmit-featured-img-wrapper">
-                                            <div class="pbmit-featured-wrapper">
-                                                <img src="images/demo-1/blog/blog-img-03.jpg" class="img-fluid" alt="">
-                                            </div>
-                                        </div>
-                                        <a class="pbmit-link" href="blog-single-detail.html" title="Go to Why children need annual eye exams more than adults?"></a>
-                                    </div>
-                                    <div class="pbmit-meta-wraper-inner">
-                                        <div class="pbmit-meta-wraper">
-                                            <div class="pbmit-meta-date-wrapper pbmit-meta-line">
-                                                <span class="pbmit-meta-icon">
-                                                    <i class="pbmit-base-icon-calendar-silhouette"></i>
-                                                </span>03 Thu 2025
-                                            </div>
-                                            <div class="pbmit-meta-author pbmit-meta-line">
-                                                <span class="pbmit-meta-icon">
-                                                    <i class="pbmit-base-icon-user-1"></i>
-                                                </span>by
-                                                <span class="pbmit-post-author">
-                                                    <a href="blog-classic.html" title="Posted by ophticalpbm" rel="author">ophticalpbm</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <h3 class="pbmit-post-title">
-                                            <a href="blog-single-detail.html">Why children need annual eye exams more than adults?</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/images/resource/work-two.jpg"
+                                class="img-fluid"
+                                alt="Complete eye examination">
                         </div>
-                    </article>
-                    <article class="pbmit-blog-style-3 col-md-12">
-                        <div class="post-item">
-                            <div class="pbminfotech-box-content">
-                                <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-container-inner">
-                                        <div class="pbmit-meta-category-wrapper pbmit-meta-line">
-                                            <span class="pbmit-meta-category">
-                                                <a href="blog-classic.html" rel="category tag">Glaucoma</a>
-                                            </span>
-                                        </div>
-                                        <div class="pbmit-featured-img-wrapper">
-                                            <div class="pbmit-featured-wrapper">
-                                                <img src="images/demo-1/blog/blog-img-04.jpg" class="img-fluid" alt="">
-                                            </div>
-                                        </div>
-                                        <a class="pbmit-link" href="blog-single-detail.html" title="Go to Best eye treatment options for common eye problems"></a>
-                                    </div>
-                                    <div class="pbmit-meta-wraper-inner">
-                                        <div class="pbmit-meta-wraper">
-                                            <div class="pbmit-meta-date-wrapper pbmit-meta-line">
-                                                <span class="pbmit-meta-icon">
-                                                    <i class="pbmit-base-icon-calendar-silhouette"></i>
-                                                </span>03 Thu 2025
-                                            </div>
-                                            <div class="pbmit-meta-author pbmit-meta-line">
-                                                <span class="pbmit-meta-icon">
-                                                    <i class="pbmit-base-icon-user-1"></i>
-                                                </span>by
-                                                <span class="pbmit-post-author">
-                                                    <a href="blog-classic.html" title="Posted by ophticalpbm" rel="author">ophticalpbm</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <h3 class="pbmit-post-title">
-                                            <a href="blog-single-detail.html">Best eye treatment options for common eye problems</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/images/resource/work-three.jpg"
+                                class="img-fluid"
+                                alt="Get personalized treatment">
                         </div>
-                    </article>
+
+                        <div class="swiper-slide">
+                            <img src="assets/images/resource/work-four.jpg"
+                                class="img-fluid"
+                                alt="Follow up and ongoing eye care">
+                        </div>
+
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
-<!-- Blog End -->
+<!-- Work Box End -->
+
+
 
 
 <?php

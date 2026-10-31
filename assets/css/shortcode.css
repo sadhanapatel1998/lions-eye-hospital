@@ -69,7 +69,7 @@
 	font-weight: 600;
     font-size: 48px;
     line-height: 52px;
-    color: var(--pbmit-heading-color);
+    color: #2f2f31;
     text-transform: none;
     font-style: normal;
 	margin-bottom: 0;
@@ -658,6 +658,9 @@
 	fill: var(--pbmit-secondary-color);
 	background-color: var(--pbmit-light-color);
 }
+.pbmit-ihbox-style-5 .pbmit-ihbox-icon-wrapper:hover i{
+ color: #fff;
+}
 .pbmit-ihbox-style-5 .pbmit-ihbox-icon-wrapper:not(.pbmit-ihbox-icon-type-image)::after,
 .pbmit-ihbox-style-5 .pbmit-ihbox-svg-wrapper::after {
 	content: "";
@@ -1195,7 +1198,7 @@
 	transform: translate3d(0, 0, 0);
 }
 /** Style 11 **/
-.pbmit-miconheading-style-11{
+/* .pbmit-miconheading-style-11{
 	margin-bottom: 30px;
 }
 .pbmit-ihbox-style-11 .pbmit-ihbox-contents,
@@ -1285,7 +1288,7 @@
 }
 .pbmit-ihbox-style-11 .pbmit-ihbox-btn a:hover .pbmit-button-icon i {
 	color: var(--pbmit-white-color);
-}
+} */
 /** Style 12 **/
 .pbmit-ihbox-style-12 {
 	-webkit-transition: all .25s ease-out;
@@ -2620,13 +2623,14 @@
 .pbminfotech-ele-fid-style-4 .pbmit-fidbox-svg-wrapper svg {
 	width: 40px;
 	height: 40px;
-	color: var(--pbmit-secondary-color);
-	fill: var(--pbmit-secondary-color);
+    color: #d6ac01;
+    fill: #d6ac01;
 }
 .pbminfotech-ele-fid-style-4 .pbmit-fid-counter {
 	font-size: 48px;
 	line-height: 48px;
 	font-weight: 600;
+	color: #212020;
 	margin-bottom: 0;
 }
 .pbminfotech-ele-fid-style-4 .pbmit-fid-counter .pbmit-fid span {
@@ -2713,12 +2717,18 @@
 /*  04 - Service
 /*----------------------------------------*/
 /** Style 1 **/
-.pbmit-service-style-1 .pbmit-featured-wrapper img,
+.pbmit-service-style-1 .pbmit-featured-wrapper img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
 .pbmit-service-style-1 .pbmit-heading-box,
-.pbmit-service-style-1 .pbmit-content-box{
-	position: relative;
-	-webkit-transition: all .4s ease-in-out;
-	transition: all .4s ease-in-out;
+.pbmit-service-style-1 .pbmit-content-box {
+    position: relative;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 .pbmit-service-style-1 .pbmit-featured-wrapper{
 	overflow: hidden;
@@ -2745,7 +2755,7 @@
 	background: linear-gradient(180deg, rgba(var(--pbmit-white-color-rgb), 0.70) 0%, var(--pbmit-white-color) 100%);
 	backdrop-filter: blur(10px);
 	margin: 0 10px;
-	padding: 25px;
+    padding: 15px;
 }
 .pbmit-service-style-1:hover .pbmit-heading-box{
 	transform: translateY(150px) scale(.7);
@@ -2754,7 +2764,7 @@
 .pbmit-service-style-1 .pbmit-service-title,
 .pbmit-service-style-1 .pbmit-service-title a{
 	margin: 0;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 30px;
 	text-align: center;
 	overflow: hidden;
@@ -3988,8 +3998,9 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
 	background-color: var(--pbmit-secondary-color);
 }
 .pbmit-header-style-1 .pbmit-header-content{
-	border-radius: 20px;
+	border-radius: 20px;	
 	padding: 7px 30px;
+	    border: 1px solid #0404d224;
 }
 .pbmit-header-style-1 .pbmit-header-content .pbmit-menuarea{
 	margin-left: 55px;
@@ -6193,3 +6204,4 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
     color: var(--pbmit-secondary-color);
 	font-family: var(--pbmit-heading-typography-font-family);
 }
+
