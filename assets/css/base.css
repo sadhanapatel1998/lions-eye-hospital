@@ -60,7 +60,7 @@ html {
 }
 body {
 	margin: 0;
-	overflow-x: hidden;
+	overflow-x: clip;
 }
 p {
 	margin: 0 0 25px;
@@ -446,7 +446,7 @@ body .pbmit-bg-color-global{
 	background-color: var(--pbmit-global-color);
 }
 body .pbmit-bg-color-secondary {
-    background-color: #040495;
+    background-color: #02025e;
 }
 body .pbmit-bg-color-blackish{
 	background-color: var(--pbmit-blackish-color);
@@ -508,7 +508,7 @@ body .pbmit-blackish-color{
 	padding-bottom: 80px;
 }
 .section-md{
-	padding-top: 100px;
+	padding-top: 80px;
 	padding-bottom: 70px;
 }
 .section-lgb{

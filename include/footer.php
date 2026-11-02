@@ -1,46 +1,50 @@
 		<!-- footer -->
-        <footer class="site-footer pbmit-footer-style-1 pbmit-bg-color-light">
+		<footer class="site-footer pbmit-footer-style-1 pbmit-bg-color-light">
 			<div class="pbmit-footer-big-area-wrapper">
 				<div class="container">
-					<div class="pbmit-footer-big-area pbmit-bg-color-secondary">
-						<div class="row align-items-center g-0">
-							<div class="col-md-12 col-xl-6 pbmit-footer-left">
-								<div class="pbmit-ihbox-style-12">
-									<div class="pbmit-ihbox-box">
-										<div class="pbmit-ihbox-svg">
-											<div class="pbmit-ihbox-svg-wrapper">
-												<svg xmlns="http://www.w3.org/2000/svg" id="Layer_4" height="512" viewbox="0 0 24 24" width="512">
-													<g>
-														<path d="m21.379 16.913c-1.512-1.278-2.379-3.146-2.379-5.125v-2.788c0-3.519-2.614-6.432-6-6.92v-1.08c0-.553-.448-1-1-1s-1 .447-1 1v1.08c-3.387.488-6 3.401-6 6.92v2.788c0 1.979-.867 3.847-2.388 5.133-.389.333-.612.817-.612 1.329 0 .965.785 1.75 1.75 1.75h16.5c.965 0 1.75-.785 1.75-1.75 0-.512-.223-.996-.621-1.337z"></path>
-														<path d="m12 24c1.811 0 3.326-1.291 3.674-3h-7.348c.348 1.709 1.863 3 3.674 3z"></path>
-													</g>
-												</svg>
-											</div>
-										</div>
-										<div class="pbmit-ihbox-contents">
-											<div class="pbmit-contents-wrap">
-												<h2 class="pbmit-element-title">Subscribe to Newsletter</h2>
-											</div>
-											<div class="pbmit-heading-desc">Get exclusive news & offers through our ophtical newsletter</div>
-										</div>
+					<div class="pbmit-footer-big-area pbmit-footer-cta-area">
+						<div class="pbmit-footer-cta-inner">
+							<div class="pbmit-footer-cta-left">
+								<div class="pbmit-footer-cta-icon-wrap">
+									<div class="pbmit-footer-cta-icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
+											<!-- 3 eyelashes on top -->
+											<line x1="12" y1="2" x2="12" y2="4.5" stroke="#e5a800" stroke-width="2" stroke-linecap="round" />
+											<line x1="6.8" y1="4.2" x2="8.3" y2="6.5" stroke="#e5a800" stroke-width="2" stroke-linecap="round" />
+											<line x1="17.2" y1="4.2" x2="15.7" y2="6.5" stroke="#e5a800" stroke-width="2" stroke-linecap="round" />
+											<!-- Eye contour -->
+											<path d="M2 13C2 13 5.5 8 12 8C18.5 8 22 13 22 13C22 13 18.5 18 12 18C5.5 18 2 13 2 13Z" stroke="#e5a800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+											<!-- Iris ring -->
+											<circle cx="12" cy="13" r="3" stroke="#e5a800" stroke-width="1.8" />
+											<!-- Pupil dot -->
+											<circle cx="12" cy="13" r="1.1" fill="#e5a800" />
+										</svg>
 									</div>
 								</div>
+								<div class="pbmit-footer-cta-divider"></div>
+								<div class="pbmit-footer-cta-content">
+									<h3 class="pbmit-footer-cta-title">Book Your Eye Check-Up</h3>
+									<p class="pbmit-footer-cta-desc">Expert eye care for clearer, healthier vision</p>
+								</div>
 							</div>
-							<div class="col-md-12 col-xl-6">
-								<form>
-									<div class="pbmit-footer-newsletter">
-										<div class="pbmit-news-wrap">
-											<input type="email" class="form-control" name="EMAIL" placeholder="Your Email Address" required="">
-											<button class="pbmit-form-btn" type="submit" value="Sign up">
-												<span class="pbmit-button-inner">
-													<span class="pbmit-button-icon">
-														<i class="pbmit-base-icon-mail"></i>
-													</span>
-												</span>
-											</button>
-										</div>
-									</div>
-								</form>
+							<div class="pbmit-footer-cta-right">
+								<a href="contact-us.php" class="pbmit-footer-cta-btn">
+									<span class="pbmit-footer-cta-btn-text">Book Appointment</span>
+									<span class="pbmit-footer-cta-btn-icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none">
+											<rect x="3" y="4" width="18" height="17" rx="3" stroke="#ffffff" stroke-width="2" />
+											<line x1="16" y1="2" x2="16" y2="5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+											<line x1="8" y1="2" x2="8" y2="5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+											<line x1="3" y1="9" x2="21" y2="9" stroke="#ffffff" stroke-width="1.8" />
+											<rect x="7" y="12" width="2" height="2" rx="0.5" fill="#ffffff" />
+											<rect x="11" y="12" width="2" height="2" rx="0.5" fill="#ffffff" />
+											<rect x="15" y="12" width="2" height="2" rx="0.5" fill="#ffffff" />
+											<rect x="7" y="15" width="2" height="2" rx="0.5" fill="#ffffff" />
+											<rect x="11" y="15" width="2" height="2" rx="0.5" fill="#ffffff" />
+											<rect x="15" y="15" width="2" height="2" rx="0.5" fill="#ffffff" />
+										</svg>
+									</span>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -49,11 +53,13 @@
 							<div class="pbmit-footer-widget-col-1 col-md-4">
 								<aside class="widget">
 									<div class="pbmit-footer-logo">
-										<img src="images/dark-logo.svg" class="img-fluid pbmit-logo-img" alt="">
+										<img src="assets/images/logo/leh-logo.png" class="img-fluid pbmit-logo-img" alt="Logo">
 									</div>
-									<p class="mb-0">We offer comprehensive optical services tailored to your unique vision needs.</p>
+									<p class="mb-0">
+										Lions Eye Hospital, Ghaziabad provides comprehensive eye care with experienced specialists, modern facilities and patient-focused treatment.
+									</p>
 									<div class="text-center">
-										<img src="images/footer-img-01.png" class="img-fluid" alt="">
+										<img src="assets/images/resource/footer-png.png" class="img-fluid" alt="Footer Image">
 									</div>
 								</aside>
 							</div>
@@ -61,11 +67,21 @@
 								<aside class="widget">
 									<h2 class="widget-title">Popular Service</h2>
 									<ul class="menu">
-										<li><a href="#">Glasses Prescriptions</a></li>
-										<li><a href="#">Vision Screenings</a></li>
-										<li><a href="#">Corneal Transplants</a></li>
-										<li><a href="#">Glaucoma Surgery</a></li>
-										<li><a href="#">Frames & Lenses</a></li>
+										<li>
+											<a href="service-retina-surgery.php">Retina Surgery</a>
+										</li>
+										<li>
+											<a href="service-cataract.php">Cataract</a>
+										</li>
+										<li>
+											<a href="service-glaucoma-diagnosis.php">Glaucoma Diagnosis</a>
+										</li>
+										<li>
+											<a href="service-eye-check-up.php">Eye Check Up</a>
+										</li>
+										<li>
+											<a href="service-spectacles.php">Spectacles</a>
+										</li>
 									</ul>
 								</aside>
 							</div>
@@ -73,20 +89,25 @@
 								<aside class="widget">
 									<h2 class="widget-title">Usefulll Links</h2>
 									<ul class="menu">
-										<li><a href="#">About Us</a></li>
-										<li><a href="#">Book Appointment</a></li>
-										<li><a href="#">Contact Us</a></li>
-										<li><a href="#">Our Team</a></li>
-										<li><a href="#">Case Studies</a></li>
+										<li><a href="about-us.php">About Us</a></li>
+										<li><a href="services.php">Services</a></li>
+										<li><a href="blog.php">Blog</a></li>
+										<li><a href="gallery.php">Gallery</a></li>
+										<li><a href="contact-us.php">Contact Us</a></li>
 									</ul>
 								</aside>
 							</div>
 							<div class="pbmit-footer-widget-col-4 col-md-2">
 								<aside class="widget">
 									<h2 class="widget-title">Visit clinic</h2>
-									<p class="pbmit-custom-title">Los Angeles Gournadi,<br>1230 Bariasl</p>
-									<p class="tel-nub"><a href="tel:1-888-452-1510">1-888-452-1510</a></p>
-									<p class="contact-email"><a href="/cdn-cgi/l/email-protection#543a3b263124382d142436393d3a323b2031373c7a373b39"><span class="__cf_email__" data-cfemail="711f1e0314011d083101131c181f171e051412195f121e1c">[email&#160;protected]</span></a></p>
+									<p class="pbmit-custom-title mb-0">E-Block Kavi Nagar Near Jain Mandir Ghaziabad U.P 201002</p>
+									<p class="tel-nub mb-0"><a href="tel:+919315241610">+91 9315241610 </a></p>
+									<p class="tel-nub mb-0"><a href="tel:+918448780237">+91 8448780237 </a></p>
+									<p class="contact-email mb-0">
+										<a href="mailto:lionseyehospital.gzb@gmail.com">
+											lionseyehospital.gzb@gmail.com
+										</a>
+									</p>
 								</aside>
 							</div>
 						</div>
@@ -98,22 +119,22 @@
 										<div class="col-md-4">
 											<ul class="pbmit-social-links">
 												<li class="pbmit-social-li pbmit-social-facebook">
-													<a title="Facebook" href="#" target="_blank">
+													<a title="Facebook" href="javascript:void(0)">
 														<span><i class="pbmit-base-icon-facebook-logo"></i></span>
 													</a>
 												</li>
 												<li class="pbmit-social-li pbmit-social-twitter">
-													<a title="Twitter" href="#" target="_blank">
+													<a title="Twitter" href="javascript:void(0)">
 														<span><i class="pbmit-base-icon-twitter-2"></i></span>
 													</a>
 												</li>
 												<li class="pbmit-social-li pbmit-social-instagram">
-													<a title="Instagram" href="#" target="_blank">
+													<a title="Instagram" href="javascript:void(0)">
 														<span><i class="pbmit-base-icon-instagram"></i></span>
 													</a>
 												</li>
 												<li class="pbmit-social-li pbmit-social-youtube">
-													<a title="Youtube" href="#" target="_blank">
+													<a title="Youtube" href="javascript:void(0)">
 														<span><i class="pbmit-base-icon-youtube-play"></i></span>
 													</a>
 												</li>
@@ -121,7 +142,7 @@
 										</div>
 										<div class="col-md-8 text-md-end">
 											<div class="pbmit-footer-copyright-text-area">
-												Copyright © 2025 <a href="#">ophtical</a>, All Rights Reserved.
+												Copyright © 2025 Lions Eye Hospital, All Rights Reserved.
 											</div>
 										</div>
 									</div>
@@ -131,5 +152,5 @@
 					</div>
 				</div>
 			</div>
-        </footer>
+		</footer>
 		<!-- footer End -->

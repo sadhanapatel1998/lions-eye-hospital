@@ -1173,7 +1173,7 @@
 	bottom: 0;
 	z-index: 1;
 	gap: 15px;
-	background-color: var(--pbmit-white-color);
+	    background-color: #f2f2fd;
 	transform: translateY(25px);
 }
 .pbmit-ihbox-style-10:hover .pbmit-contents-wraper {
@@ -1708,7 +1708,7 @@
 .pbmit-ihbox-style-16 .pbmit-element-title {
 	font-weight: 600;
 	margin-bottom: 0;
-	color: var(--pbmit-secondary-color);
+    color: #01014e;
 }
 .pbmit-ihbox-style-16 .pbmit-element-subtitle {
 	font-size: 18px;
@@ -4164,7 +4164,7 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
 	font-size: 20px;
     line-height: 20px;
 	margin-bottom: 40px;
-	color: var(--pbmit-secondary-color);
+    color: #323234;
 }
 .site-footer .widget .menu li:not(:last-child){
 	padding-bottom: 10px;
@@ -4418,7 +4418,7 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
 .pbmit-title-bar-wrapper{
 	margin: 10px 30px 0;
 	background-color: rgba(0,0,0,0.2);
-	background-image: url(../images/bg/titlebar-bg.jpg);
+	background-image: url(../images/resource/breadcrumb-bg.jpg);
 	background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -4436,12 +4436,12 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
     display: block;
     z-index: 0;
 	border-radius: 20px;
-	background-image: linear-gradient(180deg, #1D5E8447 0%, #1D5E84B3 100%);
+	/* background-image: linear-gradient(180deg, #1D5E8447 0%, #1D5E84B3 100%); */
 }
 .pbmit-title-bar-content{
 	position: relative;
     z-index: 1;
-    padding: 150px 0;
+    padding: 100px 0;
 	display: flex;
     align-items: center;
 	flex-direction: column;
@@ -4463,16 +4463,16 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
 	text-transform: uppercase;
 	color: var(--pbmit-white-color);
 }
-.pbmit-tbar-title{
-    font-size: 64px;
+.pbmit-tbar-title {
+    font-size: 58px;
     line-height: 64px;
-	font-weight: 600;
-	letter-spacing: 0px;
-    color: var(--pbmit-white-color);
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #413f3f;
     text-transform: none;
     font-style: normal;
-	margin-bottom: 20px;
-	text-align: center;
+    margin-bottom: 4px;
+    text-align: center;
 }
 .single-post .pbmit-title-bar-content-inner{
 	width: 75%;
@@ -4496,8 +4496,9 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
     padding: 5px 20px 7px 20px;
     border-radius: 50px;
 	text-align: center;
-    background-color: rgba(var(--pbmit-secondary-color-rgb), .2);
+      background-color: rgb(6 6 100);
 }
+
 .pbmit-breadcrumb .pbmit-breadcrumb-inner .sep{
    	font-size: 18px;
     line-height: 18px;
@@ -4530,7 +4531,7 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
 	padding: 20px 30px;
 	border-radius: 0 !important;
     transition: background-color .5s ease-out;
-    color: var(--pbmit-secondary-color);
+      color: #1d1d1e;
 	background-color: transparent;
 }
 .accordion-button:not(.collapsed){
@@ -4568,9 +4569,9 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
 	height: 15px;
 	transition: all .5s ease-out;
 }
-.accordion-item .pbmit-accordion-icon span>svg{
-	fill: var(--pbmit-secondary-color);
-	height: 15px;
+.accordion-item .pbmit-accordion-icon span>svg {
+    fill: #1d1d1e;
+    height: 15px;
 }
 .accordion-button:focus{
 	box-shadow: none;
@@ -4610,7 +4611,7 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
 	display: flex;
     position: relative;
 	top: 2px;
-	color: var(--pbmit-secondary-color);
+    color: #02025e;
 	transition: all .25s ease-in-out;
 }
 .list-group .pbmit-icon-list-icon i{
@@ -4623,7 +4624,7 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
 	padding-left: 5px;
     margin-bottom: 0;
 	font-weight: 600;
-	color: var(--pbmit-secondary-color);
+	    color: #0d0d0e;
 	align-self: center;
 	transition: color 0.3s;
 	font-family: var(--pbmit-heading-typography-font-family);
@@ -5641,7 +5642,7 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
 .pbmit-element-static-box-style-2 .pbmit-title-wrapper.pbmit-active .pbmit-content-inner {
 	padding: 45px 50px;
 	border-color: var(--pbmit-secondary-color);
-	background-color: var(--pbmit-secondary-color);
+    background-color: #02025e;
 }
 .pbmit-element-static-box-style-2 .pbmit-title-wrapper.pbmit-active .pbmit-static-box-title {
 	color: var(--pbmit-white-color);

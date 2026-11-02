@@ -172,3 +172,54 @@ $serviceIcons = [
         </g>
     </svg>',
 ];
+
+
+
+$testimonials = [
+    [
+        'name' => 'Rajesh Kumar',
+        'designation' => 'Patient',
+        'image' => 'assets/images/resource/user.png',
+        'rating' => 5,
+        'review' => 'I had a very good experience at Lions Eye Hospital. The doctors explained my condition clearly and the staff was supportive throughout my treatment. I would definitely recommend the hospital for quality eye care.'
+    ],
+    [
+        'name' => 'Neha Sharma',
+        'designation' => 'Patient',
+        'image' => 'assets/images/resource/user.png',
+        'rating' => 5,
+        'review' => 'The doctors and staff are very caring and professional. My eye examination was thorough and everything was explained patiently. The overall experience was comfortable and reassuring.'
+    ],
+    [
+        'name' => 'Amit Verma',
+        'designation' => 'Patient',
+        'image' => 'assets/images/resource/user.png',
+        'rating' => 5,
+        'review' => 'I visited Lions Eye Hospital for my eye check-up and was impressed with the professional approach. The facilities are well maintained and the doctors take time to understand the patient’s concerns.'
+    ],
+    [
+        'name' => 'Sunita Gupta',
+        'designation' => 'Patient',
+        'image' => 'assets/images/resource/user.png',
+        'rating' => 5,
+        'review' => 'The cataract consultation and treatment process was handled very smoothly. The medical team was supportive and made me feel comfortable at every step. Thank you to the entire team.'
+    ],
+    [
+        'name' => 'Vikas Singh',
+        'designation' => 'Patient',
+        'image' => 'assets/images/resource/user.png',
+        'rating' => 5,
+        'review' => 'A trusted place for eye care in Ghaziabad. The doctors are experienced, the staff is helpful and the consultation process is well managed. I am satisfied with the care I received.'
+    ],
+    [
+        'name' => 'Pooja Agarwal',
+        'designation' => 'Patient',
+        'image' => 'assets/images/resource/user.png',
+        'rating' => 5,
+        'review' => 'I appreciate the attention and care provided by the doctors and staff. They explained the diagnosis and treatment options clearly, which made the entire experience much easier and stress-free.'
+    ]
+];
+
+$totalTestimonials = count($testimonials); 
+
+?>

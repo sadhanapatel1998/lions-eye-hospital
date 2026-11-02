@@ -20,9 +20,10 @@
 /*  00 - Home
 /*----------------------------------------*/
 
-#page{
-	position: relative;
-	overflow: hidden;
+#page {
+    position: relative;
+    overflow-x: clip;
+    overflow-y: visible;
 }
 /** Homepage 01 **/
 .loaded.animated {
@@ -462,7 +463,7 @@ padding: 75px 0 75px;
 }
 .testimonial-one-inner{
 	position: relative;
-	background-image: url(../images/demo-1/bg/testimonial-patten.png);
+	background-image: url(../images/resource/testimonial-patten.png);
     background-position: 15% 30%;
     background-repeat: no-repeat;
 	padding: 15px;
@@ -586,7 +587,7 @@ padding: 75px 0 75px;
 	flex-direction: column;
 }
 .about-two-area .about-img-01 img{
-	-webkit-mask-image: url(../images/demo-2/bg/about-mask-02.png);
+	-webkit-mask-image: url(../images/resource/about-img.jpg);
     -webkit-mask-size: cover;
     -webkit-mask-position: center center;
 	border-radius: 20px;
@@ -752,8 +753,8 @@ padding: 75px 0 75px;
 	padding-bottom: 30px;
 }
 .about-us-two-section{
-	margin: 120px 50px;
-	padding: 100px 0 100px;
+	margin: 80px 50px;
+	padding: 80px 0 8%;
 	position: relative;
 	border-radius: 20px;
 	background-image: url(../images/demo-2/bg/about-patten-02.png);
@@ -1302,8 +1303,8 @@ section:has(.client-two-area){
 	transition: all 0.4s ease-in;
 	position: relative;
 }
-.service-details .all-post-list li a{
-	padding: 12px 15px;
+.service-details .all-post-list li a {
+    padding: 12px 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1312,7 +1313,7 @@ section:has(.client-two-area){
     letter-spacing: 0;
     border-radius: 10px;
     text-transform: capitalize;
-    color: var(--pbmit-secondary-color);
+    color: #2d2d2e;
     -webkit-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
 }
@@ -1330,7 +1331,7 @@ section:has(.client-two-area){
     transform-style: preserve-3d;
     transition: all .5s ease-in-out;
     font-weight: 400;
-    color: var(--pbmit-secondary-color);
+    color: #232324;
 }
 .service-details .all-post-list li:hover a,
 .service-details .all-post-list li.post-active a{
@@ -1661,7 +1662,7 @@ section:has(.client-two-area){
 	font-size: 24px;
     line-height: 28px;
     letter-spacing: 0;
-    color: #1d5e84;
+     color: #060664;
     text-transform: none;
     font-style: normal;
     font-weight: 600;
@@ -1814,7 +1815,7 @@ aside.widget.widget-tag-cloud a:hover,
     position: relative;
     overflow: hidden;
     background-color: transparent;
-	background-image: url(../images/bg/service-ad-bg.jpg);
+	background-image: url(../images/resource/about-img.jpg);
 	z-index: 0;
 }
 .widget.pbmit-service-ad:after{
@@ -2982,4 +2983,551 @@ label.error {
         transform: none;
         padding-top: 16px;
     }
+}
+
+					/* ===================================================
+					   Footer CTA Area (Book Your Eye Check-Up)
+					   =================================================== */
+					.pbmit-footer-cta-area {
+						background: #020448 !important;
+						border-radius: 18px !important;
+						padding: 40px 38px !important;
+						box-shadow: 0 12px 35px -5px rgba(2, 4, 72, 0.25);
+						position: relative;
+						overflow: hidden;
+					}
+					.pbmit-footer-cta-inner {
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+						width: 100%;
+						gap: 24px;
+					}
+					.pbmit-footer-cta-left {
+						display: flex;
+						align-items: center;
+						gap: 0;
+					}
+					.pbmit-footer-cta-icon-wrap {
+						flex-shrink: 0;
+					}
+					.pbmit-footer-cta-icon {
+						width: 54px;
+						height: 54px;
+						min-width: 54px;
+						border-radius: 50%;
+						border: 2px solid #e5a800;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						background: rgba(229, 168, 0, 0.05);
+						transition: transform 0.3s ease;
+					}
+					.pbmit-footer-cta-area:hover .pbmit-footer-cta-icon {
+						transform: scale(1.05);
+					}
+					.pbmit-footer-cta-divider {
+						width: 1.5px;
+						height: 40px;
+						background: rgba(255, 255, 255, 0.32);
+						margin: 0 24px;
+						flex-shrink: 0;
+					}
+					.pbmit-footer-cta-content {
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+					}
+					.pbmit-footer-cta-title {
+						color: #ffffff !important;
+						font-size: 30px;
+						font-weight: 700;
+						line-height: 1.25;
+						margin: 0 0 4px 0 !important;
+						letter-spacing: -0.2px;
+					}
+					.pbmit-footer-cta-desc {
+						color: rgba(255, 255, 255, 0.85) !important;
+						font-size: 16px;
+						line-height: 1.4;
+						margin: 0 !important;
+						font-weight: 400;
+					}
+					.pbmit-footer-cta-right {
+						flex-shrink: 0;
+					}
+					.pbmit-footer-cta-btn {
+						background: #ffffff !important;
+						color: #030558 !important;
+						border-radius: 50px !important;
+						padding: 6px 6px 6px 26px !important;
+						display: inline-flex !important;
+						align-items: center !important;
+						gap: 16px !important;
+						text-decoration: none !important;
+						font-weight: 700 !important;
+						font-size: 17px !important;
+						letter-spacing: 0.1px;
+						white-space: nowrap;
+						box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+						transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+					}
+					.pbmit-footer-cta-btn:hover {
+						transform: translateY(-2px);
+						box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+						color: #020448 !important;
+					}
+					.pbmit-footer-cta-btn-icon {
+						width: 42px;
+						height: 42px;
+						min-width: 42px;
+						border-radius: 50%;
+						background: #d6ac01;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						transition: transform 0.35s ease, background-color 0.35s ease;
+					}
+					.pbmit-footer-cta-btn:hover .pbmit-footer-cta-btn-icon {
+						transform: scale(1.06);
+						background: #e5a800;
+					}
+
+					/* ===================================================
+					   Responsive Breakpoints
+					   =================================================== */
+					@media (max-width: 991px) {
+						.pbmit-footer-cta-area {
+							padding: 22px 28px !important;
+						}
+						.pbmit-footer-cta-title {
+							font-size: 21px;
+						}
+						.pbmit-footer-cta-desc {
+							font-size: 14px;
+						}
+						.pbmit-footer-cta-divider {
+							margin: 0 18px;
+							height: 36px;
+						}
+						.pbmit-footer-cta-btn {
+							padding: 5px 5px 5px 22px !important;
+							font-size: 14.5px !important;
+							gap: 12px !important;
+						}
+						.pbmit-footer-cta-btn-icon {
+							width: 38px;
+							height: 38px;
+							min-width: 38px;
+						}
+					}
+
+					@media (max-width: 767px) {
+						.pbmit-footer-cta-area {
+							padding: 22px 20px !important;
+							border-radius: 16px !important;
+						}
+						.pbmit-footer-cta-inner {
+							flex-direction: column;
+							align-items: stretch;
+							gap: 18px;
+						}
+						.pbmit-footer-cta-left {
+							align-items: center;
+							gap: 14px;
+						}
+						.pbmit-footer-cta-divider {
+							display: none;
+						}
+						.pbmit-footer-cta-icon {
+							width: 60px;
+							height: 60px;
+							min-width: 60px;
+						}
+						.pbmit-footer-cta-icon svg {
+							width: 30px;
+							height: 30px;
+						}
+						.pbmit-footer-cta-title {
+							font-size: 19px;
+						}
+						.pbmit-footer-cta-desc {
+							font-size: 13.5px;
+						}
+						.pbmit-footer-cta-right {
+							width: 100%;
+						}
+						.pbmit-footer-cta-btn {
+							width: 100% !important;
+							justify-content: space-between !important;
+							padding: 6px 6px 6px 20px !important;
+						}
+					}
+
+
+/* ===================================================
+   Mission & Vision Section (About Us Page)
+   =================================================== */
+.pbmit-mission-vision-section {
+    position: relative;
+}
+.pbmit-mission-vision-card {
+    background-color: #f1f8fc;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px -5px rgba(4, 4, 210, 0.05);
+    border: 1px solid rgba(4, 4, 210, 0.06);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.pbmit-mission-vision-card:hover {
+    box-shadow: 0 16px 40px -5px rgba(4, 4, 210, 0.1);
+}
+.pbmit-mission-vision-media {
+    height: 100%;
+    min-height: 260px;
+    position: relative;
+    overflow: hidden;
+}
+.pbmit-mission-vision-media .pbmit-mv-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.pbmit-mission-vision-card:hover .pbmit-mv-img {
+    transform: scale(1.04);
+}
+.pbmit-mission-vision-content-wrap {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 45px 40px 45px 30px;
+}
+.pbmit-mv-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+}
+.pbmit-mv-icon-wrapper {
+    width: 56px;
+    height: 56px;
+    min-width: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: transform 0.35s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.35s ease;
+}
+.pbmit-mv-icon-wrapper.pbmit-mv-icon-mission {
+    background: #fef3c7;
+    box-shadow: 0 4px 14px rgba(217, 119, 6, 0.18);
+}
+.pbmit-mv-icon-wrapper.pbmit-mv-icon-vision {
+    background: #e0f2fe;
+    box-shadow: 0 4px 14px rgba(2, 132, 199, 0.18);
+}
+.pbmit-mission-vision-card:hover .pbmit-mv-icon-wrapper {
+    transform: translateY(-4px) scale(1.06);
+}
+.pbmit-mv-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0c1938;
+    margin: 0 0 12px 0;
+    letter-spacing: -0.2px;
+}
+.pbmit-mv-desc {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #475569;
+    margin: 0;
+}
+.pbmit-mv-divider {
+    width: 1px;
+    background: rgba(15, 23, 42, 0.12);
+    align-self: stretch;
+    margin: 10px 10px;
+    flex-shrink: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    /* .pbmit-mission-vision-section {
+        padding: 20px 0 60px;
+    } */
+    .pbmit-mission-vision-media {
+        min-height: 250px;
+        max-height: 300px;
+    }
+    .pbmit-mission-vision-content-wrap {
+        padding: 35px 25px;
+    }
+    .pbmit-mv-box {
+        padding: 0 15px;
+    }
+    .pbmit-mv-title {
+        font-size: 21px;
+    }
+    .pbmit-mv-desc {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .pbmit-mission-vision-card {
+        border-radius: 18px;
+    }
+    .pbmit-mission-vision-media {
+        min-height: 200px;
+    }
+    .pbmit-mission-vision-content-wrap {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 30px 22px;
+        gap: 28px;
+    }
+    .pbmit-mv-box {
+        padding: 0;
+    }
+    .pbmit-mv-divider {
+        width: 100%;
+        height: 1px;
+        margin: 5px 0;
+    }
+    .pbmit-mv-icon-wrapper {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+        margin-bottom: 14px;
+    }
+    .pbmit-mv-icon-wrapper svg {
+        width: 24px;
+        height: 24px;
+    }
+    .pbmit-mv-title {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .pbmit-mv-desc {
+        font-size: 14px;
+    }
+}
+
+
+/* ===================================================
+   Mission & Vision Section (About Us Page)
+   =================================================== */
+.pbmit-mission-vision-section {
+    position: relative;
+}
+.pbmit-mission-vision-card {
+    background-color: #f1f8fc;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px -5px rgba(4, 4, 210, 0.05);
+    border: 1px solid rgba(4, 4, 210, 0.06);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.pbmit-mission-vision-card:hover {
+    box-shadow: 0 16px 40px -5px rgba(4, 4, 210, 0.1);
+}
+.pbmit-mission-vision-media {
+    height: 100%;
+    min-height: 260px;
+    position: relative;
+    overflow: hidden;
+}
+.pbmit-mission-vision-media .pbmit-mv-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.pbmit-mission-vision-card:hover .pbmit-mv-img {
+    transform: scale(1.04);
+}
+.pbmit-mission-vision-content-wrap {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 45px 40px 45px 30px;
+}
+.pbmit-mv-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+}
+.pbmit-mv-icon-wrapper {
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: transform 0.35s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.35s ease;
+}
+.pbmit-mv-icon-wrapper.pbmit-mv-icon-mission {
+    background: #fef3c7;
+    box-shadow: 0 4px 14px rgba(217, 119, 6, 0.18);
+}
+.pbmit-mv-icon-wrapper.pbmit-mv-icon-vision {
+    background: #e0f2fe;
+    box-shadow: 0 4px 14px rgba(2, 132, 199, 0.18);
+}
+.pbmit-mission-vision-card:hover .pbmit-mv-icon-wrapper {
+    transform: translateY(-4px) scale(1.06);
+}
+.pbmit-mv-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0c1938;
+    margin: 0 0 12px 0;
+    letter-spacing: -0.2px;
+}
+.pbmit-mv-desc {
+    font-size: 16px;
+    line-height: 1.65;
+    color: #475569;
+    margin: 0;
+}
+.pbmit-mv-divider {
+    width: 1px;
+    background: rgba(15, 23, 42, 0.12);
+    align-self: stretch;
+    margin: 10px 10px;
+    flex-shrink: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    /* .pbmit-mission-vision-section {
+        padding: 20px 0 60px;
+    } */
+    .pbmit-mission-vision-media {
+        min-height: 250px;
+        max-height: 300px;
+    }
+    .pbmit-mission-vision-content-wrap {
+        padding: 35px 25px;
+    }
+    .pbmit-mv-box {
+        padding: 0 15px;
+    }
+    .pbmit-mv-title {
+        font-size: 21px;
+    }
+    .pbmit-mv-desc {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .pbmit-mission-vision-card {
+        border-radius: 18px;
+    }
+    .pbmit-mission-vision-media {
+        min-height: 200px;
+    }
+    .pbmit-mission-vision-content-wrap {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 30px 22px;
+        gap: 28px;
+    }
+    .pbmit-mv-box {
+        padding: 0;
+    }
+    .pbmit-mv-divider {
+        width: 100%;
+        height: 1px;
+        margin: 5px 0;
+    }
+    .pbmit-mv-icon-wrapper {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+        margin-bottom: 14px;
+    }
+    .pbmit-mv-icon-wrapper svg {
+        width: 24px;
+        height: 24px;
+    }
+    .pbmit-mv-title {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .pbmit-mv-desc {
+        font-size: 14px;
+    }
+}
+.about-elementor-element .about-elementor-icon-list-items{
+    display: inline-grid;
+}
+.about-elementor-element .about-elementor-icon-list-items .about-elementor-icon-list-item{
+padding: 8px 30px 6px 15px !important;
+    background: var(--pbmit-light-color);
+    border-radius: 5px;
+}
+
+.about-elementor-element .about-elementor-icon-list-items .about-elementor-icon-list-item {
+    display: flex;
+    font-size: inherit;
+    align-items: center;
+    margin-bottom: 5px;
+    position: relative;
+    border: none;
+    width: fit-content;
+}
+
+.about-elementor-element .about-elementor-icon-list-items .about-elementor-icon-list-item  .elementor-icon-list-icon {
+    display: flex;
+    position: relative;
+    top: 2px;
+    color: #02025e;
+    transition: all .25s ease-in-out;
+}
+.about-elementor-element  .elementor-icon-list-icon i {
+    width: 1.25em;
+    font-size: 22px;
+}
+.about-elementor-element .elementor-icon-list-text{
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 5px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #0d0d0e;
+    align-self: center;
+    transition: color 0.3s;
+    font-family: var(--pbmit-heading-typography-font-family);
+}
+@media (min-width: 768px) {
+    .service-details .service-left-col {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 100px;
+        align-self: flex-start;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        z-index: 10;
+    }
+    @media all { .service-left-col .service-sidebar {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 100px;
+
+    }
+}
 }

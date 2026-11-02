@@ -7,6 +7,7 @@ INDEX:
 body {
     overflow: visible;
     overflow-x: hidden;
+    overflow-y: visible;
 }
 
 @media (max-width: 1800px){
@@ -3313,7 +3314,7 @@ body {
 		z-index: 1;
 		display: block;
 		text-transform: capitalize;
-color: #161617;
+        color: #161617;
 		font-family: var(--pbmit-heading-typography-font-family);
 	}
 	.pbmit-bg-color-secondary .site-navigation ul.navigation > li:not(.active) > a:not(:hover){
@@ -3334,12 +3335,12 @@ color: #161617;
 		display: table-cell;
 		font-family: var(--pbmit-heading-typography-font-family);
 		font-weight: 600;
-		font-size: 15px;
-		line-height: 25px;
-		text-transform: capitalize;
-		font-style: normal;
-		color: var(--pbmit-secondary-color);
-	}
+        font-size: 16px;
+        line-height: 25px;
+        text-transform: capitalize;
+        font-style: normal;
+        color: #141416;
+    }
 	.site-header .pbmit-sticky-header{
 		position: fixed;
         top: 0;

@@ -53,11 +53,7 @@
     <!-- page wrapper -->
     <div class="page-wrapper" id="page">
         <?php require_once("include/header.php"); ?>
-        <!-- page content -->
-        <div class="page-content">
             <?= $content ?? ''; ?>
-        </div>
-        <!-- page content End -->
         <?php require_once('include/footer.php') ?>
     </div>
     <!-- page wrapper End -->
