@@ -892,8 +892,8 @@ section:has(.client-two-area){
 .ihbox-section-three{
 	position: relative;
 	z-index: 1;
-	margin-top: -130px;
-	background-image: linear-gradient(180deg, #1D5E8400 0%, #FFFFFF 64%);
+	margin-top: 0;
+	background: transparent;
 }
 .about-section-three{
 	padding: 90px 0 100px;
@@ -2758,7 +2758,8 @@ label.error {
 .ihbox-section-three {
     position: relative;
     z-index: 10;
-    margin-top: 40px;
+    margin-top: 40px !important;
+    padding-top: 0 !important;
     margin-bottom: 50px;
     background: transparent;
     transition: all 0.4s ease;
@@ -2960,13 +2961,44 @@ label.error {
     border-color: #d6ac01;
     box-shadow: 0 6px 18px rgba(214, 172, 1, 0.35);
 }
+@media (max-width: 1400px) {
+    .ihbox-section-three {
+        margin-top: 35px !important;
+        margin-bottom: 40px !important;
+        padding-top: 0 !important;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .ihbox-section-three {
+        margin-top: 30px !important;
+        margin-bottom: 35px !important;
+        padding-top: 0 !important;
+    }
+    .ihbox-section-three .pbmit-ihbox-style-11 .pbmit-ihbox-box {
+        padding: 20px 18px;
+    }
+    .ihbox-section-three .pbmit-element-title {
+        font-size: 17px;
+    }
+    .ihbox-section-three .pbmit-ihbox-icon-wrapper {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+        border-radius: 14px;
+    }
+    .ihbox-section-three .pbmit-ihbox-icon-wrapper svg {
+        width: 22px;
+        height: 22px;
+    }
+}
 .ihbox-section-three .pbmit-miconheading-style-11:nth-child(2) .pbmit-ihbox-style-11:hover .pbmit-ihbox-btn a .pbmit-button-icon {
     color: #000000;
 }
 @media (max-width: 991px) {
     .ihbox-section-three {
-        margin-top: 35px;
-        margin-bottom: 35px;
+        margin-top: 30px !important;
+        padding-top: 0 !important;
+        margin-bottom: 30px !important;
     }
     .ihbox-section-three .pbmit-ihbox-style-11 {
         height: auto;
@@ -2982,6 +3014,23 @@ label.error {
         pointer-events: auto;
         transform: none;
         padding-top: 16px;
+    }
+}
+@media (max-width: 767px) {
+    .ihbox-section-three {
+        margin-top: 25px !important;
+        margin-bottom: 25px !important;
+        padding-top: 0 !important;
+    }
+    .ihbox-section-three .pbmit-miconheading-style-11 {
+        margin-bottom: 20px;
+    }
+    .ihbox-section-three .pbmit-element-title {
+        font-size: 18px;
+    }
+    .ihbox-section-three .pbmit-element-title {
+        font-size: 18px;
+    }
     }
 }
 
@@ -3548,4 +3597,894 @@ padding: 8px 30px 6px 15px !important;
 
 .pbmit-gallery-item:hover img {
     transform: scale(1.05);
+}
+
+
+/* ===================================================
+   Responsive Fixes for About Us & Why Choose Us Sections
+   Ensures seamless 3-column / 2-column layout down to 1250px
+   and fully responsive on all smaller screens
+   =================================================== */
+
+/* ---------------------------------------------------
+   1. About Us Section (.about-section-one)
+   --------------------------------------------------- */
+.about-section-one {
+    position: relative;
+    padding: 60px 0 80px;
+    overflow: hidden;
+}
+
+/* Fix stray border artifact on all screens */
+.about-one-leftbox .about-border {
+    display: none !important;
+}
+
+/* Ensure the doctor/slit-lamp overlay image scales cleanly and doesn't spill over */
+.about-one-leftbox {
+    position: relative;
+}
+.about-one-leftbox .about-img-bg {
+    text-align: center;
+    padding-left: 20px;
+}
+.about-one-leftbox .about-img-bg img {
+    border-radius: 20px;
+    max-width: 95%;
+    height: auto;
+}
+.about-one-leftbox .about-img {
+    position: absolute;
+    right: 10px;
+    bottom: -35px;
+    z-index: 2;
+}
+.about-one-leftbox .about-img img {
+    max-width: 310px;
+    width: auto;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Large Screens down to 1250px (1250px - 1400px) */
+@media (min-width: 1250px) and (max-width: 1400px) {
+    .about-section-one {
+        padding: 50px 0 70px !important;
+    }
+    .about-one-leftbox .about-img img {
+        max-width: 280px !important;
+    }
+    .about-one-leftbox .about-img {
+        right: 5px !important;
+        bottom: -25px !important;
+    }
+    .about-one-content {
+        padding: 15px 0 0 25px !important;
+    }
+    .about-one-content .pbmit-title {
+        font-size: 38px !important;
+        line-height: 44px !important;
+        margin-bottom: 18px !important;
+    }
+    .about-one-content .fid-style-3-bg {
+        padding: 26px 16px !important;
+    }
+    .about-one-content .pbmit-fid-counter {
+        font-size: 42px !important;
+        line-height: 44px !important;
+    }
+    .about-one-content .fid-style-3-bg .pbmit-heading-desc {
+        font-size: 13.5px !important;
+        line-height: 1.4 !important;
+    }
+    .about-one-content .pbmit-ihbox-style-5 .pbmit-element-title {
+        font-size: 18px !important;
+        line-height: 22px !important;
+    }
+    .about-one-content .pbmit-ihbox-style-5 .pbmit-heading-desc {
+        font-size: 13.5px !important;
+        line-height: 1.5 !important;
+    }
+}
+
+/* Medium screens (992px to 1249px) */
+@media (min-width: 992px) and (max-width: 1249px) {
+    .about-section-one {
+        padding: 40px 0 60px !important;
+    }
+    .about-one-leftbox .about-img img {
+        max-width: 250px !important;
+    }
+    .about-one-leftbox .about-img {
+        right: 0 !important;
+        bottom: -20px !important;
+    }
+    .about-one-content {
+        padding: 30px 0 0 15px !important;
+    }
+    .about-one-content .pbmit-title {
+        font-size: 34px !important;
+        line-height: 40px !important;
+    }
+}
+
+/* Tablets (768px to 991px) */
+@media (max-width: 991px) and (min-width: 768px) {
+    .about-section-one {
+        padding: 50px 0 60px !important;
+    }
+    .about-one-leftbox {
+        margin-bottom: 50px;
+    }
+    .about-one-leftbox .about-img-bg img {
+        max-width: 80% !important;
+    }
+    .about-one-leftbox .about-img {
+        right: 12% !important;
+        bottom: -30px !important;
+    }
+    .about-one-leftbox .about-img img {
+        max-width: 260px !important;
+    }
+    .about-one-content {
+        padding: 20px 0 0 0 !important;
+    }
+}
+
+/* Mobile Screens (<= 767px) */
+@media (max-width: 767px) {
+    .about-section-one {
+        padding: 40px 0 50px !important;
+    }
+    .about-one-leftbox .about-img-bg {
+        padding-left: 0 !important;
+    }
+    .about-one-leftbox .about-img-bg img {
+        max-width: 100% !important;
+    }
+    .about-one-leftbox .about-img {
+        position: relative !important;
+        right: auto !important;
+        bottom: auto !important;
+        margin-top: -50px !important;
+        text-align: center !important;
+    }
+    .about-one-leftbox .about-img img {
+        max-width: 240px !important;
+        margin: 0 auto;
+    }
+    .about-one-content {
+        padding: 30px 0 0 0 !important;
+    }
+    .about-one-content .pbmit-title {
+        font-size: 28px !important;
+        line-height: 34px !important;
+    }
+    .about-one-content .fid-style-3-bg {
+        margin-bottom: 25px !important;
+    }
+}
+
+
+/* ---------------------------------------------------
+   2. Why Choose Us Section (.why-choose-sec-two)
+   --------------------------------------------------- */
+
+/* Large Screens down to min-size 1250px (Keeps Clean 3-Column Layout) */
+@media (min-width: 1250px) {
+    .why-choose-sec-two .row {
+        align-items: center !important;
+    }
+    .why-choose-sec-two .half-width-1366-to-1025 {
+        flex: 0 0 33.333333% !important;
+        max-width: 33.333333% !important;
+        width: 33.333333% !important;
+    }
+    .why-choose-sec-two .full-width-1366 {
+        flex: 0 0 33.333333% !important;
+        max-width: 33.333333% !important;
+        width: 33.333333% !important;
+    }
+    /* Center Column: Perfectly Center Circular Badge and Doctor/Girl Photo */
+    .why-choose-sec-two .why-choose-two-center-box {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+    }
+    .why-choose-sec-two .pbmit-main-round-wrap {
+        width: 360px !important;
+        height: 360px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative !important;
+    }
+    .why-choose-sec-two .pbmit-main-round {
+        width: 360px !important;
+        height: 360px !important;
+    }
+    .why-choose-sec-two .pbmit-main-round .pbmit-main-round-inner {
+        width: 310px !important;
+        height: 310px !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img {
+        position: absolute !important;
+        top: -6% !important;
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
+        z-index: 3 !important;
+        width: auto !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img img {
+        max-height: 375px !important;
+        width: auto !important;
+        display: block !important;
+    }
+    /* Right Column: 3 Vertical Stat Cards */
+    .why-choose-sec-two .why-choose-two-right-box {
+        display: block !important;
+        margin: 0 0 0 15px !important;
+        padding: 30px 22px !important;
+        border-radius: 20px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap {
+        width: 100% !important;
+        padding-left: 0 !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap:not(:last-child,:first-child) {
+        border-top: 1px solid #D3E3ED !important;
+        border-bottom: 1px solid #D3E3ED !important;
+        border-left: none !important;
+        border-right: none !important;
+        margin: 20px 0 !important;
+        padding: 20px 0 !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .pbmit-fid-counter {
+        font-size: 38px !important;
+        line-height: 42px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .pbmit-fid-title {
+        font-size: 15px !important;
+        line-height: 20px !important;
+    }
+}
+
+/* Extra-large screens (>= 1400px) expand the circle proportionally */
+@media (min-width: 1400px) {
+    .why-choose-sec-two .pbmit-main-round-wrap {
+        width: 420px !important;
+        height: 420px !important;
+    }
+    .why-choose-sec-two .pbmit-main-round {
+        width: 420px !important;
+        height: 420px !important;
+    }
+    .why-choose-sec-two .pbmit-main-round .pbmit-main-round-inner {
+        width: 360px !important;
+        height: 360px !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img img {
+        max-height: 430px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box {
+        padding: 40px 30px !important;
+        margin-left: 30px !important;
+    }
+}
+
+/* Screens between 992px and 1249px (2-row layout with perfectly centered circle) */
+@media (min-width: 992px) and (max-width: 1249px) {
+    .why-choose-sec-two .half-width-1366-to-1025 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+        width: 50% !important;
+    }
+    .why-choose-sec-two .full-width-1366 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        margin-top: 35px;
+    }
+    .why-choose-sec-two .why-choose-two-center-box {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative !important;
+        margin: 0 auto !important;
+    }
+    .why-choose-sec-two .pbmit-main-round-wrap {
+        width: 350px !important;
+        height: 350px !important;
+    }
+    .why-choose-sec-two .pbmit-main-round {
+        width: 350px !important;
+        height: 350px !important;
+    }
+    .why-choose-sec-two .pbmit-main-round .pbmit-main-round-inner {
+        width: 300px !important;
+        height: 300px !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img {
+        position: absolute !important;
+        top: -6% !important;
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img img {
+        max-height: 360px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: stretch !important;
+        margin: 0 !important;
+        padding: 30px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap {
+        flex: 1 1 33.33% !important;
+        width: 33.33% !important;
+        padding: 0 20px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap:not(:last-child,:first-child) {
+        border-left: 1px solid #D3E3ED !important;
+        border-right: 1px solid #D3E3ED !important;
+        border-top: none !important;
+        border-bottom: none !important;
+        margin: 0 !important;
+        padding: 0 20px !important;
+    }
+}
+
+/* Tablets (768px to 991px) */
+@media (max-width: 991px) and (min-width: 768px) {
+    .why-choose-sec-two .half-width-1366-to-1025 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box {
+        margin: 40px auto !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .why-choose-sec-two .pbmit-main-round-wrap,
+    .why-choose-sec-two .pbmit-main-round {
+        width: 340px !important;
+        height: 340px !important;
+    }
+    .why-choose-sec-two .pbmit-main-round .pbmit-main-round-inner {
+        width: 290px !important;
+        height: 290px !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img {
+        position: absolute !important;
+        top: -6% !important;
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img img {
+        max-height: 350px !important;
+    }
+    .why-choose-sec-two .full-width-1366 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box {
+        display: flex !important;
+        flex-direction: row !important;
+        margin: 0 !important;
+        padding: 25px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap {
+        flex: 1 1 33.33% !important;
+        width: 33.33% !important;
+        padding: 0 15px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap:not(:last-child,:first-child) {
+        border-left: 1px solid #D3E3ED !important;
+        border-right: 1px solid #D3E3ED !important;
+        border-top: none !important;
+        border-bottom: none !important;
+        margin: 0 !important;
+        padding: 0 15px !important;
+    }
+}
+
+/* Mobile Screens (<= 767px) */
+@media (max-width: 767px) {
+    .why-choose-sec-two .why-choose-two-center-box {
+        margin: 35px auto 40px !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .why-choose-sec-two .pbmit-main-round-wrap,
+    .why-choose-sec-two .pbmit-main-round {
+        width: 290px !important;
+        height: 290px !important;
+    }
+    .why-choose-sec-two .pbmit-main-round .pbmit-main-round-inner {
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img {
+        position: absolute !important;
+        top: -6% !important;
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img img {
+        max-height: 300px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box {
+        display: block !important;
+        margin: 0 !important;
+        padding: 25px 20px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap:not(:last-child,:first-child) {
+        border-top: 1px solid #D3E3ED !important;
+        border-bottom: 1px solid #D3E3ED !important;
+        border-left: none !important;
+        border-right: none !important;
+        margin: 20px 0 !important;
+        padding: 20px 0 !important;
+    }
+}
+
+
+/* ===================================================
+   Responsive Fixes for About Us & Why Choose Us Sections
+   Ensures seamless 3-column / 2-column layout down to 1250px
+   and fully responsive on all smaller screens
+   =================================================== */
+
+/* ---------------------------------------------------
+   1. About Us Section (.about-section-one)
+   --------------------------------------------------- */
+.about-section-one {
+    position: relative;
+    padding: 60px 0 80px;
+    overflow: hidden;
+}
+
+/* Fix stray border artifact on all screens */
+.about-one-leftbox .about-border {
+    display: none !important;
+}
+
+/* Ensure the doctor/slit-lamp overlay image scales cleanly and doesn't spill over */
+.about-one-leftbox {
+    position: relative;
+}
+.about-one-leftbox .about-img-bg {
+    text-align: center;
+    padding-left: 20px;
+}
+.about-one-leftbox .about-img-bg img {
+    border-radius: 20px;
+    max-width: 95%;
+    height: auto;
+}
+.about-one-leftbox .about-img {
+    position: absolute;
+    right: 10px;
+    bottom: -35px;
+    z-index: 2;
+}
+.about-one-leftbox .about-img img {
+    max-width: 310px;
+    width: auto;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Large Screens down to 1250px (1250px - 1400px) */
+@media (min-width: 1250px) and (max-width: 1400px) {
+    .about-section-one {
+        padding: 50px 0 70px !important;
+    }
+    .about-one-leftbox .about-img img {
+        max-width: 280px !important;
+    }
+    .about-one-leftbox .about-img {
+        right: 5px !important;
+        bottom: -25px !important;
+    }
+    .about-one-content {
+        padding: 15px 0 0 25px !important;
+    }
+    .about-one-content .pbmit-title {
+        font-size: 38px !important;
+        line-height: 44px !important;
+        margin-bottom: 18px !important;
+    }
+    .about-one-content .fid-style-3-bg {
+        padding: 26px 16px !important;
+    }
+    .about-one-content .pbmit-fid-counter {
+        font-size: 42px !important;
+        line-height: 44px !important;
+    }
+    .about-one-content .fid-style-3-bg .pbmit-heading-desc {
+        font-size: 13.5px !important;
+        line-height: 1.4 !important;
+    }
+    .about-one-content .pbmit-ihbox-style-5 .pbmit-element-title {
+        font-size: 18px !important;
+        line-height: 22px !important;
+    }
+    .about-one-content .pbmit-ihbox-style-5 .pbmit-heading-desc {
+        font-size: 13.5px !important;
+        line-height: 1.5 !important;
+    }
+}
+
+/* Medium screens (992px to 1249px) */
+@media (min-width: 992px) and (max-width: 1249px) {
+    .about-section-one {
+        padding: 40px 0 60px !important;
+    }
+    .about-one-leftbox .about-img img {
+        max-width: 250px !important;
+    }
+    .about-one-leftbox .about-img {
+        right: 0 !important;
+        bottom: -20px !important;
+    }
+    .about-one-content {
+        padding: 30px 0 0 15px !important;
+    }
+    .about-one-content .pbmit-title {
+        font-size: 34px !important;
+        line-height: 40px !important;
+    }
+}
+
+/* Tablets (768px to 991px) */
+@media (max-width: 991px) and (min-width: 768px) {
+    .about-section-one {
+        padding: 50px 0 60px !important;
+    }
+    .about-one-leftbox {
+        margin-bottom: 50px;
+    }
+    .about-one-leftbox .about-img-bg img {
+        max-width: 80% !important;
+    }
+    .about-one-leftbox .about-img {
+        right: 12% !important;
+        bottom: -30px !important;
+    }
+    .about-one-leftbox .about-img img {
+        max-width: 260px !important;
+    }
+    .about-one-content {
+        padding: 20px 0 0 0 !important;
+    }
+}
+
+/* Mobile Screens (<= 767px) */
+@media (max-width: 767px) {
+    .about-section-one {
+        padding: 40px 0 50px !important;
+    }
+    .about-one-leftbox .about-img-bg {
+        padding-left: 0 !important;
+    }
+    .about-one-leftbox .about-img-bg img {
+        max-width: 100% !important;
+    }
+    .about-one-leftbox .about-img {
+        position: relative !important;
+        right: auto !important;
+        bottom: auto !important;
+        margin-top: -50px !important;
+        text-align: center !important;
+    }
+    .about-one-leftbox .about-img img {
+        max-width: 240px !important;
+        margin: 0 auto;
+    }
+    .about-one-content {
+        padding: 30px 0 0 0 !important;
+    }
+    .about-one-content .pbmit-title {
+        font-size: 28px !important;
+        line-height: 34px !important;
+    }
+    .about-one-content .fid-style-3-bg {
+        margin-bottom: 25px !important;
+    }
+}
+
+
+/* ---------------------------------------------------
+   2. Why Choose Us Section (.why-choose-sec-two)
+   --------------------------------------------------- */
+
+/* Large Screens down to min-size 1250px (Keeps Clean 3-Column Layout) */
+@media (min-width: 1250px) {
+    .why-choose-sec-two .row {
+        align-items: center !important;
+    }
+    .why-choose-sec-two .half-width-1366-to-1025 {
+        flex: 0 0 33.333333% !important;
+        max-width: 33.333333% !important;
+        width: 33.333333% !important;
+    }
+    .why-choose-sec-two .full-width-1366 {
+        flex: 0 0 33.333333% !important;
+        max-width: 33.333333% !important;
+        width: 33.333333% !important;
+    }
+    /* Center Column: Perfectly Center Circular Badge and Doctor/Girl Photo */
+    .why-choose-sec-two .why-choose-two-center-box {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+    }
+    .why-choose-sec-two .pbmit-main-round-wrap {
+        width: 360px !important;
+        height: 360px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative !important;
+    }
+    .why-choose-sec-two .pbmit-main-round {
+        width: 360px !important;
+        height: 360px !important;
+    }
+    .why-choose-sec-two .pbmit-main-round .pbmit-main-round-inner {
+        width: 310px !important;
+        height: 310px !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img {
+        position: absolute !important;
+        top: -6% !important;
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
+        z-index: 3 !important;
+        width: auto !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img img {
+        max-height: 375px !important;
+        width: auto !important;
+        display: block !important;
+    }
+    /* Right Column: 3 Vertical Stat Cards */
+    .why-choose-sec-two .why-choose-two-right-box {
+        display: block !important;
+        margin: 0 0 0 15px !important;
+        padding: 30px 22px !important;
+        border-radius: 20px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap {
+        width: 100% !important;
+        padding-left: 0 !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap:not(:last-child,:first-child) {
+        border-top: 1px solid #D3E3ED !important;
+        border-bottom: 1px solid #D3E3ED !important;
+        border-left: none !important;
+        border-right: none !important;
+        margin: 20px 0 !important;
+        padding: 20px 0 !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .pbmit-fid-counter {
+        font-size: 38px !important;
+        line-height: 42px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .pbmit-fid-title {
+        font-size: 15px !important;
+        line-height: 20px !important;
+    }
+}
+
+/* Extra-large screens (>= 1400px) expand the circle proportionally */
+@media (min-width: 1400px) {
+    .why-choose-sec-two .pbmit-main-round-wrap {
+        width: 420px !important;
+        height: 420px !important;
+    }
+    .why-choose-sec-two .pbmit-main-round {
+        width: 420px !important;
+        height: 420px !important;
+    }
+    .why-choose-sec-two .pbmit-main-round .pbmit-main-round-inner {
+        width: 360px !important;
+        height: 360px !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img img {
+        max-height: 430px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box {
+        padding: 40px 30px !important;
+        margin-left: 30px !important;
+    }
+}
+
+/* Screens between 992px and 1249px (2-row layout with perfectly centered circle) */
+@media (min-width: 992px) and (max-width: 1249px) {
+    .why-choose-sec-two .half-width-1366-to-1025 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+        width: 50% !important;
+    }
+    .why-choose-sec-two .full-width-1366 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        margin-top: 35px;
+    }
+    .why-choose-sec-two .why-choose-two-center-box {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative !important;
+        margin: 0 auto !important;
+    }
+    .why-choose-sec-two .pbmit-main-round-wrap {
+        width: 350px !important;
+        height: 350px !important;
+    }
+    .why-choose-sec-two .pbmit-main-round {
+        width: 350px !important;
+        height: 350px !important;
+    }
+    .why-choose-sec-two .pbmit-main-round .pbmit-main-round-inner {
+        width: 300px !important;
+        height: 300px !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img {
+        position: absolute !important;
+        top: -6% !important;
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img img {
+        max-height: 360px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: stretch !important;
+        margin: 0 !important;
+        padding: 30px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap {
+        flex: 1 1 33.33% !important;
+        width: 33.33% !important;
+        padding: 0 20px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap:not(:last-child,:first-child) {
+        border-left: 1px solid #D3E3ED !important;
+        border-right: 1px solid #D3E3ED !important;
+        border-top: none !important;
+        border-bottom: none !important;
+        margin: 0 !important;
+        padding: 0 20px !important;
+    }
+}
+
+/* Tablets (768px to 991px) */
+@media (max-width: 991px) and (min-width: 768px) {
+    .why-choose-sec-two .half-width-1366-to-1025 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box {
+        margin: 40px auto !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .why-choose-sec-two .pbmit-main-round-wrap,
+    .why-choose-sec-two .pbmit-main-round {
+        width: 340px !important;
+        height: 340px !important;
+    }
+    .why-choose-sec-two .pbmit-main-round .pbmit-main-round-inner {
+        width: 290px !important;
+        height: 290px !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img {
+        position: absolute !important;
+        top: -6% !important;
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img img {
+        max-height: 350px !important;
+    }
+    .why-choose-sec-two .full-width-1366 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box {
+        display: flex !important;
+        flex-direction: row !important;
+        margin: 0 !important;
+        padding: 25px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap {
+        flex: 1 1 33.33% !important;
+        width: 33.33% !important;
+        padding: 0 15px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap:not(:last-child,:first-child) {
+        border-left: 1px solid #D3E3ED !important;
+        border-right: 1px solid #D3E3ED !important;
+        border-top: none !important;
+        border-bottom: none !important;
+        margin: 0 !important;
+        padding: 0 15px !important;
+    }
+}
+
+/* Mobile Screens (<= 767px) */
+@media (max-width: 767px) {
+    .why-choose-sec-two .why-choose-two-center-box {
+        margin: 35px auto 40px !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .why-choose-sec-two .pbmit-main-round-wrap,
+    .why-choose-sec-two .pbmit-main-round {
+        width: 290px !important;
+        height: 290px !important;
+    }
+    .why-choose-sec-two .pbmit-main-round .pbmit-main-round-inner {
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img {
+        position: absolute !important;
+        top: -6% !important;
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
+    }
+    .why-choose-sec-two .why-choose-two-center-box .about-img img {
+        max-height: 300px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box {
+        display: block !important;
+        margin: 0 !important;
+        padding: 25px 20px !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .why-choose-sec-two .why-choose-two-right-box .fid-style-4-wrap:not(:last-child,:first-child) {
+        border-top: 1px solid #D3E3ED !important;
+        border-bottom: 1px solid #D3E3ED !important;
+        border-left: none !important;
+        border-right: none !important;
+        margin: 20px 0 !important;
+        padding: 20px 0 !important;
+    }
 }

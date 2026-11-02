@@ -484,7 +484,7 @@ body {
 		justify-content: center;
 	}
 	.why-choose-two-center-box .about-img{
-		right: 25%;
+		left: 50%; transform: translateX(-50%); right: auto;
 	}
 	.about-us-two-section{
 		margin: 120px 30px 100px;
@@ -514,7 +514,7 @@ body {
 	}
 	/*=== Homepage-03 ===*/ 
 	.ihbox-section-three{
-		margin-top: -260px;
+		margin-top: 35px;
 	}
 	.about-section-three{
 		padding: 70px 0 100px;
@@ -650,8 +650,8 @@ body {
 	}
 	.pbmit-slider-one .pbmit-slider-content:after{
 		width: 930px;
-		height: 930px;
-	} */
+		height: 930px; } */ .pbmit-old-banner-fix {
+	}
 }
 
 @media (max-width: 1280px){
@@ -3712,7 +3712,7 @@ body {
 	}
 }
 
-@media(max-width: 1366px) and (min-width: 1025px){
+@media(max-width: 1249px) and (min-width: 1025px){
 	.full-width-1366-to-1025{
 		width: 100%;
 	}
