@@ -170,7 +170,7 @@ include('include/data.php');
     <!-- About End -->
 
     <!-- Mission & Vision Section -->
-    <section class="pbmit-mission-vision-section section-lg">
+    <section class="pbmit-mission-vision-section section-lg pt-0">
         <div class="container">
             <div class="pbmit-mission-vision-card">
                 <div class="row g-0 align-items-stretch">

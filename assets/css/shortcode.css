@@ -3785,8 +3785,8 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
 	border-radius: 50%;
 }
 .pbmit-testimonial-style-2 .pbminfotech-box-desc {
-	padding-top: 75px;
-	padding-bottom: 65px;
+	    padding-top: 38px;
+    padding-bottom: 38px;
 	margin-bottom: 25px;
 	border-bottom: 1px solid rgba(var(--pbmit-blackish-color-rgb), 0.1);
 }

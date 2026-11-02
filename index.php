@@ -3,10 +3,10 @@ ob_start();
 include('include/data.php');
 ?>
 <div class="page-content">
-    
+
     <div class="pbmit-slider-area pbmit-slider-one pbmit-banner-slider-wrapper">
-        <div class="swiper pbmit-banner-slider" data-autoplay="true" data-loop="true" data-dots="true" data-arrows="true"
-            data-columns="1" data-margin="0">
+        <div class="swiper pbmit-banner-slider" data-autoplay="true" data-loop="true" data-dots="true"
+            data-arrows="true" data-columns="1" data-margin="0">
             <!-- Slider Navigation Arrows -->
             <div class="swiper-button-prev pbmit-banner-btn-prev d-none"></div>
             <div class="swiper-button-next pbmit-banner-btn-next d-none"></div>
@@ -16,13 +16,15 @@ include('include/data.php');
                 <!-- Slide1 -->
                 <div class="swiper-slide">
                     <div class="pbmit-slider-item">
-                        <img src="assets/images/banner/banner-one.jpg" class="img-fluid w-100" alt="Banner Slide One">
+                        <img src="assets/images/banner/banner-one.jpg" class="img-fluid w-100 desktop-banner" alt="Banner Slide One">
+                        <img src="assets/images/banner/mobile-banner-one.jpg" class="img-fluid w-100 mobile-banner" alt="Banner Slide One">
                     </div>
                 </div>
                 <!-- Slide2 -->
                 <div class="swiper-slide">
                     <div class="pbmit-slider-item">
-                        <img src="assets/images/banner/banner-two.jpg" class="img-fluid w-100" alt="Banner Slide Two">
+                        <img src="assets/images/banner/banner-two.jpg" class="img-fluid w-100 desktop-banner" alt="Banner Slide Two">
+                        <img src="assets/images/banner/mobile-banner-two.jpg" class="img-fluid w-100 mobile-banner" alt="Banner Slide Two">
                     </div>
                 </div>
             </div>
@@ -93,7 +95,8 @@ include('include/data.php');
                                     </div>
                                 </div>
                                 <div class="pbmit-ihbox-contents">
-                                    <div class="pbmit-heading-desc">We believe in compassionate care, clear guidance and a
+                                    <div class="pbmit-heading-desc">We believe in compassionate care, clear guidance and
+                                        a
                                         comfortable experience for every patient and family.</div>
                                     <div class="pbmit-ihbox-btn">
                                         <a href="contact-us.html">
@@ -173,7 +176,7 @@ include('include/data.php');
     </section>
 
     <!-- About Start -->
-    <section class="about-section-one">
+    <section class="about-section-one pt-0" style="padding-top: 0;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 full-width-1200">
@@ -183,7 +186,8 @@ include('include/data.php');
                             <img src="assets/images/resource/about-clinic.webp" alt="About Image">
                         </div>
                         <div class="about-img-bg">
-                            <img src="assets/images/resource/about-img.jpg" class="rounded-20 img-fluid" alt="About Image">
+                            <img src="assets/images/resource/about-img.jpg" class="rounded-20 img-fluid"
+                                alt="About Image">
                         </div>
                     </div>
                 </div>
@@ -284,8 +288,9 @@ include('include/data.php');
                 <div class="tween-effect-style-1-wrap">
                     <div class="pbmit-ele-tween-effect pbmit-tween-image pbmit-tween-effect-style-1">
                         <div class="pbmit-tween-effect" data-x-start="0" data-x-end="0" data-y-start="0" data-y-end="0"
-                            data-scale-x-start="0.6" data-scale-x-end=" 1" data-skew-x-start=" 0deg" data-skew-x-end="0deg"
-                            data-skew-y-start=" 0deg" data-skew-y-end=" 0deg" data-rotate-x-start="0" data-rotate-x-end="0">
+                            data-scale-x-start="0.6" data-scale-x-end=" 1" data-skew-x-start=" 0deg"
+                            data-skew-x-end="0deg" data-skew-y-start=" 0deg" data-skew-y-end=" 0deg"
+                            data-rotate-x-start="0" data-rotate-x-end="0">
                             <img src="assets/images/resource/about-img-02.png" class="img-fluid" alt="About Image">
                         </div>
                     </div>
@@ -302,8 +307,9 @@ include('include/data.php');
                 <div class="tween-effect-style-wrap">
                     <div class="pbmit-ele-tween-effect pbmit-tween-image pbmit-tween-effect-style-1">
                         <div class="pbmit-tween-effect" data-x-start="0" data-x-end="0" data-y-start="50" data-y-end="0"
-                            data-scale-x-start="0.7" data-scale-x-end=" 1" data-skew-x-start=" 0deg" data-skew-x-end="0deg"
-                            data-skew-y-start=" 0deg" data-skew-y-end=" 0deg" data-rotate-x-start="0" data-rotate-x-end="0"
+                            data-scale-x-start="0.7" data-scale-x-end=" 1" data-skew-x-start=" 0deg"
+                            data-skew-x-end="0deg" data-skew-y-start=" 0deg" data-skew-y-end=" 0deg"
+                            data-rotate-x-start="0" data-rotate-x-end="0"
                             style="transform: translate(0%, 5.98832%) scale(0.96407) skew(0deg, 0deg) rotate(0deg);">
                             <img src="images/demo-1/service-glasses.png" class="img-fluid" alt="">
                         </div>
@@ -329,7 +335,8 @@ include('include/data.php');
                                     </span>
                                 </span>
                                 <span class="pbmit-button-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" height="512" viewbox="0 0 24 24" width="512">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="512" viewbox="0 0 24 24"
+                                        width="512">
                                         <path
                                             d="m21.706 12.708-7 7a1 1 0 0 1 -1.414-1.414l5.294-5.294h-15.586a1 1 0 0 1 0-2h15.586l-5.293-5.293a1 1 0 0 1 1.414-1.414l7 7a1 1 0 0 1 0 1.416z"
                                             fill="rgb(0,0,0)"></path>
@@ -339,8 +346,9 @@ include('include/data.php');
                         </a>
                     </div>
                 </div>
-                <div class="swiper-slider pbmit-column-four" data-autoplay="false" data-loop="true" data-allow-touch="true"
-                    data-dots="false" data-arrows="true" data-columns="4" data-margin="20" data-effect="slide">
+                <div class="swiper-slider pbmit-column-four" data-autoplay="false" data-loop="true"
+                    data-allow-touch="true" data-dots="false" data-arrows="true" data-columns="4" data-margin="20"
+                    data-effect="slide">
                     <div class="swiper-wrapper">
 
                         <?php foreach ($services as $index => $service): ?>
@@ -535,8 +543,9 @@ include('include/data.php');
                                     <div class="pbmit-contents-box">
                                         <h4 class="pbmit-fid-counter">
                                             <span class="pbmit-fid-before"></span>
-                                            <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits"
-                                                data-from="0" data-to="100" data-interval="10">
+                                            <span class="pbmit-number-rotate numinate"
+                                                data-appear-animation="animateDigits" data-from="0" data-to="100"
+                                                data-interval="10">
                                                 100
                                             </span>
 
@@ -581,8 +590,9 @@ include('include/data.php');
                                     <div class="pbmit-contents-box">
                                         <h4 class="pbmit-fid-counter">
                                             <span class="pbmit-fid-before"></span>
-                                            <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits"
-                                                data-from="0" data-to="6" data-interval="10">
+                                            <span class="pbmit-number-rotate numinate"
+                                                data-appear-animation="animateDigits" data-from="0" data-to="6"
+                                                data-interval="10">
                                                 6
                                             </span>
 
@@ -627,8 +637,9 @@ include('include/data.php');
                                     <div class="pbmit-contents-box">
                                         <h4 class="pbmit-fid-counter">
                                             <span class="pbmit-fid-before"></span>
-                                            <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits"
-                                                data-from="0" data-to="25" data-interval="10">
+                                            <span class="pbmit-number-rotate numinate"
+                                                data-appear-animation="animateDigits" data-from="0" data-to="25"
+                                                data-interval="10">
                                                 25
                                             </span>
                                             <span class="pbmit-fid"><span>+</span></span>
@@ -675,40 +686,40 @@ include('include/data.php');
                                 </div>
                                 <div class="rating-icon-wrap">
                                     <div class="rating-icon">
-                                        <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star" viewbox="0 0 1000 1000"
-                                            xmlns="http://www.w3.org/2000/svg">
+                                        <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star"
+                                            viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z">
                                             </path>
                                         </svg>
                                     </div>
                                     <div class="rating-icon">
-                                        <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star" viewbox="0 0 1000 1000"
-                                            xmlns="http://www.w3.org/2000/svg">
+                                        <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star"
+                                            viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z">
                                             </path>
                                         </svg>
                                     </div>
                                     <div class="rating-icon">
-                                        <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star" viewbox="0 0 1000 1000"
-                                            xmlns="http://www.w3.org/2000/svg">
+                                        <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star"
+                                            viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z">
                                             </path>
                                         </svg>
                                     </div>
                                     <div class="rating-icon">
-                                        <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star" viewbox="0 0 1000 1000"
-                                            xmlns="http://www.w3.org/2000/svg">
+                                        <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star"
+                                            viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z">
                                             </path>
                                         </svg>
                                     </div>
                                     <div class="rating-icon">
-                                        <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star" viewbox="0 0 1000 1000"
-                                            xmlns="http://www.w3.org/2000/svg">
+                                        <svg aria-hidden="true" class="e-font-icon-svg e-eicon-star"
+                                            viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z">
                                             </path>
@@ -767,7 +778,8 @@ include('include/data.php');
                         <p class="pbmit-desc">
                             Lions Eye Hospital, Ghaziabad provides comprehensive eye care with experienced specialists,
                             modern diagnostic facilities and patient-focused treatment. From routine eye check-ups to
-                            cataract, retina and glaucoma care, we are committed to protecting your vision at every stage.
+                            cataract, retina and glaucoma care, we are committed to protecting your vision at every
+                            stage.
                         </p>
                         <div class="row">
                             <div class="col-md-6">
@@ -841,7 +853,8 @@ include('include/data.php');
                                             </div>
                                             <h2 class="pbmit-element-title">Complete Eye Care</h2>
                                             <div class="pbmit-heading-desc">
-                                                Comprehensive services for cataract, retina, glaucoma, diabetic eye care and
+                                                Comprehensive services for cataract, retina, glaucoma, diabetic eye care
+                                                and
                                                 vision testing.
                                             </div>
                                         </div>
@@ -905,7 +918,8 @@ include('include/data.php');
                                             </div>
                                             <h2 class="pbmit-element-title">Experienced Specialists</h2>
                                             <div class="pbmit-heading-desc">
-                                                Skilled eye care professionals providing dependable diagnosis and advanced
+                                                Skilled eye care professionals providing dependable diagnosis and
+                                                advanced
                                                 treatment.
                                             </div>
                                         </div>
@@ -954,7 +968,8 @@ include('include/data.php');
                                     </h4>
 
                                     <div class="pbmit-static-box-desc">
-                                        Schedule your appointment with our eye care team for a detailed consultation based
+                                        Schedule your appointment with our eye care team for a detailed consultation
+                                        based
                                         on your vision needs.
                                     </div>
                                 </div>
@@ -1000,7 +1015,8 @@ include('include/data.php');
                                     </h4>
 
                                     <div class="pbmit-static-box-desc">
-                                        Based on your diagnosis, our doctors recommend the most suitable treatment or eye
+                                        Based on your diagnosis, our doctors recommend the most suitable treatment or
+                                        eye
                                         care plan for your condition.
                                     </div>
                                 </div>
@@ -1023,7 +1039,8 @@ include('include/data.php');
                                     </h4>
 
                                     <div class="pbmit-static-box-desc">
-                                        Regular follow-ups help monitor your progress, support recovery and maintain healthy
+                                        Regular follow-ups help monitor your progress, support recovery and maintain
+                                        healthy
                                         vision over time.
                                     </div>
                                 </div>
@@ -1217,14 +1234,12 @@ include('include/data.php');
                                 <div class="pbmit-featured-container-inner">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/blog/blog-one.png"
-                                                class="img-fluid"
+                                            <img src="assets/images/blog/blog-one.png" class="img-fluid"
                                                 alt="Eye care tips">
                                         </div>
                                     </div>
 
-                                    <a class="pbmit-link"
-                                        href="blog-single-detail.html"
+                                    <a class="pbmit-link" href="blog-single-detail.html"
                                         title="Eye care tips for healthy vision">
                                     </a>
                                 </div>
@@ -1237,12 +1252,10 @@ include('include/data.php');
                                     </a>
                                 </h3>
 
-                                <a class="pbmit-blog-btn"
-                                    href="blog-single-detail.html">
+                                <a class="pbmit-blog-btn" href="blog-single-detail.html">
 
                                     <span class="pbmit-btn-wrapper">
-                                        <span class="pbmit-button-text"
-                                            data-text="Continue Read">
+                                        <span class="pbmit-button-text" data-text="Continue Read">
                                             <span>Continue Read</span>
                                         </span>
                                     </span>
@@ -1268,14 +1281,12 @@ include('include/data.php');
                                 <div class="pbmit-featured-container-inner">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/blog/blog-two.png"
-                                                class="img-fluid"
+                                            <img src="assets/images/blog/blog-two.png" class="img-fluid"
                                                 alt="Cataract treatment">
                                         </div>
                                     </div>
 
-                                    <a class="pbmit-link"
-                                        href="blog-single-detail.html"
+                                    <a class="pbmit-link" href="blog-single-detail.html"
                                         title="Understanding cataract symptoms and treatment">
                                     </a>
                                 </div>
@@ -1288,12 +1299,10 @@ include('include/data.php');
                                     </a>
                                 </h3>
 
-                                <a class="pbmit-blog-btn"
-                                    href="blog-single-detail.html">
+                                <a class="pbmit-blog-btn" href="blog-single-detail.html">
 
                                     <span class="pbmit-btn-wrapper">
-                                        <span class="pbmit-button-text"
-                                            data-text="Continue Read">
+                                        <span class="pbmit-button-text" data-text="Continue Read">
                                             <span>Continue Read</span>
                                         </span>
                                     </span>
@@ -1319,14 +1328,12 @@ include('include/data.php');
                                 <div class="pbmit-featured-container-inner">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/blog/blog-three.png"
-                                                class="img-fluid"
+                                            <img src="assets/images/blog/blog-three.png" class="img-fluid"
                                                 alt="Diabetic eye care">
                                         </div>
                                     </div>
 
-                                    <a class="pbmit-link"
-                                        href="blog-single-detail.html"
+                                    <a class="pbmit-link" href="blog-single-detail.html"
                                         title="Diabetes and eye health">
                                     </a>
                                 </div>
@@ -1339,12 +1346,10 @@ include('include/data.php');
                                     </a>
                                 </h3>
 
-                                <a class="pbmit-blog-btn"
-                                    href="blog-single-detail.html">
+                                <a class="pbmit-blog-btn" href="blog-single-detail.html">
 
                                     <span class="pbmit-btn-wrapper">
-                                        <span class="pbmit-button-text"
-                                            data-text="Continue Read">
+                                        <span class="pbmit-button-text" data-text="Continue Read">
                                             <span>Continue Read</span>
                                         </span>
                                     </span>
