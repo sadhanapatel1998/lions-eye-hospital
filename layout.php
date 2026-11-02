@@ -20,12 +20,12 @@
     <!-- Web App Manifest -->
     <link rel="manifest" href="assets/favicon//site.webmanifest">
     <!-- CSS
-			============================================ -->
+            ============================================ -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Fontawesome -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <!-- Ophtical Icon -->
+    <!--  Icon -->
     <link rel="stylesheet" href="assets/fonts/pbmit-ophtical-icon/pbmit_ophtical.css">
     <!-- Base Icons -->
     <link rel="stylesheet" href="assets/css/pbminfotech-base-icons.css">
@@ -45,15 +45,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
     <!-- page wrapper -->
     <div class="page-wrapper" id="page">
         <?php require_once("include/header.php"); ?>
-            <?= $content ?? ''; ?>
+        <?= $content ?? ''; ?>
         <?php require_once('include/footer.php') ?>
     </div>
     <!-- page wrapper End -->
@@ -63,7 +62,8 @@
         <div class="pbmit-search-overlay"></div>
         <div class="pbmit-header-search-form-wrapper">
             <div class="pbmit-search-close">
-                <svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="28.163" height="28.163" viewbox="0 0 26.163 26.163">
+                <svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="28.163" height="28.163"
+                    viewbox="0 0 26.163 26.163">
                     <rect width="36" height="1" transform="translate(0.707) rotate(45)"></rect>
                     <rect width="36" height="1" transform="translate(0 25.456) rotate(-45)"></rect>
                 </svg>
@@ -89,7 +89,7 @@
     <!-- Scroll To Top End -->
 
     <!-- JS
-		============================================ -->
+        ============================================ -->
     <!-- jQuery JS -->
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
@@ -128,9 +128,12 @@
     <!-- Scripts JS -->
     <script src="assets/js/scripts.js"></script>
 
-    <script type="module" src="../beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"125856bf84ab44059737e93b01aa0fef","spa":2}' crossorigin="anonymous"></script>
+    <script type="module" src="../beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+        integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw=="
+        data-cf-beacon='{"version":"2024.11.0","token":"125856bf84ab44059737e93b01aa0fef","spa":2}'
+        crossorigin="anonymous"></script>
     <script>
-        window.addEventListener('load', function() {
+        window.addEventListener('load', function () {
             if (typeof Swiper !== 'undefined') {
                 new Swiper('.pbmit-banner-slider', {
                     loop: true,
@@ -157,7 +160,7 @@
         });
     </script>
     <script>
-        (function() {
+        (function () {
             function c() {
                 var b = a.contentDocument || (a.contentWindow && a.contentWindow.document);
                 if (b) {
@@ -179,14 +182,30 @@
                 if ('loading' !== document.readyState) c();
                 else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
                 else {
-                    var e = document.onreadystatechange || function() {};
-                    document.onreadystatechange = function(b) {
+                    var e = document.onreadystatechange || function () { };
+                    document.onreadystatechange = function (b) {
                         e(b);
                         'loading' !== document.readyState && (document.onreadystatechange = e, c())
                     }
                 }
             }
         })();
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.image-popup-vertical-fit').magnificPopup({
+                type: 'image',
+                gallery: {
+                    enabled: true
+                },
+                mainClass: 'mfp-with-zoom',
+                zoom: {
+                    enabled: true,
+                    duration: 300,
+                    easing: 'ease-in-out'
+                }
+            });
+        });
     </script>
 </body>
 

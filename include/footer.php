@@ -59,7 +59,7 @@
 										Lions Eye Hospital, Ghaziabad provides comprehensive eye care with experienced specialists, modern facilities and patient-focused treatment.
 									</p>
 									<div class="text-center">
-										<img src="assets/images/resource/footer-png.png" class="img-fluid" alt="Footer Image">
+										<img src="assets/images/resource/footer-png.png" class="w-75" alt="Footer Image">
 									</div>
 								</aside>
 							</div>
