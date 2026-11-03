@@ -100,7 +100,7 @@
 							<div class="pbmit-footer-widget-col-4 col-md-2">
 								<aside class="widget">
 									<h2 class="widget-title">Visit clinic</h2>
-									<p class="pbmit-custom-title mb-0">E-Block Kavi Nagar Near Jain Mandir Ghaziabad U.P 201002</p>
+									<p class="pbmit-custom-title mb-0"><a href="https://maps.app.goo.gl/KnKv252BcbM3LjwQ8" target="_blank">E-Block Kavi Nagar Near Jain Mandir Ghaziabad U.P 201002</a></p>
 									<p class="tel-nub mb-0"><a href="tel:+919315241610">+91 9315241610 </a></p>
 									<p class="tel-nub mb-0"><a href="tel:+918448780237">+91 8448780237 </a></p>
 									<p class="contact-email mb-0">
@@ -142,7 +142,7 @@
 										</div>
 										<div class="col-md-8 text-md-end">
 											<div class="pbmit-footer-copyright-text-area">
-												Copyright © 2025 Lions Eye Hospital, All Rights Reserved.
+												Copyright © 2026 Lions Eye Hospital, All Rights Reserved.
 											</div>
 										</div>
 									</div>

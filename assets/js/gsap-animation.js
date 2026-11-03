@@ -186,7 +186,7 @@ gsap.config({
 			var search_form = jQuery(".pbmit-header-search-form");
 			var search_field = jQuery('.pbmit-header-search-form .search-field');
 			var $body = jQuery('body');
-			jQuery(".pbmit-header-search-btn").on('click', function(e) {
+			jQuery("").on('click', function(e) {
 				if (!search_form.hasClass('active')) {
 					search_form.addClass('active');
 					setTimeout(function() { search_field.get(0).focus(); }, 500);

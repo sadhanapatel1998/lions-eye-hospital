@@ -1,20 +1,11 @@
 <?php
 
 $services = [
-    // [
-    //     'title' => 'Diabetic Care Centre',
-    //     'description' => 'Specialized eye care for diabetes-related vision problems.',
-    //     'image' => 'https://ophtical-demo.pbminfotech.com/html-demo/images/demo-1/service/service-img-05.jpg',
-    //     'link' => 'service-details.html',
-    //     'category_1' => 'Diabetic Eye Care',
-    //     'category_2' => 'Vision Testing',
-    // ],
-
     [
         'title' => 'Retina Surgery',
         'description' => 'Advanced surgical care for retinal conditions and vision problems.',
         'image' => 'assets/images/services/retina-surgery.jpg',
-        'link' => 'service-details.html',
+        'link' => 'service-retina-surgery.php',
         'category_1' => 'Retina Care',
         'category_2' => 'Eye Surgery',
     ],
@@ -23,7 +14,7 @@ $services = [
         'title' => 'Cataract',
         'description' => 'Expert cataract evaluation and treatment for clearer vision.',
         'image' => 'assets/images/services/cataract.jpg',
-        'link' => 'service-details.html',
+        'link' => 'service-cataract.php',
         'category_1' => 'Cataract Care',
         'category_2' => 'Vision Restoration',
     ],
@@ -32,7 +23,7 @@ $services = [
         'title' => 'Glaucoma Diagnosis',
         'description' => 'Accurate diagnosis and monitoring for better glaucoma management.',
         'image' => 'assets/images/services/glaucoma.jpg',
-        'link' => 'service-details.html',
+        'link' => 'service-glaucoma-diagnosis.php',
         'category_1' => 'Glaucoma',
         'category_2' => 'Eye Testing',
     ],
@@ -41,7 +32,7 @@ $services = [
         'title' => 'Eye Check Up',
         'description' => 'Comprehensive eye examinations for early detection and healthy vision.',
         'image' => 'assets/images/services/eye-check-up.jpg',
-        'link' => 'service-details.html',
+        'link' => 'service-eye-check-up.php',
         'category_1' => 'Eye Exams',
         'category_2' => 'Vision Testing',
     ],
@@ -50,7 +41,7 @@ $services = [
         'title' => 'Spectacles',
         'description' => 'Professional eye testing and guidance for the right spectacles.',
         'image' => 'assets/images/services/spectacles.jpg',
-        'link' => 'service-details.html',
+        'link' => 'service-spectacles.php',
         'category_1' => 'Vision Testing',
         'category_2' => 'Lens Selection',
     ],

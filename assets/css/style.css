@@ -43,7 +43,7 @@
 .doctor-schedule-section {
   padding: 30px 30px 120px;
 }
-.doctor-schedule-section .left-col,
+/* .doctor-schedule-section .left-col,
 .doctor-schedule-section .right-col {
   position: relative;
   background-image: url(../images/demo-1/bg/about-bg-shape-01.png);
@@ -60,7 +60,7 @@
   background-image: url(../images/demo-1/bg/about-bg-shape-02.png);
   background-position: bottom left;
   background-repeat: no-repeat;
-}
+} */
 .doctor-schedule-section .left-col::before,
 .about-one-content .fid-style-3-bg:before,
 .doctor-schedule-section .right-col::before,
@@ -164,11 +164,11 @@ ul.pbmit-timelist-list .pbmit-timetable-hours {
   max-width: 38%;
   border: 1px solid #dddddd;
 }
-.doctor-schedule-section .right-col::before {
+/* .doctor-schedule-section .right-col::before {
   background-image: url(../images/demo-1/bg/about-bg-shape-02.png);
   background-position: bottom left;
   background-repeat: no-repeat;
-}
+} */
 .doctor-schedule-section .right-col .right-col-inner {
   display: flex;
   padding: 40px 40px 0 70px;
@@ -266,10 +266,10 @@ ul.pbmit-timelist-list .pbmit-timetable-hours {
   padding: 0;
 }
 .service-section-one {
-  padding: 75px 50px 75px;
+  padding: 60px 50px 75px;
 }
 .service-one-inner {
-  padding: 75px 0 75px;
+  padding: 60px 0 65px;
   position: relative;
   border-radius: 30px;
 }
@@ -763,7 +763,7 @@ ul.pbmit-timelist-list .pbmit-timetable-hours {
 }
 .about-us-two-section {
   margin: 80px 50px;
-  padding: 80px 0 8%;
+  padding: 80px 0 75px;
   position: relative;
   border-radius: 20px;
   background-image: url(../images/demo-2/bg/about-patten-02.png);
@@ -2857,6 +2857,9 @@ label.error {
   .pbmit-banner-slider-wrapper .pbmit-banner-btn-prev {
     display: none !important;
   }
+  .why-choose-sec-two{
+    padding-top: 50px;
+  }
 }
 /* ===================================================
    Enhanced ihbox-section-three (Hover Reveal Cards)
@@ -2943,7 +2946,7 @@ label.error {
   transition: margin-bottom 0.35s ease;
 }
 .ihbox-section-three .pbmit-element-title {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 1.35;
   color: #0f172a;
@@ -3043,7 +3046,7 @@ label.error {
 }
 
 .ihbox-section-three .pbmit-heading-desc {
-  font-size: 14.5px;
+  font-size: 16px;
   line-height: 1.6;
   color: #475569;
   margin-bottom: 20px;
@@ -3061,9 +3064,9 @@ label.error {
   background: #f8fafc;
   border: 1px solid rgba(4, 4, 210, 0.1);
   border-radius: 12px;
-  color: #0404d2 !important;
-  font-weight: 600;
-  font-size: 14px;
+    color: #03035d !important;
+    font-weight: 600;
+    font-size: 16px;
   letter-spacing: 0.2px;
   text-decoration: none;
   transition: all 0.35s ease;
@@ -3112,8 +3115,8 @@ label.error {
 }
 @media (max-width: 1400px) {
   .ihbox-section-three {
-    margin-top: 35px !important;
-    margin-bottom: 60px !important;
+    margin-top: 50px !important;
+    margin-bottom: 30px !important;
     padding-top: 0 !important;
   }
   .list-group .pbmit-icon-list-text {
@@ -4883,7 +4886,7 @@ label.error {
 /* Mobile Screens: <= 767px */
 @media (max-width: 767px) {
   .about-section-one {
-    padding: 40px 0 60px !important;
+    padding: 0px 0 60px !important;
   }
   .about-one-leftbox {
     max-width: 420px;
@@ -4944,4 +4947,133 @@ label.error {
     display: block !important;
     width: 100%;
   }
+}
+
+@media (min-width: 1250px) and (max-width: 1350px) {
+    .about-one-leftbox .about-border {
+        bottom: -114px !important;
+        left: 22px !important;
+    }
+        .about-one-leftbox .about-border {
+        width: 580px;
+    }
+}
+/* =========================================
+   FLOATING CONTACT BUTTONS
+========================================= */
+
+.floating-contact {
+    position: fixed;
+    right: 22px;
+    bottom: 25px;
+    z-index: 9999;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.floating-btn {
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    color: #fff;
+    text-decoration: none;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+
+    transition:
+        width 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+    overflow: hidden;
+}
+
+.floating-btn i {
+    font-size: 22px;
+    min-width: 52px;
+    text-align: center;
+}
+
+.floating-btn span {
+    max-width: 0;
+    opacity: 0;
+    white-space: nowrap;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    transition:
+        max-width 0.3s ease,
+        opacity 0.2s ease;
+}
+
+/* Hover */
+
+.floating-btn:hover {
+    width: 145px;
+    border-radius: 30px;
+    transform: translateY(-3px);
+    color: #fff;
+}
+
+.floating-btn:hover span {
+    max-width: 80px;
+    opacity: 1;
+}
+
+/* WhatsApp */
+
+.whatsapp-btn {
+    background: #25D366;
+}
+
+/* Call */
+
+.call-btn {
+    background: #0B2A4A;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .floating-contact {
+        right: 15px;
+        bottom: 18px;
+        gap: 10px;
+    }
+
+    .floating-btn {
+        width: 48px;
+        height: 48px;
+    }
+
+    .floating-btn i {
+        min-width: 48px;
+        font-size: 20px;
+    }
+
+    /* No expanding text on mobile */
+
+    .floating-btn:hover {
+        width: 48px;
+        border-radius: 50%;
+        transform: none;
+    }
+
+    .floating-btn span {
+        display: none;
+    }
+
 }

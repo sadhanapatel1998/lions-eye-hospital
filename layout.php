@@ -1,13 +1,26 @@
+<?php include 'seo.php'; ?>
+
 <!doctype html>
 <html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Loins Eye Hospital</title>
-    <meta name="robots" content="noindex, follow">
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="<?php echo htmlspecialchars($pageMeta['description']); ?>">
+    <meta name="keywords" content="<?php echo htmlspecialchars($pageMeta['keywords']); ?>">
+    <!-- Author -->
+    <meta name="author" content="GoVacanzaDmc Travel & Tours">
+    <!-- Robots -->
+    <meta name="robots" content="<?php echo $pageMeta['robots']; ?>">
+    <!-- Canonical URL (Optional) -->
+    <?php if (!empty($pageMeta['canonical'])): ?>
+        <link rel="canonical" href="<?php echo $pageMeta['canonical']; ?>">
+    <?php endif; ?>
+    <!-- Page Title -->
+    <title><?php echo htmlspecialchars($pageMeta['title']); ?></title>
+
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -57,25 +70,23 @@
     </div>
     <!-- page wrapper End -->
 
-    <!-- Search Box Start Here -->
-    <div class="pbmit-header-search-form">
-        <div class="pbmit-search-overlay"></div>
-        <div class="pbmit-header-search-form-wrapper">
-            <div class="pbmit-search-close">
-                <svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="28.163" height="28.163"
-                    viewbox="0 0 26.163 26.163">
-                    <rect width="36" height="1" transform="translate(0.707) rotate(45)"></rect>
-                    <rect width="36" height="1" transform="translate(0 25.456) rotate(-45)"></rect>
-                </svg>
-            </div>
-            <form class="search-form">
-                <input type="search" class="search-field" placeholder="Search …" value="" name="s">
-                <button type="submit" class="search-submit " title="Search"></button>
-                <div class="pbmit-search-line"></div>
-            </form>
-        </div>
+    <!-- Floating Contact Buttons -->
+    <div class="floating-contact">
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/919315241610" class="floating-btn whatsapp-btn" target="_blank" rel="noopener noreferrer"
+            aria-label="Chat with Lions Eye Hospital on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>WhatsApp</span>
+        </a>
+
+        <!-- Call -->
+        <a href="tel:+918448780237" class="floating-btn call-btn" aria-label="Call Lions Eye Hospital">
+            <i class="fa-solid fa-phone"></i>
+            <span>Call Now</span>
+        </a>
+
     </div>
-    <!-- Search Box End Here -->
 
     <!-- Scroll To Top -->
     <div class="pbmit-backtotop">

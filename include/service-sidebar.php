@@ -2,20 +2,28 @@
     <aside class="widget post-list">
         <h2 class="widget-title">All services</h2>
         <div class="all-post-list">
+            <?php
+            $currentPage = basename($_SERVER['PHP_SELF']);
+            ?>
+
             <ul>
-                <li>
+                <li class="<?= $currentPage === 'service-retina-surgery.php' ? 'post-active' : ''; ?>">
                     <a href="service-retina-surgery.php">Retina Surgery</a>
                 </li>
-                <li>
+
+                <li class="<?= $currentPage === 'service-cataract.php' ? 'post-active' : ''; ?>">
                     <a href="service-cataract.php">Cataract</a>
                 </li>
-                <li>
+
+                <li class="<?= $currentPage === 'service-glaucoma-diagnosis.php' ? 'post-active' : ''; ?>">
                     <a href="service-glaucoma-diagnosis.php">Glaucoma Diagnosis</a>
                 </li>
-                <li>
+
+                <li class="<?= $currentPage === 'service-eye-check-up.php' ? 'post-active' : ''; ?>">
                     <a href="service-eye-check-up.php">Eye Check Up</a>
                 </li>
-                <li>
+
+                <li class="<?= $currentPage === 'service-spectacles.php' ? 'post-active' : ''; ?>">
                     <a href="service-spectacles.php">Spectacles</a>
                 </li>
             </ul>

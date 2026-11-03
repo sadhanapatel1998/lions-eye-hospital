@@ -158,7 +158,7 @@
 												<a href="about-us.php">About Us</a>
 											</li>
 											<li class="dropdown">
-												<a href="#">Services</a>
+												<a href="services.php">Services</a>
 												<ul>
 													<li>
 														<a href="service-retina-surgery.php">Retina Surgery</a>

@@ -16,7 +16,8 @@ include('include/data.php');
                 <div class="pbmit-breadcrumb">
                     <div class="pbmit-breadcrumb-inner">
                         <span>
-                            <a title="Lions Eye Hospital" href="index.php" class="home"><span>Lions Eye Hospital</span></a>
+                            <a title="Lions Eye Hospital" href="index.php" class="home"><span>Lions Eye
+                                    Hospital</span></a>
                         </span>
                         <span class="sep">
                             <i class="pbmit-base-icon-angle-right"></i>
@@ -43,13 +44,11 @@ include('include/data.php');
                         <div class="about-border" data-aos="fade-up" data-aos-duration="800"></div>
 
                         <div class="about-img" data-aos="fade-up" data-aos-duration="800">
-                            <img src="assets/images/resource/about-clinic.webp"
-                                alt="Lions Eye Hospital Ghaziabad">
+                            <img src="assets/images/resource/about-clinic.webp" alt="Lions Eye Hospital Ghaziabad">
                         </div>
 
                         <div class="about-img-bg">
-                            <img src="assets/images/resource/about-img.jpg"
-                                class="rounded-20 img-fluid"
+                            <img src="assets/images/resource/about-img.jpg" class="rounded-20 img-fluid"
                                 alt="Lions Eye Hospital">
                         </div>
 
@@ -141,23 +140,12 @@ include('include/data.php');
                 <div class="tween-effect-style-1-wrap">
                     <div class="pbmit-ele-tween-effect pbmit-tween-image pbmit-tween-effect-style-1">
 
-                        <div class="pbmit-tween-effect"
-                            data-x-start="0"
-                            data-x-end="0"
-                            data-y-start="0"
-                            data-y-end="0"
-                            data-scale-x-start="0.6"
-                            data-scale-x-end="1"
-                            data-skew-x-start="0deg"
-                            data-skew-x-end="0deg"
-                            data-skew-y-start="0deg"
-                            data-skew-y-end="0deg"
-                            data-rotate-x-start="0"
-                            data-rotate-x-end="0">
+                        <div class="pbmit-tween-effect" data-x-start="0" data-x-end="0" data-y-start="0" data-y-end="0"
+                            data-scale-x-start="0.6" data-scale-x-end="1" data-skew-x-start="0deg"
+                            data-skew-x-end="0deg" data-skew-y-start="0deg" data-skew-y-end="0deg"
+                            data-rotate-x-start="0" data-rotate-x-end="0">
 
-                            <img src="assets/images/resource/about-img-02.png"
-                                class="img-fluid"
-                                alt="Eye Care">
+                            <img src="assets/images/resource/about-img-02.png" class="img-fluid" alt="Eye Care">
 
                         </div>
 
@@ -176,7 +164,8 @@ include('include/data.php');
                 <div class="row g-0 align-items-stretch">
                     <div class="col-lg-4 col-md-12">
                         <div class="pbmit-mission-vision-media">
-                            <img src="assets/images/blog/blog-one.png" class="img-fluid pbmit-mv-img" alt="Lions Eye Hospital Vision Care">
+                            <img src="assets/images/blog/blog-one.png" class="img-fluid pbmit-mv-img"
+                                alt="Lions Eye Hospital Vision Care">
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-12">
@@ -271,7 +260,8 @@ include('include/data.php');
                                     </h4>
 
                                     <div class="pbmit-static-box-desc">
-                                        Schedule your appointment with our eye care team for a detailed consultation based
+                                        Schedule your appointment with our eye care team for a detailed consultation
+                                        based
                                         on your vision needs.
                                     </div>
                                 </div>
@@ -317,7 +307,8 @@ include('include/data.php');
                                     </h4>
 
                                     <div class="pbmit-static-box-desc">
-                                        Based on your diagnosis, our doctors recommend the most suitable treatment or eye
+                                        Based on your diagnosis, our doctors recommend the most suitable treatment or
+                                        eye
                                         care plan for your condition.
                                     </div>
                                 </div>
@@ -340,7 +331,8 @@ include('include/data.php');
                                     </h4>
 
                                     <div class="pbmit-static-box-desc">
-                                        Regular follow-ups help monitor your progress, support recovery and maintain healthy
+                                        Regular follow-ups help monitor your progress, support recovery and maintain
+                                        healthy
                                         vision over time.
                                     </div>
                                 </div>

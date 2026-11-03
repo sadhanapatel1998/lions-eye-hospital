@@ -123,17 +123,6 @@ include('include/data.php');
                                                 </a>
                                             </h3>
 
-                                            <!-- Categories -->
-                                            <div class="pbmit-serv-cat">
-                                                <a href="services.html" rel="tag">
-                                                    <?= htmlspecialchars($service['category_1']); ?>
-                                                </a>,
-
-                                                <a href="services.html" rel="tag">
-                                                    <?= htmlspecialchars($service['category_2']); ?>
-                                                </a>
-                                            </div>
-
                                             <!-- Description -->
                                             <div class="pbmit-service-description">
                                                 <?= htmlspecialchars($service['description']); ?>

@@ -62,7 +62,7 @@ include('include/data.php');
                                         </div>
                                     </div>
 
-                                    <a class="pbmit-link" href="blog-single-detail.html"
+                                    <a class="pbmit-link" href="javascript:void(0)"
                                         title="Eye care tips for healthy vision">
                                     </a>
                                 </div>
@@ -70,7 +70,7 @@ include('include/data.php');
 
                             <div class="pbmit-content-wrapper">
                                 <h3 class="pbmit-post-title">
-                                    <a href="blog-single-detail.html">
+                                    <a href="javascript:void(0)">
                                         5 Simple Tips to Keep Your Eyes Healthy
                                     </a>
                                 </h3>
@@ -99,7 +99,7 @@ include('include/data.php');
                                         </div>
                                     </div>
 
-                                    <a class="pbmit-link" href="blog-single-detail.html"
+                                    <a class="pbmit-link" href="javascript:void(0)"
                                         title="Understanding cataract symptoms and treatment">
                                     </a>
                                 </div>
@@ -107,7 +107,7 @@ include('include/data.php');
 
                             <div class="pbmit-content-wrapper">
                                 <h3 class="pbmit-post-title">
-                                    <a href="blog-single-detail.html">
+                                    <a href="javascript:void(0)">
                                         Cataract: Symptoms, Causes &amp; Treatment Options
                                     </a>
                                 </h3>
@@ -135,7 +135,7 @@ include('include/data.php');
                                         </div>
                                     </div>
 
-                                    <a class="pbmit-link" href="blog-single-detail.html"
+                                    <a class="pbmit-link" href="javascript:void(0)"
                                         title="Diabetes and eye health">
                                     </a>
                                 </div>
@@ -143,7 +143,7 @@ include('include/data.php');
 
                             <div class="pbmit-content-wrapper">
                                 <h3 class="pbmit-post-title">
-                                    <a href="blog-single-detail.html">
+                                    <a href="javascript:void(0)">
                                         How Diabetes Can Affect Your Eye Health
                                     </a>
                                 </h3>

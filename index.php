@@ -3,7 +3,6 @@ ob_start();
 include('include/data.php');
 ?>
 <div class="page-content">
-
     <div class="pbmit-slider-area pbmit-slider-one pbmit-banner-slider-wrapper">
         <div class="swiper pbmit-banner-slider" data-autoplay="true" data-loop="true" data-dots="true"
             data-arrows="true" data-columns="1" data-margin="0">
@@ -16,15 +15,19 @@ include('include/data.php');
                 <!-- Slide1 -->
                 <div class="swiper-slide">
                     <div class="pbmit-slider-item">
-                        <img src="assets/images/banner/banner-one.jpg" class="img-fluid w-100 desktop-banner" alt="Banner Slide One">
-                        <img src="assets/images/banner/mobile-banner-one.jpg" class="img-fluid w-100 mobile-banner" alt="Banner Slide One">
+                        <img src="assets/images/banner/banner-one.jpg" class="img-fluid w-100 desktop-banner"
+                            alt="Banner Slide One">
+                        <img src="assets/images/banner/mobile-banner-one.jpg" class="img-fluid w-100 mobile-banner"
+                            alt="Banner Slide One">
                     </div>
                 </div>
                 <!-- Slide2 -->
                 <div class="swiper-slide">
                     <div class="pbmit-slider-item">
-                        <img src="assets/images/banner/banner-two.jpg" class="img-fluid w-100 desktop-banner" alt="Banner Slide Two">
-                        <img src="assets/images/banner/mobile-banner-two.jpg" class="img-fluid w-100 mobile-banner" alt="Banner Slide Two">
+                        <img src="assets/images/banner/banner-two.jpg" class="img-fluid w-100 desktop-banner"
+                            alt="Banner Slide Two">
+                        <img src="assets/images/banner/mobile-banner-two.jpg" class="img-fluid w-100 mobile-banner"
+                            alt="Banner Slide Two">
                     </div>
                 </div>
             </div>
@@ -59,10 +62,10 @@ include('include/data.php');
                                         attentive, personalized care with a focus on every patient’s vision and comfort.
                                     </div>
                                     <div class="pbmit-ihbox-btn">
-                                        <a href="doctor-detail.html">
+                                        <a href="services.php">
                                             <span class="pbmit-btn-wrapper">
-                                                <span class="pbmit-button-render" data-text="Meet Our Specialists">
-                                                    <span>Meet Our Specialists</span>
+                                                <span class="pbmit-button-render" data-text="View Our Services">
+                                                    <span>View Our Services</span>
                                                 </span>
                                             </span>
                                             <span class="pbmit-button-icon">
@@ -99,10 +102,10 @@ include('include/data.php');
                                         a
                                         comfortable experience for every patient and family.</div>
                                     <div class="pbmit-ihbox-btn">
-                                        <a href="contact-us.html">
+                                        <a href="tel:+918448780237">
                                             <span class="pbmit-btn-wrapper">
-                                                <span class="pbmit-button-render" data-text="Why Choose Us">
-                                                    <span>Why Choose Us</span>
+                                                <span class="pbmit-button-render" data-text="Call Us Now">
+                                                    <span>Call Us Now</span>
                                                 </span>
                                             </span>
                                             <span class="pbmit-button-icon">
@@ -155,7 +158,7 @@ include('include/data.php');
                                     <div class="pbmit-heading-desc">Book your appointment quickly and easily today. Our
                                         specialists are ready to help. Take the first step toward better vision.</div>
                                     <div class="pbmit-ihbox-btn">
-                                        <a href="appointment.html">
+                                        <a href="contact-us.php">
                                             <span class="pbmit-btn-wrapper">
                                                 <span class="pbmit-button-render" data-text="Book Appointment">
                                                     <span>Book Appointment</span>
@@ -311,7 +314,7 @@ include('include/data.php');
                             data-skew-x-end="0deg" data-skew-y-start=" 0deg" data-skew-y-end=" 0deg"
                             data-rotate-x-start="0" data-rotate-x-end="0"
                             style="transform: translate(0%, 5.98832%) scale(0.96407) skew(0deg, 0deg) rotate(0deg);">
-                            <img src="images/demo-1/service-glasses.png" class="img-fluid" alt="">
+                            <img src="assets/images/resource/glasses.png" class="img-fluid" alt="Decorative Image">
                         </div>
                     </div>
                 </div>
@@ -326,8 +329,8 @@ include('include/data.php');
                         <p>We provide comprehensive eye care services including vision tests, cataract screening, LASIK
                             evaluation, glaucoma.</p>
                     </div>
-                    <div class="col-md-12 col-xl-2 text-xl-end">
-                        <a class="pbmit-btn transparent" href="service-details.html">
+                    <div class="col-md-12 col-xl-2 text-xl-end d-none d-xl-block">
+                        <a class="pbmit-btn transparent" href="services.php">
                             <span class="pbmit-button-content-wrapper">
                                 <span class="pbmit-button-text-wrap">
                                     <span class="pbmit-button-text" data-text="See All Treatment">
@@ -397,14 +400,6 @@ include('include/data.php');
                                             </h3>
 
                                             <!-- Categories -->
-                                            <div class="pbmit-serv-cat">
-                                                <a href="services.html" rel="tag">
-                                                    <?= htmlspecialchars($service['category_1']); ?>
-                                                </a>,
-                                                <a href="services.html" rel="tag">
-                                                    <?= htmlspecialchars($service['category_2']); ?>
-                                                </a>
-                                            </div>
 
                                             <!-- Description -->
                                             <div class="pbmit-service-description">
@@ -488,7 +483,7 @@ include('include/data.php');
                 <div class="col-md-12 col-xl-4 half-width-1366-to-1025">
                     <div class="why-choose-two-center-box">
                         <div class="about-img">
-                            <img src="assets/images/resource/why-choose.png" alt="">
+                            <img src="assets/images/resource/why-choose.png" alt="Why Choose Us Image">
                         </div>
                         <div class="pbmit-main-round-wrap">
                             <div class="pbmit-main-round">
@@ -654,9 +649,6 @@ include('include/data.php');
                     </div>
                 </div>
             </div>
-            <!-- <div class="pbmit-bottom-text text-center mt-xl-5 mt-4">
-            <span>Free</span> Estimate or schedule an appointment with us <a href="contact-us.html">Contact Us</a>
-        </div> -->
         </div>
     </section>
     <!-- Why Choose end -->
@@ -1077,21 +1069,16 @@ include('include/data.php');
     <!-- Work Box End -->
 
     <!-- Testimonial Start -->
-    <section>
+    <!-- <section>
         <div class="container">
             <div class="pbmit-bg-color-secondary testimonial-one-inner rounded-20">
-
                 <div class="row g-0">
-
                     <div class="testimonial-bg-girl-img">
                         <img src="assets/images/resource/testimonial-women.png" alt="Lions Eye Hospital Patient"
                             class="img-fluid">
                     </div>
-
-                    <!-- Left Content -->
                     <div class="col-md-5 col-xl-6">
                         <div class="testimonial-one-left-box">
-
                             <div class="pbmit-heading-subheading animation-style3">
                                 <h2 class="pbmit-title">
                                     What Our<br>
@@ -1099,12 +1086,9 @@ include('include/data.php');
                                     Say?
                                 </h2>
                             </div>
-
                             <div class="rating-wrap">
-
                                 <div class="rating">
                                     <h2 class="pbmit-title">4.9 out of 5</h2>
-
                                     <div class="rating-icon-wrap">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -1113,102 +1097,67 @@ include('include/data.php');
                                         <i class="fa fa-star"></i>
                                     </div>
                                 </div>
-
                                 <div class="pbmit-desc">
                                     <p>Patient Experience Rating</p>
                                 </div>
-
                             </div>
-
                         </div>
                     </div>
-
-                    <!-- Right Testimonials -->
                     <div class="col-md-7 col-xl-6">
                         <div class="testimonial-one-right-box">
-
                             <div class="testimonial-bg pbmit-bg-color-white rounded-20">
-
                                 <div class="swiper-slider" data-autoplay="true" data-allow-touch="true" data-loop="true"
                                     data-dots="false" data-arrows="true" data-columns="1" data-margin="30"
                                     data-effect="slide">
 
                                     <div class="swiper-wrapper">
-
-                                        <?php foreach ($testimonials as $testimonial): ?>
-
+                                        <?php //foreach ($testimonials as $testimonial): ?>
                                             <article class="pbmit-testimonial-style-2 swiper-slide">
-
                                                 <div class="pbminfotech-post-item">
-
-                                                    <!-- Patient Image -->
                                                     <div class="pbmit-featured-img-wrapper">
                                                         <div class="pbmit-featured-wrapper">
-                                                            <img src="<?php echo htmlspecialchars($testimonial['image']); ?>"
+                                                            <img src="<?php //echo htmlspecialchars($testimonial['image']); ?>"
                                                                 class="img-fluid"
-                                                                alt="<?php echo htmlspecialchars($testimonial['name']); ?>">
+                                                                alt="<?php //echo htmlspecialchars($testimonial['name']); ?>">
                                                         </div>
                                                     </div>
-
-                                                    <!-- Review -->
                                                     <div class="pbminfotech-box-desc">
                                                         <blockquote class="pbminfotech-testimonial-text">
                                                             <p>
-                                                                “<?php echo htmlspecialchars($testimonial['review']); ?>”
+                                                                “<?php //echo htmlspecialchars($testimonial['review']); ?>”
                                                             </p>
                                                         </blockquote>
                                                     </div>
-
-                                                    <!-- Patient Details -->
                                                     <div class="pbminfotech-box-author">
-
                                                         <div class="pbmit-auther-title-wrapper">
-
                                                             <h3 class="pbminfotech-box-title">
-                                                                <?php echo htmlspecialchars($testimonial['name']); ?>
+                                                                <?php //echo htmlspecialchars($testimonial['name']); ?>
                                                             </h3>
-
                                                             <div class="pbminfotech-box-star-ratings">
-
-                                                                <?php for ($i = 1; $i <= 5; $i++): ?>
-
+                                                                <?php //for ($i = 1; $i <= 5; $i++): ?>
                                                                     <i
                                                                         class="pbmit-base-icon-pointed-star 
-                                                                <?php echo ($i <= $testimonial['rating']) ? 'pbmit-active' : ''; ?>">
+                                                                <?php //echo ($i <= $testimonial['rating']) ? 'pbmit-active' : ''; ?>">
                                                                     </i>
-
-                                                                <?php endfor; ?>
-
+                                                                <?php //endfor; ?>
                                                             </div>
-
                                                         </div>
-
                                                         <div class="pbminfotech-testimonial-detail">
-                                                            <?php echo htmlspecialchars($testimonial['designation']); ?>
+                                                            <?php //echo htmlspecialchars($testimonial['designation']); ?>
                                                         </div>
-
                                                     </div>
-
                                                 </div>
-
                                             </article>
-
-                                        <?php endforeach; ?>
-
+                                        <?php //endforeach; ?>
                                     </div>
-
                                 </div>
-
                             </div>
-
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Testimonial End -->
 
     <!-- Blog Start -->
@@ -1239,7 +1188,7 @@ include('include/data.php');
                                         </div>
                                     </div>
 
-                                    <a class="pbmit-link" href="blog-single-detail.html"
+                                    <a class="pbmit-link" href="blog.php"
                                         title="Eye care tips for healthy vision">
                                     </a>
                                 </div>
@@ -1247,12 +1196,12 @@ include('include/data.php');
 
                             <div class="pbmit-content-wrapper">
                                 <h3 class="pbmit-post-title">
-                                    <a href="blog-single-detail.html">
+                                    <a href="blog.php">
                                         5 Simple Tips to Keep Your Eyes Healthy
                                     </a>
                                 </h3>
 
-                                <a class="pbmit-blog-btn" href="blog-single-detail.html">
+                                <a class="pbmit-blog-btn" href="blog.php">
 
                                     <span class="pbmit-btn-wrapper">
                                         <span class="pbmit-button-text" data-text="Continue Read">
@@ -1286,7 +1235,7 @@ include('include/data.php');
                                         </div>
                                     </div>
 
-                                    <a class="pbmit-link" href="blog-single-detail.html"
+                                    <a class="pbmit-link" href="blog.php"
                                         title="Understanding cataract symptoms and treatment">
                                     </a>
                                 </div>
@@ -1294,12 +1243,12 @@ include('include/data.php');
 
                             <div class="pbmit-content-wrapper">
                                 <h3 class="pbmit-post-title">
-                                    <a href="blog-single-detail.html">
+                                    <a href="blog.php">
                                         Cataract: Symptoms, Causes &amp; Treatment Options
                                     </a>
                                 </h3>
 
-                                <a class="pbmit-blog-btn" href="blog-single-detail.html">
+                                <a class="pbmit-blog-btn" href="blog.php">
 
                                     <span class="pbmit-btn-wrapper">
                                         <span class="pbmit-button-text" data-text="Continue Read">
@@ -1333,7 +1282,7 @@ include('include/data.php');
                                         </div>
                                     </div>
 
-                                    <a class="pbmit-link" href="blog-single-detail.html"
+                                    <a class="pbmit-link" href="blog.php"
                                         title="Diabetes and eye health">
                                     </a>
                                 </div>
@@ -1341,12 +1290,12 @@ include('include/data.php');
 
                             <div class="pbmit-content-wrapper">
                                 <h3 class="pbmit-post-title">
-                                    <a href="blog-single-detail.html">
+                                    <a href="blog.php">
                                         How Diabetes Can Affect Your Eye Health
                                     </a>
                                 </h3>
 
-                                <a class="pbmit-blog-btn" href="blog-single-detail.html">
+                                <a class="pbmit-blog-btn" href="blog.php">
 
                                     <span class="pbmit-btn-wrapper">
                                         <span class="pbmit-button-text" data-text="Continue Read">

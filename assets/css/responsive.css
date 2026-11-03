@@ -945,6 +945,7 @@ body {
     animation: none;
   }
   .pbmit-header-style-1 .pbmit-header-search-btn a {
+    display: none;
     font-size: 25px;
     line-height: 25px;
   }
@@ -2413,7 +2414,7 @@ body {
     right: -30px;
   }
   .service-section-one {
-    padding: 60px 15px;
+    padding: 0px 15px;
   }
   .service-one-inner {
     padding: 60px 0;
