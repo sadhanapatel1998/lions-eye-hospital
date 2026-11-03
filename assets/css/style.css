@@ -43,7 +43,7 @@
 .doctor-schedule-section {
   padding: 30px 30px 120px;
 }
-/* .doctor-schedule-section .left-col,
+.doctor-schedule-section .left-col,
 .doctor-schedule-section .right-col {
   position: relative;
   background-image: url(../images/demo-1/bg/about-bg-shape-01.png);
@@ -60,7 +60,7 @@
   background-image: url(../images/demo-1/bg/about-bg-shape-02.png);
   background-position: bottom left;
   background-repeat: no-repeat;
-} */
+}
 .doctor-schedule-section .left-col::before,
 .about-one-content .fid-style-3-bg:before,
 .doctor-schedule-section .right-col::before,
@@ -164,11 +164,11 @@ ul.pbmit-timelist-list .pbmit-timetable-hours {
   max-width: 38%;
   border: 1px solid #dddddd;
 }
-/* .doctor-schedule-section .right-col::before {
+.doctor-schedule-section .right-col::before {
   background-image: url(../images/demo-1/bg/about-bg-shape-02.png);
   background-position: bottom left;
   background-repeat: no-repeat;
-} */
+}
 .doctor-schedule-section .right-col .right-col-inner {
   display: flex;
   padding: 40px 40px 0 70px;
@@ -874,15 +874,16 @@ ul.pbmit-timelist-list .pbmit-timetable-hours {
 }
 .testimonial-section-two .right-box-area {
   position: relative;
-  background-image: url(../images/demo-2/bg/testimonial-bg.jpg);
+  background-image: url(https://ophtical-demo.pbminfotech.com/html-demo/images/demo-2/bg/testimonial-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 20px 20px 0;
 }
 .testimonial-section-two .right-box-area:before {
-  background-image: linear-gradient(270deg, #f1f9fe00 40%, #f1f9fe 80%);
+      background-image: linear-gradient(270deg, #f1f9fe00 40%, #eaf3fc 80%);
 }
+
 .testimonial-section-two .right-box-area .fid-style-5-wrap {
   position: absolute;
   left: 10%;

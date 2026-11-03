@@ -161,6 +161,9 @@
 												<a href="services.php">Services</a>
 												<ul>
 													<li>
+														<a href="service-diabetic-eye-care.php">Diabetic Eye Care</a>
+													</li>
+													<li>
 														<a href="service-retina-surgery.php">Retina Surgery</a>
 													</li>
 													<li>

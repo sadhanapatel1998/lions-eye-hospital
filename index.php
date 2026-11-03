@@ -927,7 +927,7 @@ include('include/data.php');
     <!-- About Us Start -->
 
     <!-- Work Start -->
-    <section class="section-lgb pbmit-element-static-box-style-2">
+    <section class="section-mdb pbmit-element-static-box-style-2">
         <div class="container">
 
             <div class="pbmit-heading-subheading text-center animation-style3">
@@ -1068,6 +1068,225 @@ include('include/data.php');
     </section>
     <!-- Work Box End -->
 
+    <!-- Faqs Start -->
+    <section class="pbmit-bg-color-light testimonial-section-two">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-md-12 col-xl-6">
+                    <div id="general" class="mb-5 pb-2">
+                        <div class="pbmit-heading-subheading animation-style3">
+                            <h4 class="pbmit-subtitle">Faq</h4>
+                            <h2 class="pbmit-title">General Questions</h2>
+                            <div class="pbmit-heading-desc">You will find answers to about our various Laboratory work
+                                and Lab's service and more. Please feel <br> free to contact us if you don't get your
+                                question's answer in below.</div>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item active">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        <span class="pbmit-accordion-title">
+                                            How often should I get my eyes checked?
+                                        </span>
+                                        <span class="pbmit-accordion-icon">
+                                            <span class="pbmit-accordion-icon-opened">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-down"
+                                                    viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="pbmit-accordion-icon-closed">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-up"
+                                                    viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Our expert doctors, nurses and allied health professionals manage patients with
+                                        a range of medical issues. Sun exposure can damage your eyes and raise.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <span class="pbmit-accordion-title">
+                                            Do I need a referral to see an eye specialist?
+                                        </span>
+                                        <span class="pbmit-accordion-icon">
+                                            <span class="pbmit-accordion-icon-opened">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-down"
+                                                    viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="pbmit-accordion-icon-closed">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-up"
+                                                    viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Our expert doctors, nurses and allied health professionals manage patients with
+                                        a range of medical issues. Sun exposure can damage your eyes and raise.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span class="pbmit-accordion-title">
+                                            What are common signs of vision problems?
+                                        </span>
+                                        <span class="pbmit-accordion-icon">
+                                            <span class="pbmit-accordion-icon-opened">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-down"
+                                                    viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="pbmit-accordion-icon-closed">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-up"
+                                                    viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Our expert doctors, nurses and allied health professionals manage patients with
+                                        a range of medical issues. Sun exposure can damage your eyes and raise.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingfour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsefour" aria-expanded="false"
+                                        aria-controls="collapsefour">
+                                        <span class="pbmit-accordion-title">
+                                            Are eye exams covered by insurance?
+                                        </span>
+                                        <span class="pbmit-accordion-icon">
+                                            <span class="pbmit-accordion-icon-opened">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-down"
+                                                    viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="pbmit-accordion-icon-closed">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-up"
+                                                    viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Our expert doctors, nurses and allied health professionals manage patients with
+                                        a range of medical issues. Sun exposure can damage your eyes and raise.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingfive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsefive" aria-expanded="false"
+                                        aria-controls="collapsefive">
+                                        <span class="pbmit-accordion-title">
+                                            What should I bring to my appointment?
+                                        </span>
+                                        <span class="pbmit-accordion-icon">
+                                            <span class="pbmit-accordion-icon-opened">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-down"
+                                                    viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="pbmit-accordion-icon-closed">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-up"
+                                                    viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Our expert doctors, nurses and allied health professionals manage patients with
+                                        a range of medical issues. Sun exposure can damage your eyes and raise.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-xl-6 right-box-area">
+                    <div class="fid-style-5-wrap">
+                        <div class="pbminfotech-ele-fid-style-5">
+                            <div class="pbmit-fld-contents">
+                                <div class="pbmit-fldbox-wrpper"></div>
+                                <div class="pbmit-content-box">
+                                    <h4 class="pbmit-fid-inner">
+                                        <span class="pbmit-fid-before"></span>
+                                        <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits"
+                                            data-from="0" data-to="95" data-interval="3" data-before=""
+                                            data-before-style="" data-after="" data-after-style="">95</span>
+                                        <span class="pbmit-fid"><span>%</span></span>
+                                    </h4>
+                                    <div class="pbmit-heading-desc">Patient satisfaction is our success</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Faqs End -->
+
     <!-- Testimonial Start -->
     <!-- <section>
         <div class="container">
@@ -1188,8 +1407,7 @@ include('include/data.php');
                                         </div>
                                     </div>
 
-                                    <a class="pbmit-link" href="blog.php"
-                                        title="Eye care tips for healthy vision">
+                                    <a class="pbmit-link" href="blog.php" title="Eye care tips for healthy vision">
                                     </a>
                                 </div>
                             </div>
@@ -1282,8 +1500,7 @@ include('include/data.php');
                                         </div>
                                     </div>
 
-                                    <a class="pbmit-link" href="blog.php"
-                                        title="Diabetes and eye health">
+                                    <a class="pbmit-link" href="blog.php" title="Diabetes and eye health">
                                     </a>
                                 </div>
                             </div>

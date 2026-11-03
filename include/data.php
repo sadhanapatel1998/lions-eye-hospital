@@ -9,6 +9,14 @@ $services = [
         'category_1' => 'Retina Care',
         'category_2' => 'Eye Surgery',
     ],
+    [
+        'title' => 'Retina Surgery',
+        'description' => 'Advanced surgical care for retinal conditions and vision problems.',
+        'image' => 'assets/images/services/retina-surgery.jpg',
+        'link' => 'service-retina-surgery.php',
+        'category_1' => 'Retina Care',
+        'category_2' => 'Eye Surgery',
+    ],
 
     [
         'title' => 'Cataract',
@@ -211,6 +219,6 @@ $testimonials = [
     ]
 ];
 
-$totalTestimonials = count($testimonials); 
+$totalTestimonials = count($testimonials);
 
 ?>
