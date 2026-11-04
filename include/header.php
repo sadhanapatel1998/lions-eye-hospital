@@ -246,7 +246,7 @@
 												</a>
 
 												<!-- Help Desk -->
-												<a href="tel:919315241610" class="pbmit-mobile-contact-item">
+												<!-- <a href="tel:919315241610" class="pbmit-mobile-contact-item">
 													<div class="pbmit-mcontact-icon">
 														<i class="fa-solid fa-phone-volume"></i>
 													</div>
@@ -254,7 +254,7 @@
 														<span class="pbmit-mcontact-label">Hospital Help Desk</span>
 														<span class="pbmit-mcontact-value">+91 9315241610</span>
 													</div>
-												</a>
+												</a> -->
 
 												<!-- WhatsApp Direct Chat -->
 												<a href="https://wa.me/919315241610" target="_blank" rel="noopener noreferrer"

@@ -4635,6 +4635,10 @@ label.error {
 
 /* Mobile Screens (<= 767px) */
 @media (max-width: 767px) {
+  .mobile-px-0{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
   .why-choose-sec-two .why-choose-two-center-box {
     margin: 35px auto 40px !important;
     display: flex !important;
@@ -5505,5 +5509,199 @@ label.error {
     color: #ffffff !important;
     border-color: #0404d2 !important;
     transform: translateY(-2px) !important;
+  }
+}
+
+/* ===================================================
+   Mobile Service Section Enhancements (max-width: 767px)
+   Polished cards, sleek touch controls, and clean spacing
+   =================================================== */
+@media (max-width: 767px) {
+  /* 1. Section Container & Outer Spacing */
+  .service-section-one {
+    padding: 0px 12px 0px !important;
+  }
+
+  .service-one-inner {
+    padding: 35px 3px 32px !important;
+    border-radius: 24px !important;
+    background-color: #f1f7fd !important;
+    position: relative !important;
+    box-shadow: 0 4px 20px rgba(4, 4, 210, 0.04) !important;
+  }
+
+  /* Prevent decorative floating glasses from causing overflow or clipping */
+  .service-one-inner .tween-effect-style-wrap {
+    display: none !important;
+  }
+
+  /* 2. Heading & Subheading Typography */
+  .service-section-one .pbmit-heading-subheading {
+    margin-bottom: 10px !important;
+  }
+
+  .service-section-one .pbmit-subtitle {
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    letter-spacing: 1.5px !important;
+    text-transform: uppercase !important;
+    color: #d6ac01 !important;
+    margin-bottom: 6px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+
+  /* 3. Swiper Container & Service Cards */
+  .service-section-one .swiper-slider {
+    padding-bottom: 0 !important;
+  }
+
+  .service-section-one .pbmit-service-style-1 {
+    padding: 2px !important;
+  }
+
+  .service-section-one .pbmit-service-style-1 .pbminfotech-post-item {
+    border-radius: 20px !important;
+  }
+
+  .service-section-one .pbmit-service-style-1 .pbmit-box-content-wrap {
+    border-radius: 20px !important;
+    overflow: hidden !important;
+    box-shadow: 0 8px 24px rgba(11, 42, 74, 0.1) !important;
+    position: relative !important;
+  }
+
+  .service-section-one .pbmit-service-style-1 .pbmit-featured-wrapper {
+    border-radius: 20px !important;
+    overflow: hidden !important;
+  }
+
+  .service-section-one .pbmit-service-style-1 .pbmit-featured-wrapper img {
+    width: 100% !important;
+    height: 310px !important;
+    object-fit: cover !important;
+    border-radius: 20px !important;
+    display: block !important;
+    transform: none !important;
+  }
+
+  /* 4. Bottom Title Floating Pill Card */
+  .service-section-one .pbmit-service-style-1 .pbmit-heading-box {
+    position: absolute !important;
+    bottom: 14px !important;
+    left: 14px !important;
+    right: 14px !important;
+    margin: 0 !important;
+    padding: 12px 16px !important;
+    background: rgba(255, 255, 255, 0.94) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border-radius: 14px !important;
+    border: 1px solid rgba(255, 255, 255, 0.9) !important;
+    box-shadow: 0 4px 18px rgba(11, 42, 74, 0.12) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    z-index: 3 !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  /* Pill right arrow circular icon */
+  .service-section-one .pbmit-service-style-1 .pbmit-heading-box::after {
+    content: '\e81a';
+    font-family: 'pbminfotech-base-icons';
+    font-size: 12px;
+    color: #ffffff;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    border-radius: 50%;
+    background: #0404d2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    flex-shrink: 0;
+  }
+
+  /* Full card click overlay */
+  .service-section-one .pbmit-service-style-1 .pbmit-link {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 5 !important;
+  }
+
+  /* Prevent touch-device hover glitch on mobile */
+  .service-section-one .pbmit-service-style-1 .pbmit-content-box {
+    display: none !important;
+  }
+
+  /* 5. Mobile Carousel Controls (Circular Touch Buttons) */
+  .service-section-one .swiper-buttons {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 16px !important;
+    margin-top: 24px !important;
+    position: relative !important;
+    z-index: 10 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .service-section-one .swiper-button-prev,
+  .service-section-one .swiper-button-next {
+    position: relative !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    width: 44px !important;
+    height: 44px !important;
+    min-width: 44px !important;
+    border-radius: 50% !important;
+    background: #ffffff !important;
+    border: 1.5px solid #dbeafe !important;
+    box-shadow: 0 3px 12px rgba(4, 4, 210, 0.08) !important;
+    color: #0404d2 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+  }
+
+  .service-section-one .swiper-button-prev {
+    order: 1 !important;
+    transform: rotate(180deg) !important;
+  }
+
+  .service-section-one .swiper-button-next {
+    order: 2 !important;
+    transform: none !important;
+  }
+
+  .service-section-one .swiper-button-prev:after,
+  .service-section-one .swiper-button-next:after {
+    font-size: 15px !important;
+    line-height: 1 !important;
+  }
+
+  .service-section-one .swiper-button-prev:active {
+    background: #0404d2 !important;
+    color: #ffffff !important;
+    border-color: #0404d2 !important;
+    transform: rotate(180deg) scale(0.92) !important;
+  }
+
+  .service-section-one .swiper-button-next:active {
+    background: #0404d2 !important;
+    color: #ffffff !important;
+    border-color: #0404d2 !important;
+    transform: scale(0.92) !important;
   }
 }

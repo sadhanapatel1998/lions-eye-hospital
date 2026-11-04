@@ -3148,7 +3148,7 @@ body {
   }
   /*=== Homepage-01 ===*/
   .pbmit-ihbox-style-5 .pbmit-ihbox-box {
-    flex-direction: column;
+        gap: 15px;
   }
   .pbmit-ihbox-style-6 .pbmit-ihbox-box {
     flex-direction: column;

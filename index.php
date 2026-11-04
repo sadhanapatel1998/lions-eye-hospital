@@ -306,7 +306,7 @@ include('include/data.php');
     <!-- Service Start -->
     <section class="service-section-one animation animated fadeIn">
         <div class="service-one-inner pbmit-bg-color-light">
-            <div class="container">
+            <div class="container mobile-px-0">
                 <div class="tween-effect-style-wrap">
                     <div class="pbmit-ele-tween-effect pbmit-tween-image pbmit-tween-effect-style-1">
                         <div class="pbmit-tween-effect" data-x-start="0" data-x-end="0" data-y-start="50" data-y-end="0"
