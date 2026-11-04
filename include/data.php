@@ -5,7 +5,7 @@ $services = [
         'title' => 'Diabetic Eye Care',
         'description' => 'Specialized eye care for diabetes-related vision problems and diabetic retinopathy.',
         'image' => 'assets/images/services/diabetic-eye-care.jpg',
-        'link' => 'service-diabetic-care.php',
+        'link' => 'service-diabetic-eye-care.php',
         'category_1' => 'Diabetic Eye Care',
         'category_2' => 'Retina Care',
     ],

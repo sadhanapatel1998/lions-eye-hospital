@@ -138,6 +138,7 @@
     <script src="assets/js/jquery-validate/jquery.validate.min.js"></script>
     <!-- Scripts JS -->
     <script src="assets/js/scripts.js"></script>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
     <script type="module" src="../beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
         integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw=="

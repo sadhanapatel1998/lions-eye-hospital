@@ -209,6 +209,12 @@ include('include/data.php');
                                     maxlength="500" required></textarea>
                             </div>
 
+                            <div class="col-md-12 mt-3">
+                                <div class="cf-turnstile" data-sitekey="YOUR_CLOUDFLARE_SITE_KEY" data-theme="light"
+                                    data-action="appointment">
+                                </div>
+                            </div>
+
                             <div class="col-md-12 text-center mt-4">
                                 <button type="submit" class="pbmit-btn secondary" id="appointment-submit">
                                     <span class="pbmit-button-content-wrapper">

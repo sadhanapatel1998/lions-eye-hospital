@@ -48,7 +48,7 @@ $seoData = [
         "robots" => "index, follow"
     ],
 
-    "service-diabetic-care.php" => [
+    "service-diabetic-eye-care.php" => [
         "title" => "Diabetic Eye Care in Ghaziabad | Lions Eye Hospital",
         "description" => "Lions Eye Hospital, Ghaziabad provides diabetic eye care and regular eye examinations to help detect and manage diabetes-related eye problems.",
         "keywords" => "diabetic eye care Ghaziabad, diabetic retinopathy Ghaziabad, diabetes eye check up, diabetic eye hospital",
@@ -89,6 +89,7 @@ $seoData = [
         "keywords" => "spectacles Ghaziabad, eye testing Ghaziabad, vision testing, eyeglasses Ghaziabad, spectacles eye hospital",
         "robots" => "index, follow"
     ]
+
 ];
 
 $defaultMeta = [
@@ -98,14 +99,22 @@ $defaultMeta = [
     "robots" => "index, follow"
 ];
 
+// Get current page SEO data
 $pageMeta = $seoData[$currentPage] ?? $defaultMeta;
 
+// Generate canonical URL
 if ($currentPage === 'index.php') {
+
     $pageMeta['canonical'] = $siteUrl . '/';
+
 } elseif ($pageMeta['robots'] === 'noindex, nofollow') {
+
     $pageMeta['canonical'] = '';
+
 } else {
 
     $pageMeta['canonical'] = $siteUrl . '/' . $currentPage;
+
 }
+
 ?>
