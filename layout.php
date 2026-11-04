@@ -205,6 +205,17 @@
     </script>
     <script>
         $(document).ready(function () {
+            // Close mobile menu on overlay click & sync body
+            $('.pbmit-mobile-menu-bg, .closepanel').on('click', function () {
+                $('header').removeClass('active');
+                $('body').removeClass('pbmit-mobile-menu-open');
+            });
+            $('#menu-toggle, .navbar-toggler').on('click', function () {
+                setTimeout(function () {
+                    $('body').toggleClass('pbmit-mobile-menu-open', $('header').hasClass('active'));
+                }, 20);
+            });
+
             $('.image-popup-vertical-fit').magnificPopup({
                 type: 'image',
                 gallery: {

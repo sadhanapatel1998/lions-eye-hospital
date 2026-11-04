@@ -25,7 +25,7 @@
 										</svg>
 									</div>
 									<a href="https://maps.app.goo.gl/eYS6C1AGy7j6xGSu7" target="_blank">E-Block Kavi
-										Nagar Near Jain Mandir Ghaziabad U.P 201002</>
+										Nagar Near Jain Mandir Ghaziabad U.P 201002</a>
 								</div>
 								<!-- .pbmit-inline-item-inner -->
 							</div>
@@ -57,8 +57,7 @@
 											</g>
 										</svg>
 									</div>
-									<a
-										href="mailto:lionseyehospital.gzb@gmail.com">lionseyehospital.gzb@gmail.com</span></a>
+									<a href="mailto:lionseyehospital.gzb@gmail.com">lionseyehospital.gzb@gmail.com</a>
 								</div>
 								<!-- .pbmit-inline-item-inner -->
 							</div>
@@ -128,7 +127,7 @@
 							<nav class="main-menu navbar-expand-xl navbar-light">
 								<div class="navbar-header">
 									<!-- Toggle Button -->
-									<button id="menu-toggle" class="navbar-toggler" type="button">
+									<button id="menu-toggle" class="navbar-toggler" type="button" aria-label="Toggle navigation">
 										<svg viewbox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
 											<g data-name="04">
 												<path d="m58 31h-52a1 1 0 0 0 0 2h52a1 1 0 0 0 0-2z"></path>
@@ -141,15 +140,20 @@
 								<div class="pbmit-mobile-menu-bg"></div>
 								<div class="collapse navbar-collapse clearfix show" id="pbmit-menu">
 									<div class="pbmit-menu-wrap">
-										<span class="closepanel">
-											<svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg"
-												width="20.163" height="20.163" viewbox="0 0 26.163 26.163">
-												<rect width="36" height="1" transform="translate(0.707) rotate(45)">
-												</rect>
-												<rect width="36" height="1" transform="translate(0 25.456) rotate(-45)">
-												</rect>
-											</svg>
-										</span>
+										<!-- Mobile Drawer Header with Logo & Close Button -->
+										<div class="pbmit-mobile-menu-header">
+											<a href="index.php" class="pbmit-mobile-menu-logo" title="Lions Eye Hospital">
+												<img src="assets/images/logo/leh-logo.png" alt="Lions Eye Hospital Logo">
+											</a>
+											<span class="closepanel" role="button" aria-label="Close menu">
+												<svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg"
+													width="18" height="18" viewBox="0 0 26.163 26.163">
+													<rect width="36" height="2.2" rx="1.1" transform="translate(0.707) rotate(45)"></rect>
+													<rect width="36" height="2.2" rx="1.1" transform="translate(0 25.456) rotate(-45)"></rect>
+												</svg>
+											</span>
+										</div>
+
 										<?php
 										$currentPage = basename($_SERVER['PHP_SELF']);
 
@@ -224,6 +228,100 @@
 											</li>
 
 										</ul>
+
+										<!-- Mobile Drawer Contact Information & Quick Actions -->
+										<div class="pbmit-mobile-contact-wrap">
+											<div class="pbmit-mobile-contact-title">Contact Information</div>
+
+											<div class="pbmit-mobile-contact-items">
+												<!-- Emergency / 24x7 Call -->
+												<a href="tel:918448780237" class="pbmit-mobile-contact-item">
+													<div class="pbmit-mcontact-icon">
+														<i class="fa-solid fa-phone"></i>
+													</div>
+													<div class="pbmit-mcontact-content">
+														<span class="pbmit-mcontact-label">Call Us 24/7</span>
+														<span class="pbmit-mcontact-value">+91 8448780237</span>
+													</div>
+												</a>
+
+												<!-- Help Desk -->
+												<a href="tel:919315241610" class="pbmit-mobile-contact-item">
+													<div class="pbmit-mcontact-icon">
+														<i class="fa-solid fa-phone-volume"></i>
+													</div>
+													<div class="pbmit-mcontact-content">
+														<span class="pbmit-mcontact-label">Hospital Help Desk</span>
+														<span class="pbmit-mcontact-value">+91 9315241610</span>
+													</div>
+												</a>
+
+												<!-- WhatsApp Direct Chat -->
+												<a href="https://wa.me/919315241610" target="_blank" rel="noopener noreferrer"
+													class="pbmit-mobile-contact-item pbmit-mcontact-whatsapp">
+													<div class="pbmit-mcontact-icon">
+														<i class="fa-brands fa-whatsapp"></i>
+													</div>
+													<div class="pbmit-mcontact-content">
+														<span class="pbmit-mcontact-label">WhatsApp Consultation</span>
+														<span class="pbmit-mcontact-value">+91 9315241610</span>
+													</div>
+												</a>
+
+												<!-- Email -->
+												<a href="mailto:lionseyehospital.gzb@gmail.com" class="pbmit-mobile-contact-item">
+													<div class="pbmit-mcontact-icon">
+														<i class="fa-solid fa-envelope"></i>
+													</div>
+													<div class="pbmit-mcontact-content">
+														<span class="pbmit-mcontact-label">Email Support</span>
+														<span class="pbmit-mcontact-value">lionseyehospital.gzb@gmail.com</span>
+													</div>
+												</a>
+
+												<!-- Clinic Timings -->
+												<div class="pbmit-mobile-contact-item pbmit-mcontact-timing">
+													<div class="pbmit-mcontact-icon">
+														<i class="fa-solid fa-clock"></i>
+													</div>
+													<div class="pbmit-mcontact-content">
+														<span class="pbmit-mcontact-label">OPD Timings</span>
+														<span class="pbmit-mcontact-value">Sun - Fri: 10:00 AM - 6:30 PM</span>
+													</div>
+												</div>
+
+												<!-- Address -->
+												<a href="https://maps.app.goo.gl/eYS6C1AGy7j6xGSu7" target="_blank"
+													rel="noopener noreferrer" class="pbmit-mobile-contact-item">
+													<div class="pbmit-mcontact-icon">
+														<i class="fa-solid fa-location-dot"></i>
+													</div>
+													<div class="pbmit-mcontact-content">
+														<span class="pbmit-mcontact-label">Hospital Address</span>
+														<span class="pbmit-mcontact-value">E-Block Kavi Nagar, Near Jain Mandir, Ghaziabad, U.P 201002</span>
+													</div>
+												</a>
+											</div>
+
+											<!-- Book Appointment Button -->
+											<div class="pbmit-mobile-cta">
+												<a href="contact-us.php" class="pbmit-mobile-btn">
+													<span>Book Your Eye Check-Up</span>
+													<i class="fa-solid fa-arrow-right"></i>
+												</a>
+											</div>
+
+											<!-- Quick Action Social Links -->
+											<div class="pbmit-mobile-socials">
+												<a href="https://wa.me/919315241610" target="_blank" rel="noopener noreferrer"
+													class="pbmit-msocial-link" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+												<a href="tel:918448780237" class="pbmit-msocial-link" title="Call"><i class="fa-solid fa-phone"></i></a>
+												<a href="mailto:lionseyehospital.gzb@gmail.com" class="pbmit-msocial-link" title="Email"><i class="fa-solid fa-envelope"></i></a>
+												<a href="https://maps.app.goo.gl/eYS6C1AGy7j6xGSu7" target="_blank" rel="noopener noreferrer"
+													class="pbmit-msocial-link" title="Google Maps"><i class="fa-solid fa-location-dot"></i></a>
+											</div>
+										</div>
+
 									</div>
 								</div>
 							</nav>
