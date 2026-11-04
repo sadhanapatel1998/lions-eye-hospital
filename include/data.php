@@ -2,12 +2,12 @@
 
 $services = [
     [
-        'title' => 'Retina Surgery',
-        'description' => 'Advanced surgical care for retinal conditions and vision problems.',
-        'image' => 'assets/images/services/retina-surgery.jpg',
-        'link' => 'service-retina-surgery.php',
-        'category_1' => 'Retina Care',
-        'category_2' => 'Eye Surgery',
+        'title' => 'Diabetic Eye Care',
+        'description' => 'Specialized eye care for diabetes-related vision problems and diabetic retinopathy.',
+        'image' => 'assets/images/services/diabetic-eye-care.jpg',
+        'link' => 'service-diabetic-care.php',
+        'category_1' => 'Diabetic Eye Care',
+        'category_2' => 'Retina Care',
     ],
     [
         'title' => 'Retina Surgery',

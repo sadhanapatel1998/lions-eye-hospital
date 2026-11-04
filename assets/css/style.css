@@ -881,7 +881,7 @@ ul.pbmit-timelist-list .pbmit-timetable-hours {
   border-radius: 0 20px 20px 0;
 }
 .testimonial-section-two .right-box-area:before {
-      background-image: linear-gradient(270deg, #f1f9fe00 40%, #eaf3fc 80%);
+  background-image: linear-gradient(270deg, #f1f9fe00 40%, #eaf3fc 80%);
 }
 
 .testimonial-section-two .right-box-area .fid-style-5-wrap {
@@ -2759,7 +2759,7 @@ label.error {
   border-radius: 0 !important;
   overflow: hidden !important;
   height: auto !important;
-  position: relative;
+  /* position: relative; */
   padding: 0 !important;
 }
 .pbmit-banner-slider-wrapper .pbmit-banner-slider,
@@ -2777,9 +2777,9 @@ label.error {
   margin: 0 !important;
 }
 .pbmit-banner-slider-wrapper.pbmit-slider-one .pbmit-slider-item img {
-  width: 100% ;
-  height: auto ;
-  max-height: none ;
+  width: 100%;
+  height: auto;
+  max-height: none;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -2858,7 +2858,7 @@ label.error {
   .pbmit-banner-slider-wrapper .pbmit-banner-btn-prev {
     display: none !important;
   }
-  .why-choose-sec-two{
+  .why-choose-sec-two {
     padding-top: 50px;
   }
 }
@@ -3065,9 +3065,9 @@ label.error {
   background: #f8fafc;
   border: 1px solid rgba(4, 4, 210, 0.1);
   border-radius: 12px;
-    color: #03035d !important;
-    font-weight: 600;
-    font-size: 16px;
+  color: #03035d !important;
+  font-weight: 600;
+  font-size: 16px;
   letter-spacing: 0.2px;
   text-decoration: none;
   transition: all 0.35s ease;
@@ -3123,10 +3123,10 @@ label.error {
   .list-group .pbmit-icon-list-text {
     font-size: 15px;
   }
-      .about-us-two-section {
-        margin: 80px 30px 70px;
-        padding: 100px 0 70px;
-    }
+  .about-us-two-section {
+    margin: 80px 30px 70px;
+    padding: 100px 0 70px;
+  }
 }
 @media (max-width: 1200px) and (min-width: 992px) {
   .ihbox-section-three {
@@ -4951,130 +4951,128 @@ label.error {
 }
 
 @media (min-width: 1250px) and (max-width: 1350px) {
-    .about-one-leftbox .about-border {
-        bottom: -114px !important;
-        left: 22px !important;
-    }
-        .about-one-leftbox .about-border {
-        width: 580px;
-    }
+  .about-one-leftbox .about-border {
+    bottom: -114px !important;
+    left: 22px !important;
+  }
+  .about-one-leftbox .about-border {
+    width: 580px;
+  }
 }
+
 /* =========================================
    FLOATING CONTACT BUTTONS
 ========================================= */
 
 .floating-contact {
-    position: fixed;
-    right: 22px;
-    bottom: 25px;
-    z-index: 9999;
+  position: fixed;
+  right: 35px;
+  bottom: 20px;
+  transform: translateY(-50%);
+  z-index: 99999;
 
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
 }
 
 .floating-btn {
-    width: 52px;
-    height: 52px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 
-    border-radius: 50%;
+  color: #fff;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
 
-    color: #fff;
-    text-decoration: none;
-
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
-
-    transition:
-        width 0.3s ease,
-        transform 0.3s ease,
-        box-shadow 0.3s ease;
-
-    overflow: hidden;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.16);
+  transition: all 0.3s ease;
 }
 
 .floating-btn i {
-    font-size: 22px;
-    min-width: 52px;
-    text-align: center;
+  min-width: 52px;
+  text-align: center;
+  font-size: 21px;
 }
 
 .floating-btn span {
-    max-width: 0;
-    opacity: 0;
-    white-space: nowrap;
-
-    font-size: 14px;
-    font-weight: 600;
-
-    transition:
-        max-width 0.3s ease,
-        opacity 0.2s ease;
+  opacity: 0;
+  font-size: 13px;
+  font-weight: 600;
+  padding-right: 16px;
+  transition: opacity 0.2s ease;
 }
 
-/* Hover */
-
 .floating-btn:hover {
-    width: 145px;
-    border-radius: 30px;
-    transform: translateY(-3px);
-    color: #fff;
+  width: 140px;
+  border-radius: 30px;
+  color: #fff;
 }
 
 .floating-btn:hover span {
-    max-width: 80px;
-    opacity: 1;
+  opacity: 1;
 }
-
-/* WhatsApp */
 
 .whatsapp-btn {
-    background: #25D366;
+  background: #25d366;
 }
-
-/* Call */
 
 .call-btn {
-    background: #0B2A4A;
+  background: #0b2a4a;
 }
 
-
-/* =========================================
-   MOBILE
-========================================= */
-
+/* Mobile Responsive */
 @media (max-width: 767px) {
+  .floating-contact {
+    right: 10px;
+    top: 50%;
+    gap: 10px;
+  }
 
-    .floating-contact {
-        right: 15px;
-        bottom: 18px;
-        gap: 10px;
-    }
+  .floating-btn {
+    width: 44px;
+    height: 44px;
+  }
 
-    .floating-btn {
-        width: 48px;
-        height: 48px;
-    }
+  .floating-btn i {
+    min-width: 44px;
+    font-size: 19px;
+  }
 
-    .floating-btn i {
-        min-width: 48px;
-        font-size: 20px;
-    }
+  .floating-btn:hover {
+    width: 44px;
+    border-radius: 50%;
+  }
 
-    /* No expanding text on mobile */
+  .floating-btn span {
+    display: none;
+  }
+  .about-us-two-section .rating-highlight .pbmit-custom-title h2 {
+    font-size: 14px;
+  }
+  .about-us-two-section .rating-icon-wrap svg {
+    height: 12px;
+  }
+}
+#contact-form .form-control:focus,
+#contact-form .form-select:focus {
+  border-color: #0b2a4a;
+  box-shadow: 0 0 0 3px rgba(11, 42, 74, 0.1);
+}
 
-    .floating-btn:hover {
-        width: 48px;
-        border-radius: 50%;
-        transform: none;
-    }
+#appointment-submit:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
 
-    .floating-btn span {
-        display: none;
-    }
-
+#appointment-status {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
 }

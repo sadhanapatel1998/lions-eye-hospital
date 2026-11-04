@@ -1074,21 +1074,27 @@ include('include/data.php');
             <div class="row g-0">
                 <div class="col-md-12 col-xl-6">
                     <div id="general" class="mb-5 pb-2">
+
                         <div class="pbmit-heading-subheading animation-style3">
-                            <h4 class="pbmit-subtitle">Faq</h4>
-                            <h2 class="pbmit-title">General Questions</h2>
-                            <div class="pbmit-heading-desc">You will find answers to about our various Laboratory work
-                                and Lab's service and more. Please feel <br> free to contact us if you don't get your
-                                question's answer in below.</div>
+                            <h4 class="pbmit-subtitle">FAQs</h4>
+                            <h2 class="pbmit-title">Frequently Asked Questions</h2>
+                            <div class="pbmit-heading-desc">
+                                Find answers to common questions about our eye care services and treatments.
+                            </div>
                         </div>
+
                         <div class="accordion" id="accordionExample">
+
+                            <!-- FAQ 1 -->
                             <div class="accordion-item active">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
                                         <span class="pbmit-accordion-title">
                                             How often should I get my eyes checked?
                                         </span>
+
                                         <span class="pbmit-accordion-icon">
                                             <span class="pbmit-accordion-icon-opened">
                                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-down"
@@ -1098,6 +1104,7 @@ include('include/data.php');
                                                     </path>
                                                 </svg>
                                             </span>
+
                                             <span class="pbmit-accordion-icon-closed">
                                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-up"
                                                     viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -1109,21 +1116,27 @@ include('include/data.php');
                                         </span>
                                     </button>
                                 </h2>
+
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Our expert doctors, nurses and allied health professionals manage patients with
-                                        a range of medical issues. Sun exposure can damage your eyes and raise.
+                                        Regular eye check-ups help detect vision problems early. Consult an eye
+                                        specialist for the right examination schedule.
                                     </div>
                                 </div>
                             </div>
+
+
+                            <!-- FAQ 2 -->
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
                                         <span class="pbmit-accordion-title">
-                                            Do I need a referral to see an eye specialist?
+                                            Do I need a referral to visit an eye specialist?
                                         </span>
+
                                         <span class="pbmit-accordion-icon">
                                             <span class="pbmit-accordion-icon-opened">
                                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-down"
@@ -1133,6 +1146,7 @@ include('include/data.php');
                                                     </path>
                                                 </svg>
                                             </span>
+
                                             <span class="pbmit-accordion-icon-closed">
                                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-up"
                                                     viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -1144,22 +1158,28 @@ include('include/data.php');
                                         </span>
                                     </button>
                                 </h2>
+
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Our expert doctors, nurses and allied health professionals manage patients with
-                                        a range of medical issues. Sun exposure can damage your eyes and raise.
+                                        No referral may be needed for a routine consultation. Contact our hospital to
+                                        confirm appointment requirements.
                                     </div>
                                 </div>
                             </div>
+
+
+                            <!-- FAQ 3 -->
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
+
                                         <span class="pbmit-accordion-title">
-                                            What are common signs of vision problems?
+                                            What are the common signs of vision problems?
                                         </span>
+
                                         <span class="pbmit-accordion-icon">
                                             <span class="pbmit-accordion-icon-opened">
                                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-down"
@@ -1169,6 +1189,7 @@ include('include/data.php');
                                                     </path>
                                                 </svg>
                                             </span>
+
                                             <span class="pbmit-accordion-icon-closed">
                                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-up"
                                                     viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -1180,22 +1201,28 @@ include('include/data.php');
                                         </span>
                                     </button>
                                 </h2>
+
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Our expert doctors, nurses and allied health professionals manage patients with
-                                        a range of medical issues. Sun exposure can damage your eyes and raise.
+                                        Blurred vision, headaches, eye strain and difficulty seeing at night can
+                                        indicate vision problems.
                                     </div>
                                 </div>
                             </div>
+
+
+                            <!-- FAQ 4 -->
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingfour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapsefour" aria-expanded="false"
                                         aria-controls="collapsefour">
+
                                         <span class="pbmit-accordion-title">
-                                            Are eye exams covered by insurance?
+                                            Are eye examinations and treatments covered by insurance?
                                         </span>
+
                                         <span class="pbmit-accordion-icon">
                                             <span class="pbmit-accordion-icon-opened">
                                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-down"
@@ -1205,6 +1232,7 @@ include('include/data.php');
                                                     </path>
                                                 </svg>
                                             </span>
+
                                             <span class="pbmit-accordion-icon-closed">
                                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-up"
                                                     viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -1216,22 +1244,28 @@ include('include/data.php');
                                         </span>
                                     </button>
                                 </h2>
+
                                 <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Our expert doctors, nurses and allied health professionals manage patients with
-                                        a range of medical issues. Sun exposure can damage your eyes and raise.
+                                        Coverage depends on your insurance policy and the treatment required. Please
+                                        contact us for details.
                                     </div>
                                 </div>
                             </div>
+
+
+                            <!-- FAQ 5 -->
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingfive">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapsefive" aria-expanded="false"
                                         aria-controls="collapsefive">
+
                                         <span class="pbmit-accordion-title">
-                                            What should I bring to my appointment?
+                                            What should I bring to my eye consultation?
                                         </span>
+
                                         <span class="pbmit-accordion-icon">
                                             <span class="pbmit-accordion-icon-opened">
                                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-down"
@@ -1241,6 +1275,7 @@ include('include/data.php');
                                                     </path>
                                                 </svg>
                                             </span>
+
                                             <span class="pbmit-accordion-icon-closed">
                                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-up"
                                                     viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -1252,14 +1287,16 @@ include('include/data.php');
                                         </span>
                                     </button>
                                 </h2>
+
                                 <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Our expert doctors, nurses and allied health professionals manage patients with
-                                        a range of medical issues. Sun exposure can damage your eyes and raise.
+                                        Bring your previous eye reports, current prescription, spectacles and relevant
+                                        medical records.
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>

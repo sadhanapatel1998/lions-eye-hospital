@@ -7,6 +7,9 @@
             ?>
 
             <ul>
+                <li class="<?= $currentPage === 'service-diabetic-eye-care.php' ? 'post-active' : ''; ?>">
+					<a href="service-diabetic-eye-care.php">Diabetic Eye Care</a>
+				</li>
                 <li class="<?= $currentPage === 'service-retina-surgery.php' ? 'post-active' : ''; ?>">
                     <a href="service-retina-surgery.php">Retina Surgery</a>
                 </li>

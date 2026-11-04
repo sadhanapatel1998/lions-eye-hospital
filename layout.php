@@ -218,6 +218,178 @@
             });
         });
     </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const form = document.getElementById("contact-form");
+
+            if (!form) return;
+
+            const nameField = document.getElementById("appointment-name");
+            const phoneField = document.getElementById("appointment-phone");
+            const emailField = document.getElementById("appointment-email");
+            const treatmentField = document.getElementById("appointment-treatment");
+            const messageField = document.getElementById("appointment-message");
+
+            const submitBtn = document.getElementById("appointment-submit");
+            const loader = submitBtn.querySelector(".form-btn-loader");
+            const statusBox = document.getElementById("appointment-status");
+
+            // Hospital WhatsApp number
+            const whatsappNumber = "919315241610";
+
+            // Allow only digits in phone field
+            phoneField.addEventListener("input", function () {
+                this.value = this.value.replace(/\D/g, "").slice(0, 10);
+                this.setCustomValidity("");
+            });
+
+            // Remove unnecessary spaces from name
+            nameField.addEventListener("blur", function () {
+                this.value = this.value.trim().replace(/\s+/g, " ");
+            });
+
+            // Remove unnecessary spaces from email
+            emailField.addEventListener("blur", function () {
+                this.value = this.value.trim().toLowerCase();
+            });
+
+            // Clear custom validation messages when fields change
+            [nameField, phoneField, emailField, treatmentField, messageField]
+                .forEach(function (field) {
+                    field.addEventListener("input", function () {
+                        field.setCustomValidity("");
+                    });
+
+                    field.addEventListener("change", function () {
+                        field.setCustomValidity("");
+                    });
+                });
+
+            form.addEventListener("submit", function (e) {
+
+                e.preventDefault();
+
+                statusBox.textContent = "";
+                statusBox.style.color = "";
+
+                // Clear previous validation errors
+                const fields = [
+                    nameField,
+                    phoneField,
+                    emailField,
+                    treatmentField,
+                    messageField
+                ];
+
+                fields.forEach(field => field.setCustomValidity(""));
+
+                // Get values
+                const name = nameField.value.trim().replace(/\s+/g, " ");
+                const phone = phoneField.value.trim();
+                const email = emailField.value.trim().toLowerCase();
+                const treatment = treatmentField.value;
+                const message = messageField.value.trim();
+
+                let isValid = true;
+
+                // 1. Name validation
+                const nameRegex = /^[\p{L}][\p{L}\s.'-]{1,59}$/u;
+
+                if (name.length < 3) {
+                    nameField.setCustomValidity("Full name must contain at least 3 characters.");
+                    isValid = false;
+                } else if (!nameRegex.test(name)) {
+                    nameField.setCustomValidity("Please enter a valid name using letters only.");
+                    isValid = false;
+                }
+
+                // 2. Indian mobile number validation
+                const phoneRegex = /^[6-9]\d{9}$/;
+
+                if (!phoneRegex.test(phone)) {
+                    phoneField.setCustomValidity(
+                        "Please enter a valid 10-digit Indian mobile number starting with 6, 7, 8 or 9."
+                    );
+                    isValid = false;
+                }
+
+                // 3. Email validation
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+
+                if (!emailRegex.test(email) || !emailField.validity.valid) {
+                    emailField.setCustomValidity("Please enter a valid email address.");
+                    isValid = false;
+                }
+
+                // 4. Treatment validation
+                if (!treatment) {
+                    treatmentField.setCustomValidity("Please select a treatment.");
+                    isValid = false;
+                }
+
+                // 5. Message validation
+                if (message.length < 10) {
+                    messageField.setCustomValidity(
+                        "Please enter at least 10 characters in your message."
+                    );
+                    isValid = false;
+                } else if (message.length > 500) {
+                    messageField.setCustomValidity(
+                        "Message cannot exceed 500 characters."
+                    );
+                    isValid = false;
+                }
+
+                // Stop submission if validation fails
+                if (!isValid) {
+                    const firstInvalidField = fields.find(field => !field.validity.valid);
+
+                    if (firstInvalidField) {
+                        firstInvalidField.reportValidity();
+                        firstInvalidField.focus();
+                    }
+
+                    return;
+                }
+
+                // Show loading state
+                submitBtn.disabled = true;
+                loader.classList.remove("d-none");
+
+                // Prepare WhatsApp message
+                const whatsappMessage =
+                    "NEW APPOINTMENT REQUEST\n\n" +
+                    "Hospital: Lions Eye Hospital\n\n" +
+                    "Patient Name: " + name + "\n" +
+                    "Mobile Number: " + phone + "\n" +
+                    "Email Address: " + email + "\n" +
+                    "Treatment: " + treatment + "\n" +
+                    "Message: " + message + "\n\n" +
+                    "Please contact me regarding my appointment.";
+
+                const whatsappURL =
+                    "https://wa.me/" + whatsappNumber +
+                    "?text=" + encodeURIComponent(whatsappMessage);
+
+                // Open WhatsApp
+                window.open(whatsappURL, "_blank", "noopener,noreferrer");
+
+                statusBox.style.color = "#16803c";
+                statusBox.textContent =
+                    "Your appointment details are ready in WhatsApp. Please press Send to submit your request.";
+
+                // Reset button
+                submitBtn.disabled = false;
+                loader.classList.add("d-none");
+
+                // Reset form after preparing WhatsApp message
+                form.reset();
+
+            });
+
+        });
+    </script>
 </body>
 
 </html>

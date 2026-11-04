@@ -4433,7 +4433,7 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
     left: 0;
     content: "";
     display: block;
-    z-index: 0;
+    z-index: -4;
 	border-radius: 20px;
 	/* background-image: linear-gradient(180deg, #1D5E8447 0%, #1D5E84B3 100%); */
 }
@@ -4537,7 +4537,7 @@ body.archive.tag .pbmit-blog-style-1 .pbmit-content-wrapper {
 	box-shadow: none;
 }
 .accordion-item .pbmit-accordion-title{
-    font-size: 20px;
+    font-size: 19px;
     line-height: 24px;
 	transition: all .5s ease-out;
 }

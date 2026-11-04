@@ -150,43 +150,79 @@
 												</rect>
 											</svg>
 										</span>
+										<?php
+										$currentPage = basename($_SERVER['PHP_SELF']);
+
+										$servicePages = [
+											'service-diabetic-eye-care.php',
+											'service-retina-surgery.php',
+											'service-cataract.php',
+											'service-glaucoma-diagnosis.php',
+											'service-eye-check-up.php',
+											'service-spectacles.php'
+										];
+
+										$isServiceActive = in_array($currentPage, $servicePages, true);
+										?>
+
 										<ul class="navigation clearfix">
-											<li>
+
+											<li class="<?= $currentPage === 'index.php' ? 'active' : ''; ?>">
 												<a href="index.php">Home</a>
 											</li>
-											<li>
+
+											<li class="<?= $currentPage === 'about-us.php' ? 'active' : ''; ?>">
 												<a href="about-us.php">About Us</a>
 											</li>
-											<li class="dropdown">
+
+											<li
+												class="dropdown <?= $isServiceActive || $currentPage === 'services.php' ? 'active' : ''; ?>">
 												<a href="services.php">Services</a>
 												<ul>
-													<li>
+													<li
+														class="<?= $currentPage === 'service-diabetic-eye-care.php' ? 'active' : ''; ?>">
 														<a href="service-diabetic-eye-care.php">Diabetic Eye Care</a>
 													</li>
-													<li>
+
+													<li
+														class="<?= $currentPage === 'service-retina-surgery.php' ? 'active' : ''; ?>">
 														<a href="service-retina-surgery.php">Retina Surgery</a>
 													</li>
-													<li>
+
+													<li
+														class="<?= $currentPage === 'service-cataract.php' ? 'active' : ''; ?>">
 														<a href="service-cataract.php">Cataract</a>
 													</li>
-													<li>
+
+													<li
+														class="<?= $currentPage === 'service-glaucoma-diagnosis.php' ? 'active' : ''; ?>">
 														<a href="service-glaucoma-diagnosis.php">Glaucoma Diagnosis</a>
 													</li>
-													<li>
+
+													<li
+														class="<?= $currentPage === 'service-eye-check-up.php' ? 'active' : ''; ?>">
 														<a href="service-eye-check-up.php">Eye Check Up</a>
 													</li>
-													<li>
+
+													<li
+														class="<?= $currentPage === 'service-spectacles.php' ? 'active' : ''; ?>">
 														<a href="service-spectacles.php">Spectacles</a>
 													</li>
 												</ul>
 											</li>
-											<li>
+
+											<li class="<?= $currentPage === 'gallery.php' ? 'active' : ''; ?>">
 												<a href="gallery.php">Gallery</a>
 											</li>
-											<li>
+
+											<li class="<?= $currentPage === 'blog.php' ? 'active' : ''; ?>">
 												<a href="blog.php">Blog</a>
 											</li>
-											<li><a href="contact-us.php">Contact Us</a></li>
+
+											<li class="<?= $currentPage === 'contact-us.php' ? 'active' : ''; ?>">
+												<a href="contact-us.php">Contact Us</a>
+											</li>
+
 										</ul>
 									</div>
 								</div>

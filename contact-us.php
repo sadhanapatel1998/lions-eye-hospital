@@ -164,43 +164,53 @@ include('include/data.php');
                         <div class="pbmit-icon">
                             <i class="pbmit-ophtical-icon pbmit-ophtical-icon-medical-report"></i>
                         </div>
-                        <h2 class="pbmit-title">Reserve ophtical clinic slot</h2>
+
+                        <h2 class="pbmit-title">Book Your Eye Care Appointment</h2>
+
                         <div class="pbmit-heading-desc">
-                            Call us 24/7 with any emergency or to schedule an appointment & check your health.
+                            Contact Lions Eye Hospital to schedule your appointment and receive expert eye care.
                         </div>
                     </div>
-                    <form class="contact-form" method="post" id="contact-form" action="send-dummy.php">
+                    <form class="contact-form" id="contact-form" novalidate>
                         <div class="row">
                             <div class="col-md-6 col-gl-4">
                                 <input type="text" class="form-control" placeholder="Full Name *" name="name"
-                                    required="">
-                            </div>
-                            <div class="col-md-6 col-gl-4">
-                                <input type="tel" class="form-control" placeholder="Phone Number" name="phone"
-                                    required="">
-                            </div>
-                            <div class="col-md-6 col-gl-4">
-                                <input type="email" class="form-control" placeholder="Enter Email" name="email"
-                                    required="">
+                                    id="appointment-name" maxlength="60" autocomplete="name" required>
                             </div>
 
                             <div class="col-md-6 col-gl-4">
-                                <select class="form-select" name="treatment" required="">
-                                    <option value="">Select Treatment</option>
+                                <input type="tel" class="form-control" placeholder="10 Digit Mobile Number *"
+                                    name="phone" id="appointment-phone" inputmode="numeric" maxlength="10"
+                                    autocomplete="tel-national" required>
+                            </div>
+
+                            <div class="col-md-6 col-gl-4">
+                                <input type="email" class="form-control" placeholder="Enter Email *" name="email"
+                                    id="appointment-email" maxlength="100" autocomplete="email" required>
+                            </div>
+
+                            <div class="col-md-6 col-gl-4">
+                                <select class="form-select" name="treatment" id="appointment-treatment" required>
+
+                                    <option value="">Select Treatment *</option>
+                                    <option value="Diabetic Eye Care">Diabetic Eye Care</option>
                                     <option value="Retina Surgery">Retina Surgery</option>
                                     <option value="Cataract">Cataract</option>
                                     <option value="Glaucoma Diagnosis">Glaucoma Diagnosis</option>
                                     <option value="Eye Check Up">Eye Check Up</option>
                                     <option value="Spectacles">Spectacles</option>
+
                                 </select>
                             </div>
 
                             <div class="col-md-12">
-                                <textarea cols="40" rows="10" placeholder="Message" class="form-control" name="message"
-                                    required=""></textarea>
+                                <textarea cols="40" rows="5" placeholder="Describe your concern or message *"
+                                    class="form-control" name="message" id="appointment-message" minlength="10"
+                                    maxlength="500" required></textarea>
                             </div>
+
                             <div class="col-md-12 text-center mt-4">
-                                <button class="pbmit-btn secondary">
+                                <button type="submit" class="pbmit-btn secondary" id="appointment-submit">
                                     <span class="pbmit-button-content-wrapper">
                                         <span class="pbmit-button-text-wrap">
                                             <span class="pbmit-button-text" data-text="Request An Appointment">
@@ -208,29 +218,34 @@ include('include/data.php');
                                             </span>
                                         </span>
                                     </span>
+
                                     <span class="form-btn-loader d-none">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 200 100">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
                                             <circle fill="#fff" stroke="#fff" stroke-width="15" r="15" cx="40" cy="50">
-                                                <animate attributename="opacity" calcmode="spline" dur="2"
-                                                    values="1;0;1;" keysplines=".5 0 .5 1;.5 0 .5 1"
-                                                    repeatcount="indefinite" begin="-.4"></animate>
+                                                <animate attributeName="opacity" calcMode="spline" dur="2"
+                                                    values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1"
+                                                    repeatCount="indefinite" begin="-.4"></animate>
                                             </circle>
+
                                             <circle fill="#fff" stroke="#fff" stroke-width="15" r="15" cx="100" cy="50">
-                                                <animate attributename="opacity" calcmode="spline" dur="2"
-                                                    values="1;0;1;" keysplines=".5 0 .5 1;.5 0 .5 1"
-                                                    repeatcount="indefinite" begin="-.2"></animate>
+                                                <animate attributeName="opacity" calcMode="spline" dur="2"
+                                                    values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1"
+                                                    repeatCount="indefinite" begin="-.2"></animate>
                                             </circle>
+
                                             <circle fill="#fff" stroke="#fff" stroke-width="15" r="15" cx="160" cy="50">
-                                                <animate attributename="opacity" calcmode="spline" dur="2"
-                                                    values="1;0;1;" keysplines=".5 0 .5 1;.5 0 .5 1"
-                                                    repeatcount="indefinite" begin="0"></animate>
+                                                <animate attributeName="opacity" calcMode="spline" dur="2"
+                                                    values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1"
+                                                    repeatCount="indefinite" begin="0"></animate>
                                             </circle>
                                         </svg>
                                     </span>
                                 </button>
                             </div>
                         </div>
-                        <div class="col-md-12 col-lg-12 message-status mt-2"></div>
+                        <div class="col-md-12 col-lg-12 message-status mt-2" id="appointment-status" role="status"
+                            aria-live="polite"></div>
+
                     </form>
                 </div>
                 <div class="tween-effect-wrap-right">
