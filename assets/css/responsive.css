@@ -3718,6 +3718,10 @@ body {
 }
 
 @media (min-width: 1201px) and (max-width: 1400px) {
+.about-us-two-section .right-area .ihbox-style-1-wrap {
+    padding: 30px 30px;
+}
+
   .pbmit-ihbox-style-2 .pbmit-element-title {
     font-size: 28px;
     line-height: 32px;

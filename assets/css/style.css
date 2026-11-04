@@ -3675,21 +3675,21 @@ label.error {
     margin: 5px 0;
   }
   .pbmit-mv-icon-wrapper {
-    width: 48px;
-    height: 48px;
-    min-width: 48px;
+width: 55px;
+        height: 55px;
+        min-width: 55px;
     margin-bottom: 14px;
   }
   .pbmit-mv-icon-wrapper svg {
-    width: 24px;
-    height: 24px;
+        width: 35px;
+        height: 35px;
   }
   .pbmit-mv-title {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 8px;
   }
   .pbmit-mv-desc {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 .about-elementor-element .about-elementor-icon-list-items {
@@ -4982,8 +4982,8 @@ label.error {
 }
 
 .floating-btn {
-  width: 52px;
-  height: 52px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
 
   display: flex;
@@ -4994,13 +4994,13 @@ label.error {
   text-decoration: none;
   overflow: hidden;
   white-space: nowrap;
-
-  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.16);
+    border: 2px solid var(--pbmit-white-color);
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
 
 .floating-btn i {
-  min-width: 52px;
+  min-width: 42px;
   text-align: center;
   font-size: 21px;
 }
@@ -5030,6 +5030,9 @@ label.error {
 .call-btn { 
   background: #0b2a4a;
 }
+.call-btn i{ 
+ font-size: 16px !important;
+}
 
 /* Mobile Responsive */
 @media (max-width: 767px) {
@@ -5042,24 +5045,9 @@ label.error {
     gap: 10px;
   }
 
-  .floating-btn {
-    width: 44px;
-    height: 44px;
-  }
-
-  .floating-btn i {
-    min-width: 44px;
-    font-size: 19px;
-  }
-
-  .floating-btn:hover {
-    width: 44px;
-    border-radius: 50%;
-  }
-
-  .floating-btn span {
+  /* .floating-btn span {
     display: none;
-  }
+  } */
   .about-us-two-section .rating-highlight .pbmit-custom-title h2 {
     font-size: 14px;
   }
@@ -5703,5 +5691,136 @@ label.error {
     color: #ffffff !important;
     border-color: #0404d2 !important;
     transform: scale(0.92) !important;
+  }
+}
+
+
+/* ===================================================
+   Contact Us Page - Enhanced Simple Contact Cards
+   Equal Height, Clean Spacing & Professional Look
+   =================================================== */
+.contact-cards-section {
+  padding-top: 70px !important;
+  padding-bottom: 70px !important;
+}
+
+.simple-contact-card {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 14px !important;
+  padding: 34px 28px !important;
+  box-shadow: 0 4px 18px rgba(11, 42, 74, 0.04) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease !important;
+  position: relative !important;
+}
+
+.simple-contact-card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 12px 28px rgba(4, 4, 210, 0.09) !important;
+  border-color: #0404d2 !important;
+}
+
+.simple-contact-card .card-icon {
+  width: 50px !important;
+  height: 50px !important;
+  min-width: 50px !important;
+  min-height: 50px !important;
+  background: #0404d2 !important;
+  border-radius: 12px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #ffffff !important;
+  font-size: 20px !important;
+  margin-bottom: 20px !important;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease !important;
+}
+
+.simple-contact-card:hover .card-icon {
+  background: #d6ac01 !important;
+  color: #000000 !important;
+  transform: scale(1.05) !important;
+}
+
+.simple-contact-card .card-title {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  color: #0b2a4a !important;
+  margin: 0 0 16px 0 !important;
+  line-height: 1.25 !important;
+}
+
+.simple-contact-card .card-details {
+  flex-grow: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  justify-content: flex-start !important;
+}
+
+.simple-contact-card .contact-subheading {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  margin: 0 0 4px 0 !important;
+  line-height: 1.3 !important;
+}
+
+.simple-contact-card .contact-subheading.text-gold {
+  color: #d6ac01 !important;
+}
+
+.simple-contact-card .contact-line {
+  font-size: 14.5px !important;
+  line-height: 1.55 !important;
+  color: #475569 !important;
+  margin: 0 !important;
+}
+
+.simple-contact-card .label-blue {
+  color: #0404d2 !important;
+  font-weight: 600 !important;
+  margin-right: 4px !important;
+}
+
+.simple-contact-card .contact-link {
+  color: #0404d2 !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+}
+
+.simple-contact-card .contact-link:hover {
+  color: #d6ac01 !important;
+  text-decoration: underline !important;
+}
+
+.simple-contact-card .contact-address-link {
+  color: #334155 !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  line-height: 1.55 !important;
+  display: inline-block !important;
+  transition: color 0.2s ease !important;
+}
+
+.simple-contact-card .contact-address-link:hover {
+  color: #0404d2 !important;
+  text-decoration: underline !important;
+}
+
+@media (max-width: 767px) {
+  .contact-cards-section {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+  .simple-contact-card {
+    padding: 26px 22px !important;
+  }
+  .simple-contact-card .card-title {
+    font-size: 20px !important;
   }
 }
